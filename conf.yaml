@@ -1,0 +1,43 @@
+PATH:
+  raw:
+    holiday: data/raw/holidays_events.csv
+    oil: data/raw/oil.csv
+    store: data/raw/stores.csv
+    tot_trans: data/raw/transactions.csv
+    transaction: data/raw/train.csv
+
+  inter:
+    fact_train: data/interim/train.csv
+    fact_test: data/interim/test.csv
+
+    res_holiday: res/processed/holidays.csv
+    res_oil: res/processed/oil.csv
+    res_store: res/processed/stores.csv
+    mapping: res/processed/mappings.json
+
+  processed:
+    train: data/processed/train.npy
+    val: data/processed/val.npy
+    test: data/processed/test.npy
+
+DB:
+  HOST: localhost
+  PORT: 5432
+  DB: outlet
+  USER: tommy
+  PWD: "000"
+
+GENERAL:
+  window: 8
+  Lh: 7
+  Lp: 15
+TRAINING:
+  DEVICE: mps
+  SEED: 37
+  N_EPOCHS: 200
+  BATCH_SIZE: 64
+  D_FEAT: 19
+  D_HID: 128
+  LR: 5e-5
+  CKPT: training_logs/ckpt/
+  LOGGER: training_logs/log/
