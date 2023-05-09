@@ -110,7 +110,7 @@ class LitModel(pl.LightningModule):
 
 
 class Trainer:
-    def __init__(self) -> None:
+    def __init__(self, model: str = "baseline") -> None:
         self._conf = utils.load_conf()
 
         self._litmodel = LitModel(self._conf)

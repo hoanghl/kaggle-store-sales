@@ -3,8 +3,8 @@ PATH:
     holiday: data/raw/holidays_events.csv
     oil: data/raw/oil.csv
     store: data/raw/stores.csv
-    tot_trans: data/raw/transactions.csv
-    transaction: data/raw/train.csv
+    transactions: data/raw/transactions.csv
+    train: data/raw/train.csv
 
   inter:
     fact_train: data/interim/train.csv
