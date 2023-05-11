@@ -5,15 +5,10 @@ PATH:
     store: data/raw/stores.csv
     transactions: data/raw/transactions.csv
     train: data/raw/train.csv
+    test: data/raw/test.csv
 
   inter:
-    fact_train: data/interim/train.csv
-    fact_test: data/interim/test.csv
-
-    res_holiday: res/processed/holidays.csv
-    res_oil: res/processed/oil.csv
-    res_store: res/processed/stores.csv
-    mapping: res/processed/mappings.json
+    holiday: data/interim/holidays.csv
 
   processed:
     train: data/processed/train.npy

@@ -5,7 +5,18 @@ import src
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Kaggle time-series competition")
-    parser.add_argument("--task", "-t", type=str)
+    parser.add_argument(
+        "--task",
+        "-t",
+        type=str,
+        choices=[
+            "train",
+            "test",
+            "make_data_interim",
+            "make_data_processed",
+            "make_feat",
+        ],
+    )
     parser.add_argument("--config", "-c", type=str, default="conf.yaml")
     parser.add_argument("--model", "-m", type=str, default="baseline")
     parser.add_argument("--data", "-d", type=str, default="")
@@ -29,6 +40,9 @@ if __name__ == "__main__":
         trainer = src.models.Trainer()
 
         trainer.test()
+
+    elif args.task == "make_data_interim":
+        src.data.make_interim()
 
     elif args.task == "build_feats":
         src.features.build_feats()
