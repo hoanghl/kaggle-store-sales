@@ -9,11 +9,12 @@ PATH:
 
   inter:
     holiday: data/interim/holidays.csv
+    oil: data/interim/oil.csv
 
   processed:
-    train: data/processed/train.npy
-    val: data/processed/val.npy
-    test: data/processed/test.npy
+    train: data/processed/train.csv
+    val: data/processed/val.csv
+    test: data/processed/test.csv
 
 DB:
   HOST: localhost

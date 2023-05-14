@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import re
-from datetime import datetime
+from pathlib import Path
 from typing import Literal
 
 import pandas as pd
-from sklearn.impute import KNNImputer
 from tqdm.auto import tqdm
 
 from src import utils
@@ -17,14 +16,17 @@ RE_DESCRIPTION = re.compile(r"((\w|\s|\:)+)(\+|\-)\d+")
 NATION = "ecuador"
 NUM_STORES = 54
 IGNORED_VAL = 0
-
+DATE_SPLIT_TRAIN_VAL = "2017-08-01"
 
 conf = utils.load_conf()
 
-holiday = pd.read_csv(conf["PATH"]["inter"]["holiday"])
+if Path(conf["PATH"]["inter"]["holiday"]).exists():
+    holiday = pd.read_csv(conf["PATH"]["inter"]["holiday"], parse_dates=["date"])
+else:
+    holiday = dict()
 
 
-def _make_processed_holiday(r: pd.Series) -> list:
+def _make_processed_holiday(r: pd.Series) -> dict:
     def _set_default(default: Literal["work day", "weekend"] = "work day"):
         date_type = date_name = default
 
@@ -36,7 +38,7 @@ def _make_processed_holiday(r: pd.Series) -> list:
     date_type_nation_2, date_name_nation_2 = "ignored", "ignored"
 
     df = holiday[holiday["date"] == r["date"]]
-    date_obj = datetime.strptime(r["date"], "%Y-%m-%d")
+    date_obj = r["date"]
 
     if len(df) == 0:
         if date_obj.weekday() >= 5:
@@ -53,7 +55,7 @@ def _make_processed_holiday(r: pd.Series) -> list:
 
             date_type_local = row["date_type"]
             date_name_local = row["date_name"]
-            r["city"]
+            # r["city"]
 
         # Get regional holiday info
         d_reg = df[df["locale_name"] == r["state"]]
@@ -64,7 +66,7 @@ def _make_processed_holiday(r: pd.Series) -> list:
 
             date_type_region = row["date_type"]
             date_name_region = row["date_name"]
-            r["state"]
+            # r["state"]
 
         # Get national holiday info
         d_nat = df[df["locale_name"] == NATION]
@@ -87,16 +89,16 @@ def _make_processed_holiday(r: pd.Series) -> list:
             else:
                 date_type_nation_1, date_name_nation_1 = _set_default()
 
-    out = [
-        date_type_local,
-        date_name_local,
-        date_type_region,
-        date_name_region,
-        date_type_nation_1,
-        date_name_nation_1,
-        date_type_nation_2,
-        date_name_nation_2,
-    ]
+    out = {
+        "date_type_local": date_type_local,
+        "date_name_local": date_name_local,
+        "date_type_region": date_type_region,
+        "date_name_region": date_name_region,
+        "date_type_nation_1": date_type_nation_1,
+        "date_name_nation_1": date_name_nation_1,
+        "date_type_nation_2": date_type_nation_2,
+        "date_name_nation_2": date_name_nation_2,
+    }
 
     return out
 
@@ -110,32 +112,29 @@ def _process(r: pd.Series):
     return out
 
 
-def _make_processed_dataframe(df, paths: dict) -> pd.DataFrame:
+def _make_processed_dataframe(df: pd.DataFrame, paths: dict) -> pd.DataFrame:
     # Load things from CSV
-    df_trans = pd.read_csv(paths["raw"]["transactions"], parse_dates=["date"])
-    df_oil = pd.read_csv(paths["raw"]["oil"], parse_dates=["date"])
+    # pd.read_csv(paths["raw"]["transactions"], parse_dates=["date"])
+    df_oil = pd.read_csv(paths["inter"]["oil"], parse_dates=["date"])
     df_stores = pd.read_csv(paths["raw"]["store"])
 
     df_holiday_inter = pd.read_csv(paths["inter"]["holiday"], parse_dates=["date"])
 
     # Left join
     df_final = df.merge(df_oil, "left", on="date")
-    df_final = df_final.merge(df_trans, "left", on=["date", "store_nbr"])
+    # df_final = df_final.merge(df_trans, "left", on=["date", "store_nbr"])
     df_final = df_final.merge(df_stores, how="left", on="store_nbr")
     df_final = df_final.merge(df_holiday_inter, how="left", on="date")
 
-    # Impute missing value
-    imputer = KNNImputer()
-    df_final["dcoilwtico"] = imputer.fit_transform(df_final["dcoilwtico"])
-
     # Supplement holiday info
-    df_final.progress_apply(_process)
+    out = df_final.progress_apply(_process, axis=1, result_type="expand")
+    df_final[out.columns] = out
 
-    df_final
+    # Remove redundant columns
 
-    df_out
+    df_final.drop(columns=["date_type", "date_name", "locale_name"], inplace=True)
 
-    return df_out
+    return df_final
 
 
 def make_processed():
@@ -147,6 +146,11 @@ def make_processed():
     df_train_processed = _make_processed_dataframe(df_train, paths)
     df_test_processed = _make_processed_dataframe(df_test, paths)
 
+    # Split train-val
+    df_val_processed = df_train_processed[df_train_processed["date"] >= DATE_SPLIT_TRAIN_VAL]
+    df_train_processed = df_train_processed[df_train_processed["date"] < DATE_SPLIT_TRAIN_VAL]
+
     # Save processed
-    df_train_processed.to_csv(paths["raw"]["train"])
-    df_test_processed.to_csv(paths["raw"]["test"])
+    df_train_processed.to_csv(paths["processed"]["train"], index=False)
+    df_val_processed.to_csv(paths["processed"]["val"], index=False)
+    df_test_processed.to_csv(paths["processed"]["test"], index=False)

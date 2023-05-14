@@ -44,6 +44,9 @@ if __name__ == "__main__":
     elif args.task == "make_data_interim":
         src.data.make_interim()
 
+    elif args.task == "make_data_processed":
+        src.data.make_processed()
+
     elif args.task == "build_feats":
         src.features.build_feats()
     else:
