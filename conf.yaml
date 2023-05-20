@@ -16,6 +16,8 @@ PATH:
     val: data/processed/val.csv
     test: data/processed/test.csv
 
+LOG: log/<model>/
+
 DB:
   HOST: localhost
   PORT: 5432

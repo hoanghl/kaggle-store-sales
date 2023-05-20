@@ -20,6 +20,8 @@ def parse_args():
     parser.add_argument("--config", "-c", type=str, default="conf.yaml")
     parser.add_argument("--model", "-m", type=str, default="baseline")
     parser.add_argument("--data", "-d", type=str, default="")
+    parser.add_argument("--n-split", type=int, default=0)
+    parser.add_argument("--max-split", type=int, default=0)
 
     args = parser.parse_args()
 
@@ -32,6 +34,8 @@ if __name__ == "__main__":
     if args.task == "train":
         if args.model == "baseline":
             src.models.run_baseline()
+        if args.model == "sarima":
+            src.models.run_sarima(args.n_split, args.max_split)
         else:
             trainer = src.models.Trainer()
 
