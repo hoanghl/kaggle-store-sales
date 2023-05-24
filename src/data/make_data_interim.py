@@ -33,11 +33,12 @@ def _make_interim_holiday(paths: dict):
 
     # Start looping
     for entry in tqdm(df.itertuples(), total=len(df)):
-        date, date_type, locale_name, date_name, ignored = utils_data.process_entry(entry, df)
+        date, date_type, locale, locale_name, date_name, ignored = utils_data.process_entry(entry, df)
 
         if not ignored:
             holidayinfo.append(
                 {
+                    "locale": locale,
                     "date": date,
                     "date_type": date_type,
                     "date_name": date_name,
@@ -45,11 +46,30 @@ def _make_interim_holiday(paths: dict):
                 }
             )
 
-    # Write processed file
-    header = list(holidayinfo[0].keys())
-    rows = [list(x.values()) for x in holidayinfo]
+    df_holiday = pd.DataFrame.from_records(holidayinfo)
 
-    utils.write_csv(path_inter, header, rows)
+    # Remove redundant events
+    df_holiday = df_holiday[
+        (df_holiday["locale"] != "national")
+        | (df_holiday["date"] != "2016-05-01")
+        | (df_holiday["date_type"] != "event")
+        | (df_holiday["date_name"] != "terremoto manabi")
+    ]
+    df_holiday = df_holiday[
+        (df_holiday["locale"] != "national")
+        | (df_holiday["date"] != "2016-05-07")
+        | (df_holiday["date_type"] != "event")
+        | (df_holiday["date_name"] != "terremoto manabi")
+    ]
+    df_holiday = df_holiday[
+        (df_holiday["locale"] != "national")
+        | (df_holiday["date"] != "2016-05-08")
+        | (df_holiday["date_type"] != "event")
+        | (df_holiday["date_name"] != "terremoto manabi")
+    ]
+
+    # Write CSV
+    df_holiday.to_csv(path_inter, index=False)
 
 
 def _make_interim_oil(paths: dict):

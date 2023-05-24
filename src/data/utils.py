@@ -13,9 +13,7 @@ NUM_STORES = 54
 
 def scale_minmax(df: pd.DataFrame, col: str):
     scaler = MinMaxScaler()
-    df.loc[:, col] = scaler.fit_transform(
-        np.expand_dims(df[col].to_numpy(), 1)
-    ).squeeze()
+    df.loc[:, col] = scaler.fit_transform(np.expand_dims(df[col].to_numpy(), 1)).squeeze()
 
 
 def proc_des(des: str):
@@ -43,12 +41,9 @@ def proc_des(des: str):
     return des
 
 
-def process_entry(
-    entry, df: pd.DataFrame
-) -> Tuple[
-    Union[str, None], Union[str, None], Union[str, None], Union[str, None], bool
-]:
-    locale_name, date = entry.locale_name, entry.date
+def process_entry(entry, df: pd.DataFrame) -> Tuple:
+    locale_name, locale = entry.locale_name, entry.locale
+    date = entry.date
     raw_date_type = entry.type
     des = entry.description
     date_type = "work day"
@@ -82,7 +77,7 @@ def process_entry(
         assert len(df_tmp) <= 1
         if len(df_tmp) == 1:
             ignored = True
-            return None, None, None, None, ignored
+            return None, None, None, None, None, ignored
 
         date_type = "additional"
 
@@ -92,22 +87,17 @@ def process_entry(
     if date_type in ["work day", "weekend"]:
         locale_name = "ecuador"
 
-    return date, date_type, locale_name, des, ignored
+    return date, date_type, locale, locale_name, des, ignored
 
 
 def get_prev_day(date_str: str, delta: int = 0) -> str:
-    return (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=delta)).strftime(
-        "%Y-%m-%d"
-    )
+    return (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=delta)).strftime("%Y-%m-%d")
 
 
 def get_delta(date_str1: Union[str, None], date_str2: Union[str, None]) -> int:
     if date_str1 is None or date_str2 is None:
         return 100
-    return (
-        datetime.strptime(date_str1, "%Y-%m-%d")
-        - datetime.strptime(date_str2, "%Y-%m-%d")
-    ).days
+    return (datetime.strptime(date_str1, "%Y-%m-%d") - datetime.strptime(date_str2, "%Y-%m-%d")).days
 
 
 def check_nan(a):

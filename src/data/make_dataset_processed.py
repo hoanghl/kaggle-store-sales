@@ -2,7 +2,6 @@
 
 import re
 from pathlib import Path
-from typing import Literal
 
 import pandas as pd
 from tqdm.auto import tqdm
@@ -27,89 +26,21 @@ else:
 
 
 def _make_processed_holiday(r: pd.Series) -> dict:
-    def _set_default(default: Literal["work day", "weekend"] = "work day"):
-        date_type = date_name = default
-
-        return date_type, date_name
-
-    date_type_local, date_name_local = "ignored", "ignored"
-    date_type_region, date_name_region = "ignored", "ignored"
-    date_type_nation_1, date_name_nation_1 = "ignored", "ignored"
-    date_type_nation_2, date_name_nation_2 = "ignored", "ignored"
-
-    df = holiday[holiday["date"] == r["date"]]
     date_obj = r["date"]
 
-    if len(df) == 0:
-        if date_obj.weekday() >= 5:
-            date_type_nation_1, date_name_nation_1 = _set_default("weekend")
-        else:
-            date_type_nation_1, date_name_nation_1 = _set_default()
+    ret = {}
+    if isinstance(r.date_type_national, str):
+        ret = {"date_type_national": r.date_type_national, "date_name_national": r.date_name_national}
+
     else:
-        # Get local holiday info
-        d_local = df[df["locale_name"] == r["city"]]
-        assert len(d_local) <= 1
-
-        if len(d_local) == 1:
-            row = d_local.iloc[0]
-
-            date_type_local = row["date_type"]
-            date_name_local = row["date_name"]
-            # r["city"]
-
-        # Get regional holiday info
-        d_reg = df[df["locale_name"] == r["state"]]
-        assert len(d_reg) <= 1
-
-        if len(d_reg) == 1:
-            row = d_reg.iloc[0]
-
-            date_type_region = row["date_type"]
-            date_name_region = row["date_name"]
-            # r["state"]
-
-        # Get national holiday info
-        d_nat = df[df["locale_name"] == NATION]
-        assert len(d_nat) <= 2
-
-        if len(d_nat) >= 1:
-            row = d_nat.iloc[0]
-
-            date_type_nation_1 = row["date_type"]
-            date_name_nation_1 = row["date_name"]
-
-            if len(d_nat) == 2:
-                row = d_nat.iloc[1]
-
-                date_type_nation_2 = row["date_type"]
-                date_name_nation_2 = row["date_name"]
+        if date_obj.weekday() >= 5:
+            date_type_nation, date_name_nation = "weekend", "weekend"
         else:
-            if date_obj.weekday() >= 5:
-                date_type_nation_1, date_name_nation_1 = _set_default("weekend")
-            else:
-                date_type_nation_1, date_name_nation_1 = _set_default()
+            date_type_nation, date_name_nation = "work day", "work day"
 
-    out = {
-        "date_type_local": date_type_local,
-        "date_name_local": date_name_local,
-        "date_type_region": date_type_region,
-        "date_name_region": date_name_region,
-        "date_type_nation_1": date_type_nation_1,
-        "date_name_nation_1": date_name_nation_1,
-        "date_type_nation_2": date_type_nation_2,
-        "date_name_nation_2": date_name_nation_2,
-    }
+        ret = {"date_type_national": date_type_nation, "date_name_national": date_name_nation}
 
-    return out
-
-
-def _process(r: pd.Series):
-    out = r.to_dict()
-
-    holidays = _make_processed_holiday(r)
-    out |= holidays
-
-    return out
+    return ret
 
 
 def _make_processed_dataframe(df: pd.DataFrame, paths: dict) -> pd.DataFrame:
@@ -118,21 +49,50 @@ def _make_processed_dataframe(df: pd.DataFrame, paths: dict) -> pd.DataFrame:
     df_oil = pd.read_csv(paths["inter"]["oil"], parse_dates=["date"])
     df_stores = pd.read_csv(paths["raw"]["store"])
 
-    df_holiday_inter = pd.read_csv(paths["inter"]["holiday"], parse_dates=["date"])
+    df_holiday = pd.read_csv(paths["inter"]["holiday"], parse_dates=["date"])
 
     # Left join
     df_final = df.merge(df_oil, "left", on="date")
     # df_final = df_final.merge(df_trans, "left", on=["date", "store_nbr"])
     df_final = df_final.merge(df_stores, how="left", on="store_nbr")
-    df_final = df_final.merge(df_holiday_inter, how="left", on="date")
 
     # Supplement holiday info
-    out = df_final.progress_apply(_process, axis=1, result_type="expand")
-    df_final[out.columns] = out
+    df_holiday_loc = df_holiday[df_holiday["locale"] == "local"]
+    df_holiday_reg = df_holiday[df_holiday["locale"] == "regional"]
+    df_holiday_nat = df_holiday[df_holiday["locale"] == "national"]
 
-    # Remove redundant columns
+    df_final = df_final.merge(
+        df_holiday_loc, how="left", left_on=["city", "date"], right_on=["locale_name", "date"]
+    ).rename(
+        columns={
+            "date_type": "date_type_local",
+            "date_name": "date_name_local",
+            "locale": "locale_local",
+            "locale_name": "locale_name_local",
+        }
+    )
 
-    df_final.drop(columns=["date_type", "date_name", "locale_name"], inplace=True)
+    df_final = df_final.merge(
+        df_holiday_reg, how="left", left_on=["city", "date"], right_on=["locale_name", "date"]
+    ).rename(
+        columns={
+            "date_type": "date_type_regional",
+            "date_name": "date_name_regional",
+            "locale": "locale_regional",
+            "locale_name": "locale_name_regional",
+        }
+    )
+
+    df_final = df_final.merge(df_holiday_nat, how="left", left_on=["date"], right_on=["date"])
+    df_final = df_final.drop(columns=["locale", "locale_name"]).rename(
+        columns={"date_type": "date_type_national", "date_name": "date_name_national"}
+    )
+
+    out = df_final.progress_apply(_make_processed_holiday, axis=1, result_type="expand")
+    df_final[["date_type_national", "date_name_national"]] = out
+
+    # Reallocation old indices
+    df_final = df_final.fillna("ignored").set_index(df.index)
 
     return df_final
 
@@ -151,6 +111,6 @@ def make_processed():
     df_train_processed = df_train_processed[df_train_processed["date"] < DATE_SPLIT_TRAIN_VAL]
 
     # Save processed
-    df_train_processed.to_csv(paths["processed"]["train"], index=False)
-    df_val_processed.to_csv(paths["processed"]["val"], index=False)
-    df_test_processed.to_csv(paths["processed"]["test"], index=False)
+    df_train_processed.to_csv(paths["processed"]["train"], index=True)
+    df_val_processed.to_csv(paths["processed"]["val"], index=True)
+    df_test_processed.to_csv(paths["processed"]["test"], index=True)

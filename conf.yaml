@@ -16,7 +16,7 @@ PATH:
     val: data/processed/val.csv
     test: data/processed/test.csv
 
-LOG: log/<model>/
+LOG: training_logs/<model>/
 
 DB:
   HOST: localhost

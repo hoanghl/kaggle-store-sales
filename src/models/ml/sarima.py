@@ -7,6 +7,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from loguru import logger
+from sklearn.metrics import mean_squared_log_error
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from tqdm.contrib.itertools import product as t_product
 
@@ -43,21 +44,17 @@ def _find_best_param(series: pd.Series, max_p: int = 7, max_q: int = 7) -> tuple
     return best_p, best_q, best_aic
 
 
-def run_sarima(n_split: int = 0, max_split: int = 0):
+def run_sarima(step: int = 0):
     """Run SARIMA with each combinations of stores and products
 
     Args:
-        n_split (int, optional): order of split to run in parallel. Defaults to 0.
+        step (int, optional): Step. Defaults to 0.
     """
 
     conf = utils.load_conf()
 
-    path_log = (
-        Path(conf["LOG"].replace("<model>", "sarima"))
-        / datetime.now().strftime(r"%Y%m%d_%H%M%S")
-        / f"{n_split:02d}.json"
-    )
-    path_log.parent.mkdir(parents=True, exist_ok=True)
+    path_log = Path(conf["LOG"].replace("<model>", "sarima")) / datetime.now().strftime(r"%Y%m%d_%H%M%S")
+    path_log.mkdir(parents=True, exist_ok=True)
 
     # Load data
     path_processed_train = conf["PATH"]["processed"]["train"]
@@ -67,19 +64,16 @@ def run_sarima(n_split: int = 0, max_split: int = 0):
     df_val = pd.read_csv(path_processed_val, parse_dates=["date"])
 
     # Run SARIMA model
-    result = {}
-
-    if max_split == 0:
-        loop = product(df_train["store_nbr"].unique(), df_train["family"].unique())
-    else:
-        l = list(product(df_train["store_nbr"].unique(), df_train["family"].unique()))
-        q = len(l) // max_split
-        loop = l[q * n_split : q * (n_split + 1)] if n_split < max_split - 1 else l[q * n_split :]
-    for store, family in loop:
-        logger.info(f"store: {store} -- family: {family}")
+    loop = list(product(df_train["store_nbr"].unique(), df_train["family"].unique()))
+    for store, family in loop[step:]:
+        logger.info(f"step: {step:04d} -- store: {store:2d} -- family: {family}")
 
         df_train_ = df_train[(df_train["store_nbr"] == store) & (df_train["family"] == family)]
         df_val_ = df_val[(df_val["store_nbr"] == store) & (df_val["family"] == family)]
+
+        if len(df_train_["sales"].unique()) == 1:
+            step += 1
+            continue
 
         df_train_ = df_train_.sort_values(by="date").set_index(keys="date")
 
@@ -96,13 +90,16 @@ def run_sarima(n_split: int = 0, max_split: int = 0):
             ([df_train_.iloc[0]["sales"]], df_train_["sales"].diff(1)[1:].to_numpy(), pred_diff.to_numpy()), axis=0
         ).cumsum()
         pred = reversed[-15:]
-
         tgt = df_val_["sales"].sort_index()
+        msle = mean_squared_log_error(tgt, pred)
 
-        result[f"{store}-{family}"] = {"tgt": tgt.tolist(), "pred": pred.tolist()}
+        logger.info(f"==> MSLE: {msle:.4f}")
 
-    with open(path_log) as fp:
-        json.dump(result, fp, indent=2)
+        path_log_ = path_log / f"{step:04d}_{store:02d}-{family.replace('/', '_')}.json"
+        with open(path_log_, "w+") as fp:
+            json.dump({"msle": msle, "p": p, "q": q, "tgt": tgt.tolist(), "pred": pred.tolist()}, fp)
+
+        step += 1
 
     # # Calculate final MSLE
     # big_tgt, big_pred = [], []
