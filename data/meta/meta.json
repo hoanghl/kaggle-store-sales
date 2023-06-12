@@ -1,0 +1,6918 @@
+{
+  "1-AUTOMOTIVE": {
+    "adf_p": 0.0010503940884974416,
+    "shift": 21
+  },
+  "1-CELEBRATION": {
+    "adf_p": 9.540264683230571e-16,
+    "shift": 21
+  },
+  "1-BREAD/BAKERY": {
+    "adf_p": 0.03640231780938824,
+    "shift": 21
+  },
+  "1-BOOKS": {
+    "adf_p": 0.1263553828019755,
+    "shift": 21
+  },
+  "1-BEVERAGES": {
+    "adf_p": 0.025547052005514916,
+    "shift": 21
+  },
+  "1-BEAUTY": {
+    "adf_p": 0.000624785720456664,
+    "shift": 21
+  },
+  "1-SEAFOOD": {
+    "adf_p": 4.103056302438317e-9,
+    "shift": 21
+  },
+  "1-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.6457522077514368e-8,
+    "shift": 21
+  },
+  "1-PRODUCE": {
+    "adf_p": 0.011472306105574925,
+    "shift": 21
+  },
+  "1-PREPARED FOODS": {
+    "adf_p": 0.005530756981753816,
+    "shift": 21
+  },
+  "1-POULTRY": {
+    "adf_p": 0.10523276189243536,
+    "shift": 21
+  },
+  "1-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.04129694254402359,
+    "shift": 28
+  },
+  "1-PET SUPPLIES": {
+    "adf_p": 0.00834513842603657,
+    "shift": 21
+  },
+  "1-PERSONAL CARE": {
+    "adf_p": 0.0007966857997430284,
+    "shift": 28
+  },
+  "1-MEATS": {
+    "adf_p": 3.0657212361034535e-8,
+    "shift": 21
+  },
+  "1-MAGAZINES": {
+    "adf_p": 0.28736700616076405,
+    "shift": 28
+  },
+  "1-LIQUOR,WINE,BEER": {
+    "adf_p": 4.566628572359317e-8,
+    "shift": 21
+  },
+  "1-LINGERIE": {
+    "adf_p": 3.5199285760655596e-5,
+    "shift": 28
+  },
+  "1-LAWN AND GARDEN": {
+    "adf_p": 0.41877616670634027,
+    "shift": 28
+  },
+  "1-LADIESWEAR": {
+    "adf_p": 0.00035755217271967615,
+    "shift": 21
+  },
+  "1-HOME CARE": {
+    "adf_p": 0.011964404093785923,
+    "shift": 21
+  },
+  "1-HOME APPLIANCES": {
+    "adf_p": 3.3242117680646226e-16,
+    "shift": 21
+  },
+  "1-CLEANING": {
+    "adf_p": 1.631602066712765e-10,
+    "shift": 28
+  },
+  "1-DAIRY": {
+    "adf_p": 0.1074955377332753,
+    "shift": 21
+  },
+  "1-DELI": {
+    "adf_p": 0.008057014799205054,
+    "shift": 21
+  },
+  "1-EGGS": {
+    "adf_p": 1.5157418835074724e-7,
+    "shift": 21
+  },
+  "1-HOME AND KITCHEN II": {
+    "adf_p": 0.0056335033949278844,
+    "shift": 28
+  },
+  "1-HOME AND KITCHEN I": {
+    "adf_p": 0.00038218340482663713,
+    "shift": 21
+  },
+  "1-HARDWARE": {
+    "adf_p": 2.241947774582052e-24,
+    "shift": 21
+  },
+  "1-GROCERY II": {
+    "adf_p": 1.9636087610641164e-9,
+    "shift": 28
+  },
+  "1-GROCERY I": {
+    "adf_p": 0.0007985311957746508,
+    "shift": 21
+  },
+  "1-FROZEN FOODS": {
+    "adf_p": 4.87587045364548e-15,
+    "shift": 365
+  },
+  "2-AUTOMOTIVE": {
+    "adf_p": 0.003072640577108165,
+    "shift": 21
+  },
+  "2-CELEBRATION": {
+    "adf_p": 0.019527293911198198,
+    "shift": 21
+  },
+  "2-BREAD/BAKERY": {
+    "adf_p": 0.4524041719973377,
+    "shift": 21
+  },
+  "2-BOOKS": {
+    "adf_p": 0.008396805987862544,
+    "shift": 16
+  },
+  "2-BEVERAGES": {
+    "adf_p": 0.014329433446366342,
+    "shift": 21
+  },
+  "2-BEAUTY": {
+    "adf_p": 0.0010332648879909307,
+    "shift": 28
+  },
+  "2-BABY CARE": {
+    "adf_p": 2.2797643810915063e-7,
+    "shift": 28
+  },
+  "2-SEAFOOD": {
+    "adf_p": 0.0042738972864130335,
+    "shift": 21
+  },
+  "2-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.00046790903953480633,
+    "shift": 21
+  },
+  "2-PRODUCE": {
+    "adf_p": 0.00885642776382199,
+    "shift": 21
+  },
+  "2-PREPARED FOODS": {
+    "adf_p": 0.0032633524306744494,
+    "shift": 21
+  },
+  "2-POULTRY": {
+    "adf_p": 0.10237309105962039,
+    "shift": 28
+  },
+  "2-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0007753641878683456,
+    "shift": 21
+  },
+  "2-PET SUPPLIES": {
+    "adf_p": 0.023161165260803248,
+    "shift": 21
+  },
+  "2-PERSONAL CARE": {
+    "adf_p": 2.0166672619696374e-6,
+    "shift": 21
+  },
+  "2-MEATS": {
+    "adf_p": 0.0003720376763797122,
+    "shift": 21
+  },
+  "2-MAGAZINES": {
+    "adf_p": 0.4391647490405342,
+    "shift": 28
+  },
+  "2-LIQUOR,WINE,BEER": {
+    "adf_p": 2.0743984880162717e-8,
+    "shift": 21
+  },
+  "2-LINGERIE": {
+    "adf_p": 0.0005078721355336988,
+    "shift": 21
+  },
+  "2-LAWN AND GARDEN": {
+    "adf_p": 0.09156552883358082,
+    "shift": 21
+  },
+  "2-LADIESWEAR": {
+    "adf_p": 0.0013795666027809636,
+    "shift": 21
+  },
+  "2-HOME CARE": {
+    "adf_p": 0.006524927923452344,
+    "shift": 21
+  },
+  "2-HOME APPLIANCES": {
+    "adf_p": 3.906523618092443e-11,
+    "shift": 16
+  },
+  "2-CLEANING": {
+    "adf_p": 1.9692745587873113e-8,
+    "shift": 28
+  },
+  "2-DAIRY": {
+    "adf_p": 0.11311587935494477,
+    "shift": 21
+  },
+  "2-DELI": {
+    "adf_p": 0.044398126971579285,
+    "shift": 21
+  },
+  "2-EGGS": {
+    "adf_p": 1.1413793571452926e-5,
+    "shift": 21
+  },
+  "2-HOME AND KITCHEN II": {
+    "adf_p": 0.006092594130969203,
+    "shift": 28
+  },
+  "2-HOME AND KITCHEN I": {
+    "adf_p": 0.0022788486884994545,
+    "shift": 21
+  },
+  "2-HARDWARE": {
+    "adf_p": 4.502546668525083e-10,
+    "shift": 30
+  },
+  "2-GROCERY II": {
+    "adf_p": 4.519580144357555e-5,
+    "shift": 21
+  },
+  "2-GROCERY I": {
+    "adf_p": 2.8121492092416015e-10,
+    "shift": 365
+  },
+  "2-FROZEN FOODS": {
+    "adf_p": 3.4807358389305884e-16,
+    "shift": 365
+  },
+  "3-AUTOMOTIVE": {
+    "adf_p": 0.002590227369988311,
+    "shift": 28
+  },
+  "3-CELEBRATION": {
+    "adf_p": 0.014769971534382122,
+    "shift": 28
+  },
+  "3-BREAD/BAKERY": {
+    "adf_p": 0.18818770709319738,
+    "shift": 21
+  },
+  "3-BOOKS": {
+    "adf_p": 0.002194034105430899,
+    "shift": 16
+  },
+  "3-BEVERAGES": {
+    "adf_p": 0.04545421622838696,
+    "shift": 21
+  },
+  "3-BEAUTY": {
+    "adf_p": 0.12992226874626522,
+    "shift": 28
+  },
+  "3-BABY CARE": {
+    "adf_p": 0.18752642026453492,
+    "shift": 21
+  },
+  "3-SEAFOOD": {
+    "adf_p": 5.284614429998038e-6,
+    "shift": 28
+  },
+  "3-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.10594920748021097,
+    "shift": 21
+  },
+  "3-PRODUCE": {
+    "adf_p": 0.019899246105920886,
+    "shift": 21
+  },
+  "3-PREPARED FOODS": {
+    "adf_p": 0.002273297542657531,
+    "shift": 28
+  },
+  "3-POULTRY": {
+    "adf_p": 0.11805265102993945,
+    "shift": 28
+  },
+  "3-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.002462773475652557,
+    "shift": 21
+  },
+  "3-PET SUPPLIES": {
+    "adf_p": 0.030309623526859838,
+    "shift": 21
+  },
+  "3-PERSONAL CARE": {
+    "adf_p": 0.008259732427978948,
+    "shift": 28
+  },
+  "3-MEATS": {
+    "adf_p": 2.6624673711248046e-6,
+    "shift": 21
+  },
+  "3-MAGAZINES": {
+    "adf_p": 0.364353972254064,
+    "shift": 28
+  },
+  "3-LIQUOR,WINE,BEER": {
+    "adf_p": 3.0249767839585795e-7,
+    "shift": 21
+  },
+  "3-LINGERIE": {
+    "adf_p": 4.324092486997669e-6,
+    "shift": 16
+  },
+  "3-LAWN AND GARDEN": {
+    "adf_p": 0.6727112233769239,
+    "shift": 28
+  },
+  "3-LADIESWEAR": {
+    "adf_p": 0.0051070768976990335,
+    "shift": 21
+  },
+  "3-HOME CARE": {
+    "adf_p": 0.012639897377054538,
+    "shift": 21
+  },
+  "3-HOME APPLIANCES": {
+    "adf_p": 2.6041098249998857e-7,
+    "shift": 21
+  },
+  "3-CLEANING": {
+    "adf_p": 1.6279488356078697e-6,
+    "shift": 28
+  },
+  "3-DAIRY": {
+    "adf_p": 0.1775530057822503,
+    "shift": 28
+  },
+  "3-DELI": {
+    "adf_p": 0.00012158243944136866,
+    "shift": 28
+  },
+  "3-EGGS": {
+    "adf_p": 2.2723345501029724e-8,
+    "shift": 28
+  },
+  "3-HOME AND KITCHEN II": {
+    "adf_p": 0.008107648524180982,
+    "shift": 90
+  },
+  "3-HOME AND KITCHEN I": {
+    "adf_p": 0.08547049842874177,
+    "shift": 21
+  },
+  "3-HARDWARE": {
+    "adf_p": 2.639611016410101e-8,
+    "shift": 90
+  },
+  "3-GROCERY II": {
+    "adf_p": 3.7054013891938164e-8,
+    "shift": 21
+  },
+  "3-GROCERY I": {
+    "adf_p": 0.00035040692928318593,
+    "shift": 28
+  },
+  "3-FROZEN FOODS": {
+    "adf_p": 4.1413321455519674e-9,
+    "shift": 365
+  },
+  "4-AUTOMOTIVE": {
+    "adf_p": 4.898036343442481e-10,
+    "shift": 21
+  },
+  "4-CELEBRATION": {
+    "adf_p": 0.00101214054638647,
+    "shift": 21
+  },
+  "4-BREAD/BAKERY": {
+    "adf_p": 0.01171878440571669,
+    "shift": 21
+  },
+  "4-BOOKS": {
+    "adf_p": 0.025098350698096007,
+    "shift": 16
+  },
+  "4-BEVERAGES": {
+    "adf_p": 0.02763134787388819,
+    "shift": 21
+  },
+  "4-BEAUTY": {
+    "adf_p": 0.000779007598779298,
+    "shift": 21
+  },
+  "4-BABY CARE": {
+    "adf_p": 0.0011059278166751518,
+    "shift": 21
+  },
+  "4-SEAFOOD": {
+    "adf_p": 1.0326404855619757e-7,
+    "shift": 28
+  },
+  "4-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.00026989431709841205,
+    "shift": 21
+  },
+  "4-PRODUCE": {
+    "adf_p": 0.013162563860280216,
+    "shift": 21
+  },
+  "4-PREPARED FOODS": {
+    "adf_p": 0.0018318229275650784,
+    "shift": 21
+  },
+  "4-POULTRY": {
+    "adf_p": 0.11215765011944612,
+    "shift": 21
+  },
+  "4-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.001688445166213222,
+    "shift": 21
+  },
+  "4-PET SUPPLIES": {
+    "adf_p": 0.1564536556840065,
+    "shift": 21
+  },
+  "4-PERSONAL CARE": {
+    "adf_p": 0.00035569572328184403,
+    "shift": 28
+  },
+  "4-MEATS": {
+    "adf_p": 1.0459701378036928e-9,
+    "shift": 21
+  },
+  "4-MAGAZINES": {
+    "adf_p": 0.21365245930770932,
+    "shift": 28
+  },
+  "4-LIQUOR,WINE,BEER": {
+    "adf_p": 9.873055788123134e-9,
+    "shift": 21
+  },
+  "4-LINGERIE": {
+    "adf_p": 1.7524080538890827e-5,
+    "shift": 28
+  },
+  "4-LAWN AND GARDEN": {
+    "adf_p": 0.45000168065400725,
+    "shift": 21
+  },
+  "4-LADIESWEAR": {
+    "adf_p": 0.0010447424940127643,
+    "shift": 21
+  },
+  "4-HOME CARE": {
+    "adf_p": 0.00781179574447575,
+    "shift": 21
+  },
+  "4-HOME APPLIANCES": {
+    "adf_p": 3.407455737538536e-13,
+    "shift": 16
+  },
+  "4-CLEANING": {
+    "adf_p": 2.1691862013318886e-10,
+    "shift": 28
+  },
+  "4-DAIRY": {
+    "adf_p": 0.11747814337162205,
+    "shift": 21
+  },
+  "4-DELI": {
+    "adf_p": 4.9143162648755074e-5,
+    "shift": 21
+  },
+  "4-EGGS": {
+    "adf_p": 6.760883499885633e-5,
+    "shift": 21
+  },
+  "4-HOME AND KITCHEN II": {
+    "adf_p": 0.013581463628869176,
+    "shift": 28
+  },
+  "4-HOME AND KITCHEN I": {
+    "adf_p": 0.0013230695038831304,
+    "shift": 21
+  },
+  "4-HARDWARE": {
+    "adf_p": 1.6014756639437937e-17,
+    "shift": 28
+  },
+  "4-GROCERY II": {
+    "adf_p": 1.9126773740674738e-7,
+    "shift": 21
+  },
+  "4-GROCERY I": {
+    "adf_p": 0.0007229275324347589,
+    "shift": 28
+  },
+  "4-FROZEN FOODS": {
+    "adf_p": 4.794753819469661e-16,
+    "shift": 365
+  },
+  "5-AUTOMOTIVE": {
+    "adf_p": 9.309992645425202e-7,
+    "shift": 28
+  },
+  "5-CELEBRATION": {
+    "adf_p": 0.031696903373554,
+    "shift": 21
+  },
+  "5-BREAD/BAKERY": {
+    "adf_p": 0.1207322901429399,
+    "shift": 21
+  },
+  "5-BOOKS": {
+    "adf_p": 0.06643196953987715,
+    "shift": 28
+  },
+  "5-BEVERAGES": {
+    "adf_p": 0.0024059488245704594,
+    "shift": 21
+  },
+  "5-BEAUTY": {
+    "adf_p": 1.4817835146404e-5,
+    "shift": 28
+  },
+  "5-BABY CARE": {
+    "adf_p": 0.07317215220297407,
+    "shift": 21
+  },
+  "5-SEAFOOD": {
+    "adf_p": 0.0011712400586422272,
+    "shift": 21
+  },
+  "5-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 4.8689670299005104e-5,
+    "shift": 16
+  },
+  "5-PRODUCE": {
+    "adf_p": 0.0028907280158788954,
+    "shift": 16
+  },
+  "5-PREPARED FOODS": {
+    "adf_p": 0.2345321445894462,
+    "shift": 21
+  },
+  "5-POULTRY": {
+    "adf_p": 0.031946202824892196,
+    "shift": 28
+  },
+  "5-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0024318043485340554,
+    "shift": 16
+  },
+  "5-PET SUPPLIES": {
+    "adf_p": 0.03963801992521932,
+    "shift": 21
+  },
+  "5-PERSONAL CARE": {
+    "adf_p": 0.0005710626810823916,
+    "shift": 28
+  },
+  "5-MEATS": {
+    "adf_p": 0.04815694655656416,
+    "shift": 21
+  },
+  "5-MAGAZINES": {
+    "adf_p": 0.2106963917577857,
+    "shift": 28
+  },
+  "5-LIQUOR,WINE,BEER": {
+    "adf_p": 8.336030170949196e-10,
+    "shift": 21
+  },
+  "5-LINGERIE": {
+    "adf_p": 0.0020287770825146,
+    "shift": 28
+  },
+  "5-LAWN AND GARDEN": {
+    "adf_p": 0.008500408399055418,
+    "shift": 21
+  },
+  "5-LADIESWEAR": {
+    "adf_p": 0.0001468684752490427,
+    "shift": 21
+  },
+  "5-HOME CARE": {
+    "adf_p": 0.0012194416180415922,
+    "shift": 16
+  },
+  "5-HOME APPLIANCES": {
+    "adf_p": 2.354106326598839e-16,
+    "shift": 21
+  },
+  "5-CLEANING": {
+    "adf_p": 3.214777835814215e-6,
+    "shift": 28
+  },
+  "5-DAIRY": {
+    "adf_p": 0.05880298309732802,
+    "shift": 21
+  },
+  "5-DELI": {
+    "adf_p": 0.002265864401891531,
+    "shift": 28
+  },
+  "5-EGGS": {
+    "adf_p": 0.35089050990652254,
+    "shift": 21
+  },
+  "5-HOME AND KITCHEN II": {
+    "adf_p": 0.001754157324496511,
+    "shift": 16
+  },
+  "5-HOME AND KITCHEN I": {
+    "adf_p": 0.010579268315822798,
+    "shift": 21
+  },
+  "5-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "5-GROCERY II": {
+    "adf_p": 2.419530807169029e-10,
+    "shift": 365
+  },
+  "5-GROCERY I": {
+    "adf_p": 2.2171498146869615e-10,
+    "shift": 28
+  },
+  "5-FROZEN FOODS": {
+    "adf_p": 1.5443275646686615e-13,
+    "shift": 365
+  },
+  "6-AUTOMOTIVE": {
+    "adf_p": 2.952979348875126e-9,
+    "shift": 21
+  },
+  "6-CELEBRATION": {
+    "adf_p": 0.015718879900909095,
+    "shift": 21
+  },
+  "6-BREAD/BAKERY": {
+    "adf_p": 0.05601660949071623,
+    "shift": 21
+  },
+  "6-BOOKS": {
+    "adf_p": 2.080026257584633e-8,
+    "shift": 16
+  },
+  "6-BEVERAGES": {
+    "adf_p": 0.06232732874246973,
+    "shift": 21
+  },
+  "6-BEAUTY": {
+    "adf_p": 0.010361573641913983,
+    "shift": 28
+  },
+  "6-BABY CARE": {
+    "adf_p": 2.0762563530462674e-10,
+    "shift": 30
+  },
+  "6-SEAFOOD": {
+    "adf_p": 2.765549722680395e-7,
+    "shift": 21
+  },
+  "6-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 6.019893719083413e-6,
+    "shift": 30
+  },
+  "6-PRODUCE": {
+    "adf_p": 0.009847765475739791,
+    "shift": 21
+  },
+  "6-PREPARED FOODS": {
+    "adf_p": 0.003976630667276214,
+    "shift": 21
+  },
+  "6-POULTRY": {
+    "adf_p": 0.10355923563698588,
+    "shift": 21
+  },
+  "6-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.013630379788639641,
+    "shift": 21
+  },
+  "6-PET SUPPLIES": {
+    "adf_p": 0.016370820679976892,
+    "shift": 21
+  },
+  "6-PERSONAL CARE": {
+    "adf_p": 0.0010065082347288652,
+    "shift": 28
+  },
+  "6-MEATS": {
+    "adf_p": 2.220668748628548e-12,
+    "shift": 28
+  },
+  "6-MAGAZINES": {
+    "adf_p": 0.13960235021333345,
+    "shift": 28
+  },
+  "6-LIQUOR,WINE,BEER": {
+    "adf_p": 2.5071746965199844e-10,
+    "shift": 21
+  },
+  "6-LINGERIE": {
+    "adf_p": 2.262837286173996e-5,
+    "shift": 21
+  },
+  "6-LAWN AND GARDEN": {
+    "adf_p": 0.15749868757144425,
+    "shift": 21
+  },
+  "6-LADIESWEAR": {
+    "adf_p": 0.000727324636022904,
+    "shift": 21
+  },
+  "6-HOME CARE": {
+    "adf_p": 0.010767447827165206,
+    "shift": 21
+  },
+  "6-HOME APPLIANCES": {
+    "adf_p": 4.432659593215285e-7,
+    "shift": 21
+  },
+  "6-CLEANING": {
+    "adf_p": 2.7299856246092885e-7,
+    "shift": 28
+  },
+  "6-DAIRY": {
+    "adf_p": 0.16290182239314105,
+    "shift": 21
+  },
+  "6-DELI": {
+    "adf_p": 0.001040267115134363,
+    "shift": 28
+  },
+  "6-EGGS": {
+    "adf_p": 0.003134292640970041,
+    "shift": 21
+  },
+  "6-HOME AND KITCHEN II": {
+    "adf_p": 0.02663686713609455,
+    "shift": 21
+  },
+  "6-HOME AND KITCHEN I": {
+    "adf_p": 0.00042067621537937567,
+    "shift": 16
+  },
+  "6-HARDWARE": {
+    "adf_p": 0.00022788795228288012,
+    "shift": 21
+  },
+  "6-GROCERY II": {
+    "adf_p": 1.128401523422387e-7,
+    "shift": 21
+  },
+  "6-GROCERY I": {
+    "adf_p": 0.0006551838904070961,
+    "shift": 28
+  },
+  "6-FROZEN FOODS": {
+    "adf_p": 2.8193874603495238e-11,
+    "shift": 365
+  },
+  "7-AUTOMOTIVE": {
+    "adf_p": 5.69842380540985e-5,
+    "shift": 365
+  },
+  "7-CELEBRATION": {
+    "adf_p": 0.05200855429971,
+    "shift": 21
+  },
+  "7-BREAD/BAKERY": {
+    "adf_p": 0.10314745755056459,
+    "shift": 365
+  },
+  "7-BOOKS": {
+    "adf_p": 0.0017552951325532935,
+    "shift": 16
+  },
+  "7-BEVERAGES": {
+    "adf_p": 0.056981211765115565,
+    "shift": 16
+  },
+  "7-BEAUTY": {
+    "adf_p": 0.000317516358464675,
+    "shift": 180
+  },
+  "7-BABY CARE": {
+    "adf_p": 0.007983927511189813,
+    "shift": 30
+  },
+  "7-SEAFOOD": {
+    "adf_p": 4.818482550995861e-5,
+    "shift": 28
+  },
+  "7-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 2.5695961764929436e-7,
+    "shift": 16
+  },
+  "7-PRODUCE": {
+    "adf_p": 0.016717283059044755,
+    "shift": 21
+  },
+  "7-PREPARED FOODS": {
+    "adf_p": 0.002803048736937425,
+    "shift": 21
+  },
+  "7-POULTRY": {
+    "adf_p": 0.10866541053602108,
+    "shift": 28
+  },
+  "7-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.007519909917570492,
+    "shift": 16
+  },
+  "7-PET SUPPLIES": {
+    "adf_p": 0.10965208089821304,
+    "shift": 16
+  },
+  "7-PERSONAL CARE": {
+    "adf_p": 0.00817502753717213,
+    "shift": 365
+  },
+  "7-MEATS": {
+    "adf_p": 7.30156004508511e-6,
+    "shift": 21
+  },
+  "7-MAGAZINES": {
+    "adf_p": 0.30314797538459265,
+    "shift": 28
+  },
+  "7-LIQUOR,WINE,BEER": {
+    "adf_p": 1.2322873900074155e-7,
+    "shift": 21
+  },
+  "7-LINGERIE": {
+    "adf_p": 7.687903182746977e-5,
+    "shift": 16
+  },
+  "7-LAWN AND GARDEN": {
+    "adf_p": 0.7685883350652206,
+    "shift": 21
+  },
+  "7-LADIESWEAR": {
+    "adf_p": 0.023482752386298263,
+    "shift": 21
+  },
+  "7-HOME CARE": {
+    "adf_p": 0.03403003698075831,
+    "shift": 16
+  },
+  "7-HOME APPLIANCES": {
+    "adf_p": 2.619871232309822e-10,
+    "shift": 16
+  },
+  "7-CLEANING": {
+    "adf_p": 3.1896263090896554e-6,
+    "shift": 28
+  },
+  "7-DAIRY": {
+    "adf_p": 0.14738245487313284,
+    "shift": 365
+  },
+  "7-DELI": {
+    "adf_p": 0.003725033231519184,
+    "shift": 21
+  },
+  "7-EGGS": {
+    "adf_p": 2.4858109219008032e-5,
+    "shift": 28
+  },
+  "7-HOME AND KITCHEN II": {
+    "adf_p": 0.0009012820025502715,
+    "shift": 21
+  },
+  "7-HOME AND KITCHEN I": {
+    "adf_p": 0.0005331123711332236,
+    "shift": 180
+  },
+  "7-HARDWARE": {
+    "adf_p": 0.00040300726008667294,
+    "shift": 28
+  },
+  "7-GROCERY II": {
+    "adf_p": 3.3130892480176654e-17,
+    "shift": 21
+  },
+  "7-GROCERY I": {
+    "adf_p": 0.004505619231046544,
+    "shift": 365
+  },
+  "7-FROZEN FOODS": {
+    "adf_p": 1.2522836431304918e-8,
+    "shift": 365
+  },
+  "8-AUTOMOTIVE": {
+    "adf_p": 1.9550417388535353e-11,
+    "shift": 28
+  },
+  "8-CELEBRATION": {
+    "adf_p": 0.00449295461510903,
+    "shift": 21
+  },
+  "8-BREAD/BAKERY": {
+    "adf_p": 0.3525673325174866,
+    "shift": 21
+  },
+  "8-BOOKS": {
+    "adf_p": 0.006640678348390448,
+    "shift": 21
+  },
+  "8-BEVERAGES": {
+    "adf_p": 0.02502664326001508,
+    "shift": 21
+  },
+  "8-BEAUTY": {
+    "adf_p": 0.05058663845300994,
+    "shift": 21
+  },
+  "8-BABY CARE": {
+    "adf_p": 0.4308050561001478,
+    "shift": 21
+  },
+  "8-SEAFOOD": {
+    "adf_p": 1.213336274107482e-6,
+    "shift": 21
+  },
+  "8-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0010442134701932248,
+    "shift": 21
+  },
+  "8-PRODUCE": {
+    "adf_p": 0.01542605014617019,
+    "shift": 21
+  },
+  "8-PREPARED FOODS": {
+    "adf_p": 0.001058968382622725,
+    "shift": 21
+  },
+  "8-POULTRY": {
+    "adf_p": 0.1580239919345704,
+    "shift": 28
+  },
+  "8-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.007475484481406886,
+    "shift": 21
+  },
+  "8-PET SUPPLIES": {
+    "adf_p": 0.0877943617774502,
+    "shift": 21
+  },
+  "8-PERSONAL CARE": {
+    "adf_p": 2.304839719044366e-5,
+    "shift": 28
+  },
+  "8-MEATS": {
+    "adf_p": 6.161841416774689e-8,
+    "shift": 21
+  },
+  "8-MAGAZINES": {
+    "adf_p": 0.4688914309174777,
+    "shift": 28
+  },
+  "8-LIQUOR,WINE,BEER": {
+    "adf_p": 1.6901296840133826e-8,
+    "shift": 21
+  },
+  "8-LINGERIE": {
+    "adf_p": 1.2588934989681394e-7,
+    "shift": 21
+  },
+  "8-LAWN AND GARDEN": {
+    "adf_p": 0.6114461411953023,
+    "shift": 21
+  },
+  "8-LADIESWEAR": {
+    "adf_p": 0.000675967976217927,
+    "shift": 21
+  },
+  "8-HOME CARE": {
+    "adf_p": 0.021530650775625625,
+    "shift": 21
+  },
+  "8-HOME APPLIANCES": {
+    "adf_p": 4.6447355877772744e-5,
+    "shift": 21
+  },
+  "8-CLEANING": {
+    "adf_p": 5.823504441806835e-6,
+    "shift": 28
+  },
+  "8-DAIRY": {
+    "adf_p": 0.19536959453610725,
+    "shift": 21
+  },
+  "8-DELI": {
+    "adf_p": 0.001080982995223095,
+    "shift": 28
+  },
+  "8-EGGS": {
+    "adf_p": 3.010985538993272e-6,
+    "shift": 21
+  },
+  "8-HOME AND KITCHEN II": {
+    "adf_p": 0.007580807266823116,
+    "shift": 21
+  },
+  "8-HOME AND KITCHEN I": {
+    "adf_p": 0.002800370416090743,
+    "shift": 16
+  },
+  "8-HARDWARE": {
+    "adf_p": 1.1674152003534226e-5,
+    "shift": 21
+  },
+  "8-GROCERY II": {
+    "adf_p": 8.941579732954149e-17,
+    "shift": 21
+  },
+  "8-GROCERY I": {
+    "adf_p": 0.0005601482358567225,
+    "shift": 21
+  },
+  "8-FROZEN FOODS": {
+    "adf_p": 2.945487034570278e-11,
+    "shift": 365
+  },
+  "9-AUTOMOTIVE": {
+    "adf_p": 1.9899482910025675e-5,
+    "shift": 28
+  },
+  "9-CELEBRATION": {
+    "adf_p": 0.004485437046680222,
+    "shift": 21
+  },
+  "9-BREAD/BAKERY": {
+    "adf_p": 2.827229448278284e-7,
+    "shift": 28
+  },
+  "9-BEVERAGES": {
+    "adf_p": 0.06333850092444188,
+    "shift": 28
+  },
+  "9-BEAUTY": {
+    "adf_p": 0.0001471003491596245,
+    "shift": 28
+  },
+  "9-BABY CARE": {
+    "adf_p": 1.880812715178007e-10,
+    "shift": 28
+  },
+  "9-SEAFOOD": {
+    "adf_p": 0.0001588801051736814,
+    "shift": 28
+  },
+  "9-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.00010732559505028118,
+    "shift": 365
+  },
+  "9-PRODUCE": {
+    "adf_p": 0.03241597822452505,
+    "shift": 21
+  },
+  "9-PREPARED FOODS": {
+    "adf_p": 0.06754709359893595,
+    "shift": 28
+  },
+  "9-POULTRY": {
+    "adf_p": 0.00014878988150582762,
+    "shift": 28
+  },
+  "9-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.007782533431489452,
+    "shift": 21
+  },
+  "9-PET SUPPLIES": {
+    "adf_p": 0.20702464071400123,
+    "shift": 21
+  },
+  "9-PERSONAL CARE": {
+    "adf_p": 0.00011655416222579571,
+    "shift": 28
+  },
+  "9-MEATS": {
+    "adf_p": 2.169675756488167e-10,
+    "shift": 28
+  },
+  "9-MAGAZINES": {
+    "adf_p": 0.008148725004373674,
+    "shift": 60
+  },
+  "9-LIQUOR,WINE,BEER": {
+    "adf_p": 1.3126291974793442e-11,
+    "shift": 28
+  },
+  "9-LINGERIE": {
+    "adf_p": 0.00361357758361538,
+    "shift": 21
+  },
+  "9-LAWN AND GARDEN": {
+    "adf_p": 3.6685305909948216e-5,
+    "shift": 365
+  },
+  "9-LADIESWEAR": {
+    "adf_p": 0.018066913515125325,
+    "shift": 21
+  },
+  "9-HOME CARE": {
+    "adf_p": 0.036567036499629446,
+    "shift": 21
+  },
+  "9-HOME APPLIANCES": {
+    "adf_p": 0.00020428004477305412,
+    "shift": 21
+  },
+  "9-CLEANING": {
+    "adf_p": 3.1529445908522193e-7,
+    "shift": 28
+  },
+  "9-DAIRY": {
+    "adf_p": 0.10836197188363755,
+    "shift": 28
+  },
+  "9-DELI": {
+    "adf_p": 0.003322368910967978,
+    "shift": 28
+  },
+  "9-EGGS": {
+    "adf_p": 0.001216043311859888,
+    "shift": 28
+  },
+  "9-HOME AND KITCHEN II": {
+    "adf_p": 0.18223422798696182,
+    "shift": 21
+  },
+  "9-HOME AND KITCHEN I": {
+    "adf_p": 0.0043449271562642985,
+    "shift": 21
+  },
+  "9-HARDWARE": {
+    "adf_p": 1.0625217451738379e-20,
+    "shift": 21
+  },
+  "9-GROCERY II": {
+    "adf_p": 4.7091783487873825e-21,
+    "shift": 365
+  },
+  "9-GROCERY I": {
+    "adf_p": 1.4471742737619329e-6,
+    "shift": 28
+  },
+  "9-FROZEN FOODS": {
+    "adf_p": 1.1115086024832463e-10,
+    "shift": 365
+  },
+  "10-AUTOMOTIVE": {
+    "adf_p": 1.4004584211312425e-11,
+    "shift": 21
+  },
+  "10-CELEBRATION": {
+    "adf_p": 0.00026003136477397115,
+    "shift": 21
+  },
+  "10-BREAD/BAKERY": {
+    "adf_p": 5.638490351482871e-8,
+    "shift": 28
+  },
+  "10-BEVERAGES": {
+    "adf_p": 0.028197983164573445,
+    "shift": 21
+  },
+  "10-BEAUTY": {
+    "adf_p": 5.455170451707676e-6,
+    "shift": 28
+  },
+  "10-BABY CARE": {
+    "adf_p": 2.33998527320663e-8,
+    "shift": 16
+  },
+  "10-SEAFOOD": {
+    "adf_p": 0.00012025926138386186,
+    "shift": 28
+  },
+  "10-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 4.090298787654522e-8,
+    "shift": 365
+  },
+  "10-PRODUCE": {
+    "adf_p": 0.012507133055451793,
+    "shift": 21
+  },
+  "10-PREPARED FOODS": {
+    "adf_p": 0.3892927049540683,
+    "shift": 21
+  },
+  "10-POULTRY": {
+    "adf_p": 0.0258758752423302,
+    "shift": 28
+  },
+  "10-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.013255596584754791,
+    "shift": 21
+  },
+  "10-PET SUPPLIES": {
+    "adf_p": 0.0556958894722681,
+    "shift": 21
+  },
+  "10-PERSONAL CARE": {
+    "adf_p": 4.034694516781624e-7,
+    "shift": 28
+  },
+  "10-MEATS": {
+    "adf_p": 0.09606491153417052,
+    "shift": 28
+  },
+  "10-MAGAZINES": {
+    "adf_p": 0.010575488999812917,
+    "shift": 30
+  },
+  "10-LIQUOR,WINE,BEER": {
+    "adf_p": 4.6420507095467394e-12,
+    "shift": 365
+  },
+  "10-LINGERIE": {
+    "adf_p": 2.413448240699704e-7,
+    "shift": 16
+  },
+  "10-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "10-LADIESWEAR": {
+    "adf_p": 0.00043222576752629697,
+    "shift": 21
+  },
+  "10-HOME CARE": {
+    "adf_p": 0.00174024905247036,
+    "shift": 21
+  },
+  "10-HOME APPLIANCES": {
+    "adf_p": 1.7081376875329847e-28,
+    "shift": 28
+  },
+  "10-CLEANING": {
+    "adf_p": 4.228848631818879e-13,
+    "shift": 28
+  },
+  "10-DAIRY": {
+    "adf_p": 0.1514422889152623,
+    "shift": 28
+  },
+  "10-DELI": {
+    "adf_p": 0.0009768953878897344,
+    "shift": 28
+  },
+  "10-EGGS": {
+    "adf_p": 0.000350730312772269,
+    "shift": 28
+  },
+  "10-HOME AND KITCHEN II": {
+    "adf_p": 0.01584561947836914,
+    "shift": 21
+  },
+  "10-HOME AND KITCHEN I": {
+    "adf_p": 0.0009586752524803865,
+    "shift": 28
+  },
+  "10-HARDWARE": {
+    "adf_p": 0.002969979717287852,
+    "shift": 28
+  },
+  "10-GROCERY II": {
+    "adf_p": 3.793570320866179e-10,
+    "shift": 21
+  },
+  "10-GROCERY I": {
+    "adf_p": 1.145241939034868e-7,
+    "shift": 28
+  },
+  "10-FROZEN FOODS": {
+    "adf_p": 2.5339460473855833e-10,
+    "shift": 365
+  },
+  "11-AUTOMOTIVE": {
+    "adf_p": 1.9011389365554087e-6,
+    "shift": 28
+  },
+  "11-CELEBRATION": {
+    "adf_p": 0.0010627173284662446,
+    "shift": 21
+  },
+  "11-BREAD/BAKERY": {
+    "adf_p": 1.0278629293146112e-5,
+    "shift": 28
+  },
+  "11-BEVERAGES": {
+    "adf_p": 0.11715141604381818,
+    "shift": 28
+  },
+  "11-BEAUTY": {
+    "adf_p": 0.02345247835365207,
+    "shift": 28
+  },
+  "11-BABY CARE": {
+    "adf_p": 0.00014016907380744282,
+    "shift": 180
+  },
+  "11-SEAFOOD": {
+    "adf_p": 0.002148813822789743,
+    "shift": 28
+  },
+  "11-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 2.579796916098709e-7,
+    "shift": 365
+  },
+  "11-PRODUCE": {
+    "adf_p": 0.051606907712809964,
+    "shift": 21
+  },
+  "11-PREPARED FOODS": {
+    "adf_p": 0.6656173609164012,
+    "shift": 21
+  },
+  "11-POULTRY": {
+    "adf_p": 0.0008563705683739488,
+    "shift": 28
+  },
+  "11-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.08797264496719942,
+    "shift": 21
+  },
+  "11-PET SUPPLIES": {
+    "adf_p": 0.16257660431676446,
+    "shift": 28
+  },
+  "11-PERSONAL CARE": {
+    "adf_p": 9.924519510942138e-5,
+    "shift": 28
+  },
+  "11-MEATS": {
+    "adf_p": 3.17680333563845e-14,
+    "shift": 28
+  },
+  "11-MAGAZINES": {
+    "adf_p": 0.03515530027916762,
+    "shift": 21
+  },
+  "11-LIQUOR,WINE,BEER": {
+    "adf_p": 9.42860824251156e-10,
+    "shift": 21
+  },
+  "11-LINGERIE": {
+    "adf_p": 0.005939122252147039,
+    "shift": 28
+  },
+  "11-LAWN AND GARDEN": {
+    "adf_p": 2.3319635774369784e-12,
+    "shift": 90
+  },
+  "11-LADIESWEAR": {
+    "adf_p": 0.0028654076535156504,
+    "shift": 21
+  },
+  "11-HOME CARE": {
+    "adf_p": 0.024618536412755066,
+    "shift": 21
+  },
+  "11-HOME APPLIANCES": {
+    "adf_p": 7.269360468794911e-12,
+    "shift": 21
+  },
+  "11-CLEANING": {
+    "adf_p": 8.346236990379516e-10,
+    "shift": 28
+  },
+  "11-DAIRY": {
+    "adf_p": 0.25220584515326727,
+    "shift": 28
+  },
+  "11-DELI": {
+    "adf_p": 0.05701083426609864,
+    "shift": 28
+  },
+  "11-EGGS": {
+    "adf_p": 0.018692423317496626,
+    "shift": 28
+  },
+  "11-HOME AND KITCHEN II": {
+    "adf_p": 0.010699531885219249,
+    "shift": 28
+  },
+  "11-HOME AND KITCHEN I": {
+    "adf_p": 0.002618016266060583,
+    "shift": 21
+  },
+  "11-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 30
+  },
+  "11-GROCERY II": {
+    "adf_p": 1.2979110907906813e-9,
+    "shift": 365
+  },
+  "11-GROCERY I": {
+    "adf_p": 2.3835854686482925e-6,
+    "shift": 28
+  },
+  "11-FROZEN FOODS": {
+    "adf_p": 4.015889234036538e-10,
+    "shift": 365
+  },
+  "12-AUTOMOTIVE": {
+    "adf_p": 0.00033534043406934633,
+    "shift": 21
+  },
+  "12-CELEBRATION": {
+    "adf_p": 0.055795983335695416,
+    "shift": 21
+  },
+  "12-BREAD/BAKERY": {
+    "adf_p": 9.869278345388014e-5,
+    "shift": 21
+  },
+  "12-BEVERAGES": {
+    "adf_p": 0.04385785558066293,
+    "shift": 21
+  },
+  "12-BEAUTY": {
+    "adf_p": 2.1447867286447617e-18,
+    "shift": 90
+  },
+  "12-BABY CARE": {
+    "adf_p": 0.010753131419951626,
+    "shift": 28
+  },
+  "12-SEAFOOD": {
+    "adf_p": 0.07142055978058304,
+    "shift": 16
+  },
+  "12-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 2.673138213867869e-10,
+    "shift": 365
+  },
+  "12-PRODUCE": {
+    "adf_p": 0.038415745154889554,
+    "shift": 16
+  },
+  "12-PREPARED FOODS": {
+    "adf_p": 0.29503341520740023,
+    "shift": 21
+  },
+  "12-POULTRY": {
+    "adf_p": 0.013258306819086147,
+    "shift": 21
+  },
+  "12-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.007172775215934216,
+    "shift": 16
+  },
+  "12-PET SUPPLIES": {
+    "adf_p": 0.21799441385135143,
+    "shift": 21
+  },
+  "12-PERSONAL CARE": {
+    "adf_p": 0.0025085871078737126,
+    "shift": 28
+  },
+  "12-MEATS": {
+    "adf_p": 0.0,
+    "shift": 21
+  },
+  "12-MAGAZINES": {
+    "adf_p": 0.033267835931267836,
+    "shift": 21
+  },
+  "12-LIQUOR,WINE,BEER": {
+    "adf_p": 9.77293436291377e-10,
+    "shift": 21
+  },
+  "12-LINGERIE": {
+    "adf_p": 0.0008330071784720086,
+    "shift": 21
+  },
+  "12-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 16
+  },
+  "12-LADIESWEAR": {
+    "adf_p": 0.003797020529281287,
+    "shift": 16
+  },
+  "12-HOME CARE": {
+    "adf_p": 0.009952238389922465,
+    "shift": 16
+  },
+  "12-HOME APPLIANCES": {
+    "adf_p": 2.2470083753211363e-6,
+    "shift": 16
+  },
+  "12-CLEANING": {
+    "adf_p": 2.9849468540866646e-5,
+    "shift": 28
+  },
+  "12-DAIRY": {
+    "adf_p": 0.06936861457457923,
+    "shift": 21
+  },
+  "12-DELI": {
+    "adf_p": 0.005942720269330988,
+    "shift": 21
+  },
+  "12-EGGS": {
+    "adf_p": 0.0361617310854619,
+    "shift": 21
+  },
+  "12-HOME AND KITCHEN II": {
+    "adf_p": 0.20692474851802978,
+    "shift": 21
+  },
+  "12-HOME AND KITCHEN I": {
+    "adf_p": 0.0009855464632337525,
+    "shift": 16
+  },
+  "12-HARDWARE": {
+    "adf_p": 5.3334900943112004e-12,
+    "shift": 28
+  },
+  "12-GROCERY II": {
+    "adf_p": 8.481278925774585e-10,
+    "shift": 21
+  },
+  "12-GROCERY I": {
+    "adf_p": 0.0005287082701276813,
+    "shift": 21
+  },
+  "12-FROZEN FOODS": {
+    "adf_p": 4.866728742834812e-11,
+    "shift": 365
+  },
+  "13-AUTOMOTIVE": {
+    "adf_p": 6.423384953896266e-7,
+    "shift": 21
+  },
+  "13-CELEBRATION": {
+    "adf_p": 0.008544210751024697,
+    "shift": 16
+  },
+  "13-BREAD/BAKERY": {
+    "adf_p": 0.0012519100519614913,
+    "shift": 21
+  },
+  "13-BEVERAGES": {
+    "adf_p": 0.010833931985857517,
+    "shift": 21
+  },
+  "13-BEAUTY": {
+    "adf_p": 0.013981650625696231,
+    "shift": 16
+  },
+  "13-SEAFOOD": {
+    "adf_p": 0.0012949252036141836,
+    "shift": 21
+  },
+  "13-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 7.957161072199085e-12,
+    "shift": 365
+  },
+  "13-PRODUCE": {
+    "adf_p": 0.019020979656587937,
+    "shift": 16
+  },
+  "13-PREPARED FOODS": {
+    "adf_p": 0.42557374325662833,
+    "shift": 21
+  },
+  "13-POULTRY": {
+    "adf_p": 0.028500705547796604,
+    "shift": 21
+  },
+  "13-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.022462175489729407,
+    "shift": 21
+  },
+  "13-PET SUPPLIES": {
+    "adf_p": 0.008939822255604444,
+    "shift": 28
+  },
+  "13-PERSONAL CARE": {
+    "adf_p": 0.0018408942378989573,
+    "shift": 28
+  },
+  "13-MEATS": {
+    "adf_p": 5.500558118635241e-5,
+    "shift": 28
+  },
+  "13-MAGAZINES": {
+    "adf_p": 0.03813192868823357,
+    "shift": 21
+  },
+  "13-LIQUOR,WINE,BEER": {
+    "adf_p": 6.33964140716455e-9,
+    "shift": 21
+  },
+  "13-LINGERIE": {
+    "adf_p": 0.0017259471923161082,
+    "shift": 21
+  },
+  "13-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 16
+  },
+  "13-LADIESWEAR": {
+    "adf_p": 7.428144922513953e-6,
+    "shift": 21
+  },
+  "13-HOME CARE": {
+    "adf_p": 0.003738574963861518,
+    "shift": 21
+  },
+  "13-HOME APPLIANCES": {
+    "adf_p": 3.541364586594123e-7,
+    "shift": 21
+  },
+  "13-CLEANING": {
+    "adf_p": 9.110767905322322e-7,
+    "shift": 28
+  },
+  "13-DAIRY": {
+    "adf_p": 0.09810165194146842,
+    "shift": 28
+  },
+  "13-DELI": {
+    "adf_p": 0.1161613451048159,
+    "shift": 28
+  },
+  "13-EGGS": {
+    "adf_p": 0.0008296701494008272,
+    "shift": 28
+  },
+  "13-HOME AND KITCHEN II": {
+    "adf_p": 0.004086926217054067,
+    "shift": 21
+  },
+  "13-HOME AND KITCHEN I": {
+    "adf_p": 3.0504968596166437e-7,
+    "shift": 21
+  },
+  "13-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "13-GROCERY II": {
+    "adf_p": 2.3249090282590664e-6,
+    "shift": 21
+  },
+  "13-GROCERY I": {
+    "adf_p": 0.0009015516002244424,
+    "shift": 28
+  },
+  "13-FROZEN FOODS": {
+    "adf_p": 1.5432155252397922e-18,
+    "shift": 365
+  },
+  "14-AUTOMOTIVE": {
+    "adf_p": 1.8224963053241906e-7,
+    "shift": 28
+  },
+  "14-CELEBRATION": {
+    "adf_p": 0.025905500340722337,
+    "shift": 21
+  },
+  "14-BREAD/BAKERY": {
+    "adf_p": 4.561210042998572e-6,
+    "shift": 21
+  },
+  "14-BEVERAGES": {
+    "adf_p": 0.019867303199093345,
+    "shift": 21
+  },
+  "14-BEAUTY": {
+    "adf_p": 0.0003913592535451623,
+    "shift": 21
+  },
+  "14-BABY CARE": {
+    "adf_p": 1.5682169752793592e-16,
+    "shift": 30
+  },
+  "14-SEAFOOD": {
+    "adf_p": 0.014748100479167506,
+    "shift": 21
+  },
+  "14-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 4.0719870303627577e-11,
+    "shift": 365
+  },
+  "14-PRODUCE": {
+    "adf_p": 0.013601936136713176,
+    "shift": 16
+  },
+  "14-PREPARED FOODS": {
+    "adf_p": 0.5143264539298209,
+    "shift": 21
+  },
+  "14-POULTRY": {
+    "adf_p": 0.0030513250075323195,
+    "shift": 21
+  },
+  "14-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.052090030594852885,
+    "shift": 16
+  },
+  "14-PET SUPPLIES": {
+    "adf_p": 0.0655792149971213,
+    "shift": 21
+  },
+  "14-PERSONAL CARE": {
+    "adf_p": 3.0037903558162726e-5,
+    "shift": 28
+  },
+  "14-MEATS": {
+    "adf_p": 0.0007131031347532333,
+    "shift": 21
+  },
+  "14-MAGAZINES": {
+    "adf_p": 0.07254908733395624,
+    "shift": 60
+  },
+  "14-LIQUOR,WINE,BEER": {
+    "adf_p": 1.4221265437578527e-12,
+    "shift": 21
+  },
+  "14-LINGERIE": {
+    "adf_p": 0.005026052685425261,
+    "shift": 21
+  },
+  "14-LADIESWEAR": {
+    "adf_p": 5.519114082960341e-7,
+    "shift": 16
+  },
+  "14-HOME CARE": {
+    "adf_p": 0.003714397306423131,
+    "shift": 21
+  },
+  "14-HOME APPLIANCES": {
+    "adf_p": 2.5393215776405495e-9,
+    "shift": 180
+  },
+  "14-CLEANING": {
+    "adf_p": 3.8094588938216356e-5,
+    "shift": 21
+  },
+  "14-DAIRY": {
+    "adf_p": 0.04282473585009013,
+    "shift": 21
+  },
+  "14-DELI": {
+    "adf_p": 0.1221765480231955,
+    "shift": 21
+  },
+  "14-EGGS": {
+    "adf_p": 2.004791276691674e-6,
+    "shift": 21
+  },
+  "14-HOME AND KITCHEN II": {
+    "adf_p": 0.36101248700743027,
+    "shift": 21
+  },
+  "14-HOME AND KITCHEN I": {
+    "adf_p": 7.202048641149928e-7,
+    "shift": 16
+  },
+  "14-HARDWARE": {
+    "adf_p": 1.342405976086078e-8,
+    "shift": 28
+  },
+  "14-GROCERY II": {
+    "adf_p": 2.1782824115807005e-10,
+    "shift": 28
+  },
+  "14-GROCERY I": {
+    "adf_p": 5.539620795938741e-6,
+    "shift": 28
+  },
+  "14-FROZEN FOODS": {
+    "adf_p": 1.6417333551940584e-13,
+    "shift": 365
+  },
+  "15-AUTOMOTIVE": {
+    "adf_p": 2.305906119004119e-9,
+    "shift": 21
+  },
+  "15-CELEBRATION": {
+    "adf_p": 0.008186357817119507,
+    "shift": 21
+  },
+  "15-BREAD/BAKERY": {
+    "adf_p": 4.002219354767843e-6,
+    "shift": 28
+  },
+  "15-BEVERAGES": {
+    "adf_p": 0.17422446634794592,
+    "shift": 16
+  },
+  "15-BEAUTY": {
+    "adf_p": 0.0005073689008806155,
+    "shift": 21
+  },
+  "15-BABY CARE": {
+    "adf_p": 3.0465802039193185e-12,
+    "shift": 21
+  },
+  "15-SEAFOOD": {
+    "adf_p": 0.000664658118096517,
+    "shift": 21
+  },
+  "15-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 2.515645217931692e-9,
+    "shift": 365
+  },
+  "15-PRODUCE": {
+    "adf_p": 0.03579224338903927,
+    "shift": 21
+  },
+  "15-PREPARED FOODS": {
+    "adf_p": 0.35383757800152005,
+    "shift": 21
+  },
+  "15-POULTRY": {
+    "adf_p": 0.09603271238597799,
+    "shift": 21
+  },
+  "15-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.016781887142304844,
+    "shift": 16
+  },
+  "15-PET SUPPLIES": {
+    "adf_p": 0.11009086358760162,
+    "shift": 28
+  },
+  "15-PERSONAL CARE": {
+    "adf_p": 0.0006074280685697739,
+    "shift": 365
+  },
+  "15-MEATS": {
+    "adf_p": 4.2204878229271645e-6,
+    "shift": 28
+  },
+  "15-MAGAZINES": {
+    "adf_p": 0.2277471540374995,
+    "shift": 28
+  },
+  "15-LIQUOR,WINE,BEER": {
+    "adf_p": 4.6059544169886285e-11,
+    "shift": 21
+  },
+  "15-LINGERIE": {
+    "adf_p": 1.6444795472945353e-8,
+    "shift": 28
+  },
+  "15-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 180
+  },
+  "15-LADIESWEAR": {
+    "adf_p": 0.0046438707983105995,
+    "shift": 21
+  },
+  "15-HOME CARE": {
+    "adf_p": 0.01393144016658574,
+    "shift": 16
+  },
+  "15-HOME APPLIANCES": {
+    "adf_p": 1.434790153822733e-20,
+    "shift": 16
+  },
+  "15-CLEANING": {
+    "adf_p": 3.827013866602385e-7,
+    "shift": 365
+  },
+  "15-DAIRY": {
+    "adf_p": 0.16673032203375876,
+    "shift": 28
+  },
+  "15-DELI": {
+    "adf_p": 0.03711999451189189,
+    "shift": 28
+  },
+  "15-EGGS": {
+    "adf_p": 0.06990770083902445,
+    "shift": 21
+  },
+  "15-HOME AND KITCHEN II": {
+    "adf_p": 0.10373030682245449,
+    "shift": 16
+  },
+  "15-HOME AND KITCHEN I": {
+    "adf_p": 5.5555654132024625e-6,
+    "shift": 16
+  },
+  "15-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 28
+  },
+  "15-GROCERY II": {
+    "adf_p": 3.3395900621798935e-14,
+    "shift": 365
+  },
+  "15-GROCERY I": {
+    "adf_p": 7.0409276169253784e-6,
+    "shift": 28
+  },
+  "15-FROZEN FOODS": {
+    "adf_p": 1.216333029558228e-9,
+    "shift": 365
+  },
+  "16-AUTOMOTIVE": {
+    "adf_p": 0.00018757709355811026,
+    "shift": 28
+  },
+  "16-CELEBRATION": {
+    "adf_p": 0.0007505848170776227,
+    "shift": 21
+  },
+  "16-BREAD/BAKERY": {
+    "adf_p": 0.19085156953677435,
+    "shift": 21
+  },
+  "16-BEVERAGES": {
+    "adf_p": 0.00044433380572638024,
+    "shift": 21
+  },
+  "16-BEAUTY": {
+    "adf_p": 8.342738653957203e-10,
+    "shift": 21
+  },
+  "16-BABY CARE": {
+    "adf_p": 2.4634953133469087e-5,
+    "shift": 28
+  },
+  "16-SEAFOOD": {
+    "adf_p": 0.008104114877358496,
+    "shift": 21
+  },
+  "16-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.00012738201737025738,
+    "shift": 365
+  },
+  "16-PRODUCE": {
+    "adf_p": 0.0006987393318866855,
+    "shift": 21
+  },
+  "16-PREPARED FOODS": {
+    "adf_p": 1.4401661276232016e-7,
+    "shift": 28
+  },
+  "16-POULTRY": {
+    "adf_p": 0.04829831610626556,
+    "shift": 28
+  },
+  "16-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.00291376783481797,
+    "shift": 21
+  },
+  "16-PET SUPPLIES": {
+    "adf_p": 0.14204856633308566,
+    "shift": 21
+  },
+  "16-PERSONAL CARE": {
+    "adf_p": 0.024212990261262623,
+    "shift": 28
+  },
+  "16-MEATS": {
+    "adf_p": 0.1451838160334764,
+    "shift": 28
+  },
+  "16-MAGAZINES": {
+    "adf_p": 0.02655478075461114,
+    "shift": 21
+  },
+  "16-LIQUOR,WINE,BEER": {
+    "adf_p": 8.720016101009879e-8,
+    "shift": 28
+  },
+  "16-LINGERIE": {
+    "adf_p": 0.003669440029739227,
+    "shift": 28
+  },
+  "16-LAWN AND GARDEN": {
+    "adf_p": 4.773381022855012e-29,
+    "shift": 365
+  },
+  "16-HOME CARE": {
+    "adf_p": 0.0005962752759460725,
+    "shift": 21
+  },
+  "16-HOME APPLIANCES": {
+    "adf_p": 3.1464998278177744e-9,
+    "shift": 60
+  },
+  "16-CLEANING": {
+    "adf_p": 0.015148973482850818,
+    "shift": 21
+  },
+  "16-DAIRY": {
+    "adf_p": 0.18481586406630846,
+    "shift": 21
+  },
+  "16-DELI": {
+    "adf_p": 0.10915356594934295,
+    "shift": 28
+  },
+  "16-EGGS": {
+    "adf_p": 0.10138833631626087,
+    "shift": 21
+  },
+  "16-HOME AND KITCHEN II": {
+    "adf_p": 0.025412769138159663,
+    "shift": 21
+  },
+  "16-HOME AND KITCHEN I": {
+    "adf_p": 0.005282622148437642,
+    "shift": 21
+  },
+  "16-HARDWARE": {
+    "adf_p": 4.3294653151163115e-12,
+    "shift": 90
+  },
+  "16-GROCERY II": {
+    "adf_p": 3.729786921154087e-13,
+    "shift": 365
+  },
+  "16-GROCERY I": {
+    "adf_p": 1.0993093842489212e-5,
+    "shift": 28
+  },
+  "16-FROZEN FOODS": {
+    "adf_p": 1.2231401907179233e-13,
+    "shift": 365
+  },
+  "17-AUTOMOTIVE": {
+    "adf_p": 0.025840462694605687,
+    "shift": 28
+  },
+  "17-CELEBRATION": {
+    "adf_p": 0.008549444064152529,
+    "shift": 21
+  },
+  "17-BREAD/BAKERY": {
+    "adf_p": 0.2848034773412997,
+    "shift": 21
+  },
+  "17-BEVERAGES": {
+    "adf_p": 0.21343239191103114,
+    "shift": 21
+  },
+  "17-BEAUTY": {
+    "adf_p": 0.0008425549935593622,
+    "shift": 28
+  },
+  "17-BABY CARE": {
+    "adf_p": 0.0006730957135053596,
+    "shift": 21
+  },
+  "17-SEAFOOD": {
+    "adf_p": 0.006592612180908406,
+    "shift": 21
+  },
+  "17-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.007107111330731078,
+    "shift": 365
+  },
+  "17-PRODUCE": {
+    "adf_p": 0.3444786122047654,
+    "shift": 21
+  },
+  "17-PREPARED FOODS": {
+    "adf_p": 0.26747523453456906,
+    "shift": 21
+  },
+  "17-POULTRY": {
+    "adf_p": 0.1302292592573006,
+    "shift": 21
+  },
+  "17-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.09110937563479055,
+    "shift": 28
+  },
+  "17-PET SUPPLIES": {
+    "adf_p": 0.13035791190542445,
+    "shift": 28
+  },
+  "17-PERSONAL CARE": {
+    "adf_p": 0.0846945618357654,
+    "shift": 28
+  },
+  "17-MEATS": {
+    "adf_p": 3.9134191101824667e-25,
+    "shift": 28
+  },
+  "17-MAGAZINES": {
+    "adf_p": 0.26537936264891887,
+    "shift": 180
+  },
+  "17-LIQUOR,WINE,BEER": {
+    "adf_p": 1.0663851553000115e-9,
+    "shift": 21
+  },
+  "17-LINGERIE": {
+    "adf_p": 2.695438072882171e-7,
+    "shift": 28
+  },
+  "17-LAWN AND GARDEN": {
+    "adf_p": 7.762700640291447e-10,
+    "shift": 60
+  },
+  "17-LADIESWEAR": {
+    "adf_p": 3.59535534637459e-5,
+    "shift": 21
+  },
+  "17-HOME CARE": {
+    "adf_p": 0.01902656161742809,
+    "shift": 21
+  },
+  "17-HOME APPLIANCES": {
+    "adf_p": 4.8413578172149424e-5,
+    "shift": 28
+  },
+  "17-CLEANING": {
+    "adf_p": 0.011358248628908219,
+    "shift": 28
+  },
+  "17-DAIRY": {
+    "adf_p": 0.45305657332382254,
+    "shift": 21
+  },
+  "17-DELI": {
+    "adf_p": 0.26154075971433055,
+    "shift": 28
+  },
+  "17-EGGS": {
+    "adf_p": 0.26402086377334355,
+    "shift": 21
+  },
+  "17-HOME AND KITCHEN II": {
+    "adf_p": 0.08291396459631739,
+    "shift": 28
+  },
+  "17-HOME AND KITCHEN I": {
+    "adf_p": 0.04161142402047545,
+    "shift": 21
+  },
+  "17-HARDWARE": {
+    "adf_p": 4.3805785312165054e-7,
+    "shift": 16
+  },
+  "17-GROCERY II": {
+    "adf_p": 3.149132058203249e-6,
+    "shift": 365
+  },
+  "17-GROCERY I": {
+    "adf_p": 0.054799533542136125,
+    "shift": 28
+  },
+  "17-FROZEN FOODS": {
+    "adf_p": 3.351781351425191e-7,
+    "shift": 365
+  },
+  "18-AUTOMOTIVE": {
+    "adf_p": 0.0003193631653532513,
+    "shift": 28
+  },
+  "18-CELEBRATION": {
+    "adf_p": 0.0,
+    "shift": 21
+  },
+  "18-BREAD/BAKERY": {
+    "adf_p": 0.07012845980727561,
+    "shift": 21
+  },
+  "18-BEVERAGES": {
+    "adf_p": 0.017856653182652078,
+    "shift": 21
+  },
+  "18-BEAUTY": {
+    "adf_p": 0.015545782697057905,
+    "shift": 21
+  },
+  "18-BABY CARE": {
+    "adf_p": 2.7226870189073663e-13,
+    "shift": 28
+  },
+  "18-SEAFOOD": {
+    "adf_p": 0.01817750561105938,
+    "shift": 21
+  },
+  "18-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.9983430628353074e-7,
+    "shift": 365
+  },
+  "18-PRODUCE": {
+    "adf_p": 0.022470992604983673,
+    "shift": 21
+  },
+  "18-PREPARED FOODS": {
+    "adf_p": 0.02271610625309189,
+    "shift": 21
+  },
+  "18-POULTRY": {
+    "adf_p": 0.006936384969748356,
+    "shift": 21
+  },
+  "18-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.00396222211316036,
+    "shift": 21
+  },
+  "18-PET SUPPLIES": {
+    "adf_p": 0.07225874516479797,
+    "shift": 21
+  },
+  "18-PERSONAL CARE": {
+    "adf_p": 2.3303061985146125e-6,
+    "shift": 21
+  },
+  "18-MEATS": {
+    "adf_p": 0.021381540952708212,
+    "shift": 21
+  },
+  "18-MAGAZINES": {
+    "adf_p": 0.02032953070970777,
+    "shift": 21
+  },
+  "18-LIQUOR,WINE,BEER": {
+    "adf_p": 3.65108854905231e-8,
+    "shift": 21
+  },
+  "18-LINGERIE": {
+    "adf_p": 0.0031977815932915238,
+    "shift": 21
+  },
+  "18-LAWN AND GARDEN": {
+    "adf_p": 7.269328719328755e-7,
+    "shift": 16
+  },
+  "18-LADIESWEAR": {
+    "adf_p": 0.0009831963364379077,
+    "shift": 21
+  },
+  "18-HOME CARE": {
+    "adf_p": 0.015729370443710748,
+    "shift": 21
+  },
+  "18-HOME APPLIANCES": {
+    "adf_p": 1.420699695603476e-8,
+    "shift": 16
+  },
+  "18-CLEANING": {
+    "adf_p": 0.002241178254123877,
+    "shift": 28
+  },
+  "18-DAIRY": {
+    "adf_p": 0.05798300823563946,
+    "shift": 21
+  },
+  "18-DELI": {
+    "adf_p": 0.04084311937723932,
+    "shift": 21
+  },
+  "18-EGGS": {
+    "adf_p": 0.01446901648860201,
+    "shift": 21
+  },
+  "18-HOME AND KITCHEN II": {
+    "adf_p": 0.030716755529226567,
+    "shift": 21
+  },
+  "18-HOME AND KITCHEN I": {
+    "adf_p": 0.000665867407119428,
+    "shift": 16
+  },
+  "18-HARDWARE": {
+    "adf_p": 1.8519060552496154e-8,
+    "shift": 28
+  },
+  "18-GROCERY II": {
+    "adf_p": 0.1248265427472603,
+    "shift": 21
+  },
+  "18-GROCERY I": {
+    "adf_p": 0.0002030963890566531,
+    "shift": 28
+  },
+  "18-FROZEN FOODS": {
+    "adf_p": 1.269233099730695e-9,
+    "shift": 365
+  },
+  "19-AUTOMOTIVE": {
+    "adf_p": 0.0006288517118853443,
+    "shift": 21
+  },
+  "19-CELEBRATION": {
+    "adf_p": 0.007459275641698301,
+    "shift": 28
+  },
+  "19-BREAD/BAKERY": {
+    "adf_p": 1.3886922451782092e-6,
+    "shift": 28
+  },
+  "19-BEVERAGES": {
+    "adf_p": 0.06666900460024855,
+    "shift": 28
+  },
+  "19-BEAUTY": {
+    "adf_p": 0.0001300204873269168,
+    "shift": 21
+  },
+  "19-BABY CARE": {
+    "adf_p": 2.5147238344039097e-5,
+    "shift": 16
+  },
+  "19-SEAFOOD": {
+    "adf_p": 0.0033512732045937505,
+    "shift": 21
+  },
+  "19-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.8785741760104353e-11,
+    "shift": 365
+  },
+  "19-PRODUCE": {
+    "adf_p": 0.04644847971184034,
+    "shift": 21
+  },
+  "19-PREPARED FOODS": {
+    "adf_p": 0.014418656543335724,
+    "shift": 21
+  },
+  "19-POULTRY": {
+    "adf_p": 0.07102307065216243,
+    "shift": 21
+  },
+  "19-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.1851271584427318,
+    "shift": 21
+  },
+  "19-PET SUPPLIES": {
+    "adf_p": 0.1085036276213539,
+    "shift": 21
+  },
+  "19-PERSONAL CARE": {
+    "adf_p": 0.00033791347682246667,
+    "shift": 28
+  },
+  "19-MEATS": {
+    "adf_p": 0.01961013090922815,
+    "shift": 21
+  },
+  "19-MAGAZINES": {
+    "adf_p": 0.0825183888605619,
+    "shift": 28
+  },
+  "19-LIQUOR,WINE,BEER": {
+    "adf_p": 4.7337525313612266e-14,
+    "shift": 21
+  },
+  "19-LINGERIE": {
+    "adf_p": 3.6685398992865514e-6,
+    "shift": 21
+  },
+  "19-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "19-LADIESWEAR": {
+    "adf_p": 4.3578692438283946e-5,
+    "shift": 21
+  },
+  "19-HOME CARE": {
+    "adf_p": 0.009020568065655538,
+    "shift": 21
+  },
+  "19-HOME APPLIANCES": {
+    "adf_p": 4.653520412160248e-14,
+    "shift": 21
+  },
+  "19-CLEANING": {
+    "adf_p": 4.5610826457939505e-5,
+    "shift": 28
+  },
+  "19-DAIRY": {
+    "adf_p": 0.18047871512383212,
+    "shift": 21
+  },
+  "19-DELI": {
+    "adf_p": 0.22569315102190868,
+    "shift": 28
+  },
+  "19-EGGS": {
+    "adf_p": 0.04860280267003967,
+    "shift": 28
+  },
+  "19-HOME AND KITCHEN II": {
+    "adf_p": 0.031199445609474092,
+    "shift": 28
+  },
+  "19-HOME AND KITCHEN I": {
+    "adf_p": 2.766678878425117e-5,
+    "shift": 21
+  },
+  "19-HARDWARE": {
+    "adf_p": 9.51747408350799e-8,
+    "shift": 21
+  },
+  "19-GROCERY II": {
+    "adf_p": 9.350251932739401e-8,
+    "shift": 21
+  },
+  "19-GROCERY I": {
+    "adf_p": 0.0007375146506246833,
+    "shift": 28
+  },
+  "19-FROZEN FOODS": {
+    "adf_p": 1.522722073953779e-15,
+    "shift": 365
+  },
+  "20-AUTOMOTIVE": {
+    "adf_p": 0.1810028149557174,
+    "shift": 28
+  },
+  "20-CELEBRATION": {
+    "adf_p": 0.3964124728154247,
+    "shift": 21
+  },
+  "20-BREAD/BAKERY": {
+    "adf_p": 0.52430255158171,
+    "shift": 21
+  },
+  "20-BEVERAGES": {
+    "adf_p": 0.6676973978520357,
+    "shift": 21
+  },
+  "20-BEAUTY": {
+    "adf_p": 0.09818306810070387,
+    "shift": 28
+  },
+  "20-BABY CARE": {
+    "adf_p": 0.060121382175193354,
+    "shift": 21
+  },
+  "20-SEAFOOD": {
+    "adf_p": 0.45919274478445604,
+    "shift": 28
+  },
+  "20-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0007106603874833682,
+    "shift": 365
+  },
+  "20-PRODUCE": {
+    "adf_p": 0.6621338203901505,
+    "shift": 21
+  },
+  "20-PREPARED FOODS": {
+    "adf_p": 0.6239045268753143,
+    "shift": 21
+  },
+  "20-POULTRY": {
+    "adf_p": 0.008812179741209646,
+    "shift": 28
+  },
+  "20-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.2707054423236315,
+    "shift": 28
+  },
+  "20-PET SUPPLIES": {
+    "adf_p": 0.5646140138067425,
+    "shift": 28
+  },
+  "20-PERSONAL CARE": {
+    "adf_p": 0.2621556576644411,
+    "shift": 28
+  },
+  "20-MEATS": {
+    "adf_p": 0.8042267091926869,
+    "shift": 28
+  },
+  "20-MAGAZINES": {
+    "adf_p": 0.0016229068214382938,
+    "shift": 180
+  },
+  "20-LIQUOR,WINE,BEER": {
+    "adf_p": 0.003116614871586623,
+    "shift": 21
+  },
+  "20-LINGERIE": {
+    "adf_p": 0.04838035046906579,
+    "shift": 28
+  },
+  "20-LAWN AND GARDEN": {
+    "adf_p": 0.04899486215899329,
+    "shift": 28
+  },
+  "20-LADIESWEAR": {
+    "adf_p": 0.01656688727902831,
+    "shift": 21
+  },
+  "20-HOME CARE": {
+    "adf_p": 0.712132010629192,
+    "shift": 28
+  },
+  "20-HOME APPLIANCES": {
+    "adf_p": 3.218731351690234e-5,
+    "shift": 28
+  },
+  "20-CLEANING": {
+    "adf_p": 0.48457628008468384,
+    "shift": 28
+  },
+  "20-DAIRY": {
+    "adf_p": 0.657232486510878,
+    "shift": 28
+  },
+  "20-DELI": {
+    "adf_p": 0.710989952299519,
+    "shift": 28
+  },
+  "20-EGGS": {
+    "adf_p": 0.44833444880788886,
+    "shift": 28
+  },
+  "20-HOME AND KITCHEN II": {
+    "adf_p": 0.047824554022960944,
+    "shift": 21
+  },
+  "20-HOME AND KITCHEN I": {
+    "adf_p": 0.0025992720687243306,
+    "shift": 21
+  },
+  "20-HARDWARE": {
+    "adf_p": 0.0012066373109857942,
+    "shift": 28
+  },
+  "20-GROCERY II": {
+    "adf_p": 0.006915383717343394,
+    "shift": 21
+  },
+  "20-GROCERY I": {
+    "adf_p": 0.2626937080876235,
+    "shift": 21
+  },
+  "20-FROZEN FOODS": {
+    "adf_p": 3.011083961257716e-6,
+    "shift": 365
+  },
+  "21-AUTOMOTIVE": {
+    "adf_p": 0.5391930959588853,
+    "shift": 21
+  },
+  "21-CELEBRATION": {
+    "adf_p": 0.08215369795214456,
+    "shift": 21
+  },
+  "21-BREAD/BAKERY": {
+    "adf_p": 0.27032207850418766,
+    "shift": 21
+  },
+  "21-BEVERAGES": {
+    "adf_p": 0.6737578035089883,
+    "shift": 21
+  },
+  "21-BEAUTY": {
+    "adf_p": 0.15254583083981582,
+    "shift": 21
+  },
+  "21-BABY CARE": {
+    "adf_p": 0.02157899927854207,
+    "shift": 28
+  },
+  "21-SEAFOOD": {
+    "adf_p": 0.37283470819430986,
+    "shift": 21
+  },
+  "21-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 3.7265244882241164e-8,
+    "shift": 365
+  },
+  "21-PRODUCE": {
+    "adf_p": 0.5857014171787573,
+    "shift": 21
+  },
+  "21-PREPARED FOODS": {
+    "adf_p": 0.8700393400031472,
+    "shift": 21
+  },
+  "21-POULTRY": {
+    "adf_p": 0.4585117738439826,
+    "shift": 21
+  },
+  "21-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.07074594376906375,
+    "shift": 21
+  },
+  "21-PET SUPPLIES": {
+    "adf_p": 0.6630474887845894,
+    "shift": 21
+  },
+  "21-PERSONAL CARE": {
+    "adf_p": 0.4397903948858561,
+    "shift": 28
+  },
+  "21-MEATS": {
+    "adf_p": 0.42998267787987465,
+    "shift": 21
+  },
+  "21-MAGAZINES": {
+    "adf_p": 0.09048228989635626,
+    "shift": 28
+  },
+  "21-LIQUOR,WINE,BEER": {
+    "adf_p": 0.2413003127274202,
+    "shift": 28
+  },
+  "21-LINGERIE": {
+    "adf_p": 0.09097748061405991,
+    "shift": 21
+  },
+  "21-LAWN AND GARDEN": {
+    "adf_p": 1.1674670775257031e-9,
+    "shift": 90
+  },
+  "21-LADIESWEAR": {
+    "adf_p": 0.16314832496934445,
+    "shift": 21
+  },
+  "21-HOME CARE": {
+    "adf_p": 0.3358337686836723,
+    "shift": 28
+  },
+  "21-HOME APPLIANCES": {
+    "adf_p": 7.522586706587237e-5,
+    "shift": 90
+  },
+  "21-CLEANING": {
+    "adf_p": 0.5125818643603874,
+    "shift": 28
+  },
+  "21-DAIRY": {
+    "adf_p": 0.6671868285319034,
+    "shift": 21
+  },
+  "21-DELI": {
+    "adf_p": 0.4259628563079899,
+    "shift": 21
+  },
+  "21-EGGS": {
+    "adf_p": 0.8117611175644519,
+    "shift": 21
+  },
+  "21-HOME AND KITCHEN II": {
+    "adf_p": 0.11756735941256552,
+    "shift": 28
+  },
+  "21-HOME AND KITCHEN I": {
+    "adf_p": 0.13049337916351067,
+    "shift": 21
+  },
+  "21-HARDWARE": {
+    "adf_p": 0.032782878190758834,
+    "shift": 21
+  },
+  "21-GROCERY II": {
+    "adf_p": 0.019051511300860607,
+    "shift": 21
+  },
+  "21-GROCERY I": {
+    "adf_p": 0.5136738629661726,
+    "shift": 28
+  },
+  "21-FROZEN FOODS": {
+    "adf_p": 5.173597994668023e-8,
+    "shift": 365
+  },
+  "22-AUTOMOTIVE": {
+    "adf_p": 0.08903316656300986,
+    "shift": 21
+  },
+  "22-CELEBRATION": {
+    "adf_p": 0.30381984412860874,
+    "shift": 21
+  },
+  "22-BREAD/BAKERY": {
+    "adf_p": 0.676923393604984,
+    "shift": 21
+  },
+  "22-BEVERAGES": {
+    "adf_p": 0.927469571863172,
+    "shift": 21
+  },
+  "22-BEAUTY": {
+    "adf_p": 0.17303879366058755,
+    "shift": 28
+  },
+  "22-BABY CARE": {
+    "adf_p": 0.0012596223944447208,
+    "shift": 28
+  },
+  "22-SEAFOOD": {
+    "adf_p": 0.21556809740979183,
+    "shift": 90
+  },
+  "22-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 4.465606108956898e-6,
+    "shift": 21
+  },
+  "22-PRODUCE": {
+    "adf_p": 0.8211601524639462,
+    "shift": 21
+  },
+  "22-PREPARED FOODS": {
+    "adf_p": 0.4986333294219674,
+    "shift": 21
+  },
+  "22-POULTRY": {
+    "adf_p": 0.8958217143664473,
+    "shift": 28
+  },
+  "22-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.4654710394141779,
+    "shift": 21
+  },
+  "22-PET SUPPLIES": {
+    "adf_p": 0.35970911338439987,
+    "shift": 21
+  },
+  "22-PERSONAL CARE": {
+    "adf_p": 0.4842063033114143,
+    "shift": 28
+  },
+  "22-MEATS": {
+    "adf_p": 0.007684848608850318,
+    "shift": 16
+  },
+  "22-MAGAZINES": {
+    "adf_p": 0.020558196778491453,
+    "shift": 21
+  },
+  "22-LIQUOR,WINE,BEER": {
+    "adf_p": 0.9799312240260848,
+    "shift": 28
+  },
+  "22-LINGERIE": {
+    "adf_p": 0.011617928447127588,
+    "shift": 21
+  },
+  "22-LAWN AND GARDEN": {
+    "adf_p": 1.8845893341174294e-27,
+    "shift": 365
+  },
+  "22-LADIESWEAR": {
+    "adf_p": 0.00045548776849372815,
+    "shift": 16
+  },
+  "22-HOME CARE": {
+    "adf_p": 0.706699928425862,
+    "shift": 28
+  },
+  "22-HOME APPLIANCES": {
+    "adf_p": 0.008939758200259936,
+    "shift": 21
+  },
+  "22-CLEANING": {
+    "adf_p": 0.7174613385401005,
+    "shift": 28
+  },
+  "22-DAIRY": {
+    "adf_p": 0.745165498159466,
+    "shift": 28
+  },
+  "22-DELI": {
+    "adf_p": 0.6533966706002463,
+    "shift": 21
+  },
+  "22-EGGS": {
+    "adf_p": 0.7081115237971436,
+    "shift": 28
+  },
+  "22-HOME AND KITCHEN II": {
+    "adf_p": 0.3381925158656839,
+    "shift": 21
+  },
+  "22-HOME AND KITCHEN I": {
+    "adf_p": 0.07133173115115043,
+    "shift": 16
+  },
+  "22-HARDWARE": {
+    "adf_p": 0.02902996488845287,
+    "shift": 28
+  },
+  "22-GROCERY II": {
+    "adf_p": 0.015646623741901688,
+    "shift": 16
+  },
+  "22-GROCERY I": {
+    "adf_p": 0.7157843020296144,
+    "shift": 28
+  },
+  "22-FROZEN FOODS": {
+    "adf_p": 1.9417015787369264e-10,
+    "shift": 365
+  },
+  "23-AUTOMOTIVE": {
+    "adf_p": 1.7069854213189153e-8,
+    "shift": 21
+  },
+  "23-CELEBRATION": {
+    "adf_p": 0.0048084131400815576,
+    "shift": 28
+  },
+  "23-BREAD/BAKERY": {
+    "adf_p": 0.00018407632958195217,
+    "shift": 21
+  },
+  "23-BOOKS": {
+    "adf_p": 0.0001105619837620526,
+    "shift": 21
+  },
+  "23-BEVERAGES": {
+    "adf_p": 0.022521434997568625,
+    "shift": 21
+  },
+  "23-BEAUTY": {
+    "adf_p": 0.00395177392057189,
+    "shift": 28
+  },
+  "23-SEAFOOD": {
+    "adf_p": 0.005868171422600315,
+    "shift": 21
+  },
+  "23-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 5.957964517934576e-6,
+    "shift": 30
+  },
+  "23-PRODUCE": {
+    "adf_p": 0.008394246250963364,
+    "shift": 16
+  },
+  "23-PREPARED FOODS": {
+    "adf_p": 0.08773530474682034,
+    "shift": 21
+  },
+  "23-POULTRY": {
+    "adf_p": 0.11060229235475172,
+    "shift": 21
+  },
+  "23-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0020084034895914114,
+    "shift": 16
+  },
+  "23-PET SUPPLIES": {
+    "adf_p": 0.043757531892021875,
+    "shift": 21
+  },
+  "23-PERSONAL CARE": {
+    "adf_p": 9.82755946664193e-5,
+    "shift": 28
+  },
+  "23-MEATS": {
+    "adf_p": 0.05059320069596471,
+    "shift": 21
+  },
+  "23-MAGAZINES": {
+    "adf_p": 0.2482502877907371,
+    "shift": 28
+  },
+  "23-LIQUOR,WINE,BEER": {
+    "adf_p": 1.1563050658798209e-9,
+    "shift": 28
+  },
+  "23-LINGERIE": {
+    "adf_p": 2.6520452703519364e-9,
+    "shift": 21
+  },
+  "23-LAWN AND GARDEN": {
+    "adf_p": 2.3262417294324725e-12,
+    "shift": 90
+  },
+  "23-LADIESWEAR": {
+    "adf_p": 0.00243187100526211,
+    "shift": 21
+  },
+  "23-HOME CARE": {
+    "adf_p": 0.004164396043087684,
+    "shift": 16
+  },
+  "23-HOME APPLIANCES": {
+    "adf_p": 1.7740293214595273e-12,
+    "shift": 16
+  },
+  "23-CLEANING": {
+    "adf_p": 3.061745289528268e-11,
+    "shift": 28
+  },
+  "23-DAIRY": {
+    "adf_p": 0.09672383145868901,
+    "shift": 21
+  },
+  "23-DELI": {
+    "adf_p": 7.743970572936228e-6,
+    "shift": 21
+  },
+  "23-EGGS": {
+    "adf_p": 7.992243039557981e-5,
+    "shift": 21
+  },
+  "23-HOME AND KITCHEN II": {
+    "adf_p": 9.529155980378507e-6,
+    "shift": 16
+  },
+  "23-HOME AND KITCHEN I": {
+    "adf_p": 0.041092711748128785,
+    "shift": 21
+  },
+  "23-HARDWARE": {
+    "adf_p": 0.129843843394514,
+    "shift": 21
+  },
+  "23-GROCERY II": {
+    "adf_p": 2.1959598571408126e-11,
+    "shift": 365
+  },
+  "23-GROCERY I": {
+    "adf_p": 3.22115986639638e-5,
+    "shift": 28
+  },
+  "23-FROZEN FOODS": {
+    "adf_p": 3.507769056527155e-13,
+    "shift": 365
+  },
+  "24-AUTOMOTIVE": {
+    "adf_p": 1.0113150760162012e-10,
+    "shift": 16
+  },
+  "24-CELEBRATION": {
+    "adf_p": 0.2158773732047085,
+    "shift": 21
+  },
+  "24-BREAD/BAKERY": {
+    "adf_p": 0.034949036941420465,
+    "shift": 21
+  },
+  "24-BOOKS": {
+    "adf_p": 0.030262023874071738,
+    "shift": 21
+  },
+  "24-BEVERAGES": {
+    "adf_p": 0.03390293504813236,
+    "shift": 21
+  },
+  "24-BEAUTY": {
+    "adf_p": 0.0009160401091931528,
+    "shift": 28
+  },
+  "24-BABY CARE": {
+    "adf_p": 1.767408609105596e-8,
+    "shift": 180
+  },
+  "24-SEAFOOD": {
+    "adf_p": 0.004660869543896422,
+    "shift": 21
+  },
+  "24-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 3.262398312155609e-7,
+    "shift": 365
+  },
+  "24-PRODUCE": {
+    "adf_p": 0.03282032054137869,
+    "shift": 21
+  },
+  "24-PREPARED FOODS": {
+    "adf_p": 0.020717140471475905,
+    "shift": 21
+  },
+  "24-POULTRY": {
+    "adf_p": 0.03644291289365951,
+    "shift": 21
+  },
+  "24-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.017138203070034715,
+    "shift": 21
+  },
+  "24-PET SUPPLIES": {
+    "adf_p": 0.15167854700917865,
+    "shift": 21
+  },
+  "24-PERSONAL CARE": {
+    "adf_p": 0.020359074017206137,
+    "shift": 21
+  },
+  "24-MEATS": {
+    "adf_p": 0.01089606751460681,
+    "shift": 21
+  },
+  "24-MAGAZINES": {
+    "adf_p": 0.2103567089014527,
+    "shift": 28
+  },
+  "24-LIQUOR,WINE,BEER": {
+    "adf_p": 1.56989935636156e-5,
+    "shift": 21
+  },
+  "24-LINGERIE": {
+    "adf_p": 0.00011754839349987814,
+    "shift": 21
+  },
+  "24-LAWN AND GARDEN": {
+    "adf_p": 0.6855957699261196,
+    "shift": 21
+  },
+  "24-LADIESWEAR": {
+    "adf_p": 0.011242934709012782,
+    "shift": 21
+  },
+  "24-HOME CARE": {
+    "adf_p": 0.025212752669865043,
+    "shift": 16
+  },
+  "24-HOME APPLIANCES": {
+    "adf_p": 6.060256367210613e-19,
+    "shift": 28
+  },
+  "24-CLEANING": {
+    "adf_p": 0.016685553260210286,
+    "shift": 21
+  },
+  "24-DAIRY": {
+    "adf_p": 0.07992582763157774,
+    "shift": 21
+  },
+  "24-DELI": {
+    "adf_p": 0.0808807265664318,
+    "shift": 21
+  },
+  "24-EGGS": {
+    "adf_p": 0.024522103566743825,
+    "shift": 21
+  },
+  "24-HOME AND KITCHEN II": {
+    "adf_p": 0.001858847971383965,
+    "shift": 28
+  },
+  "24-HOME AND KITCHEN I": {
+    "adf_p": 0.0028964010362559633,
+    "shift": 16
+  },
+  "24-HARDWARE": {
+    "adf_p": 1.408784003866691e-7,
+    "shift": 16
+  },
+  "24-GROCERY II": {
+    "adf_p": 0.0,
+    "shift": 16
+  },
+  "24-GROCERY I": {
+    "adf_p": 0.002200966114448202,
+    "shift": 16
+  },
+  "24-FROZEN FOODS": {
+    "adf_p": 3.0944445844141518e-9,
+    "shift": 365
+  },
+  "25-AUTOMOTIVE": {
+    "adf_p": 0.00042016996174037096,
+    "shift": 21
+  },
+  "25-CELEBRATION": {
+    "adf_p": 0.0003583292018879259,
+    "shift": 21
+  },
+  "25-BREAD/BAKERY": {
+    "adf_p": 3.5957417665351063e-7,
+    "shift": 365
+  },
+  "25-BOOKS": {
+    "adf_p": 7.963653528799006e-5,
+    "shift": 16
+  },
+  "25-BEVERAGES": {
+    "adf_p": 3.7275288998662205e-5,
+    "shift": 365
+  },
+  "25-BEAUTY": {
+    "adf_p": 4.395655008110056e-7,
+    "shift": 365
+  },
+  "25-BABY CARE": {
+    "adf_p": 9.354176733258574e-6,
+    "shift": 30
+  },
+  "25-SEAFOOD": {
+    "adf_p": 1.197797039465075e-7,
+    "shift": 21
+  },
+  "25-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 4.3675127141420085e-7,
+    "shift": 28
+  },
+  "25-PRODUCE": {
+    "adf_p": 0.004273227520189346,
+    "shift": 21
+  },
+  "25-PREPARED FOODS": {
+    "adf_p": 8.348868109160075e-6,
+    "shift": 21
+  },
+  "25-POULTRY": {
+    "adf_p": 7.859295816169159e-5,
+    "shift": 21
+  },
+  "25-PLAYERS AND ELECTRONICS": {
+    "adf_p": 8.953029975612124e-5,
+    "shift": 21
+  },
+  "25-PET SUPPLIES": {
+    "adf_p": 0.034745011623594765,
+    "shift": 21
+  },
+  "25-PERSONAL CARE": {
+    "adf_p": 3.116151672310451e-6,
+    "shift": 365
+  },
+  "25-MEATS": {
+    "adf_p": 1.3356153111387706e-5,
+    "shift": 21
+  },
+  "25-MAGAZINES": {
+    "adf_p": 0.016649667863507432,
+    "shift": 21
+  },
+  "25-LIQUOR,WINE,BEER": {
+    "adf_p": 5.834793724535481e-8,
+    "shift": 21
+  },
+  "25-LINGERIE": {
+    "adf_p": 1.8446378282569272e-6,
+    "shift": 21
+  },
+  "25-LAWN AND GARDEN": {
+    "adf_p": 0.03878887379589884,
+    "shift": 28
+  },
+  "25-HOME CARE": {
+    "adf_p": 0.0005703004016286796,
+    "shift": 21
+  },
+  "25-HOME APPLIANCES": {
+    "adf_p": 0.0004655189605380598,
+    "shift": 21
+  },
+  "25-CLEANING": {
+    "adf_p": 2.3777863918960327e-6,
+    "shift": 365
+  },
+  "25-DAIRY": {
+    "adf_p": 1.5414963079503058e-6,
+    "shift": 365
+  },
+  "25-DELI": {
+    "adf_p": 2.943099577494038e-8,
+    "shift": 21
+  },
+  "25-EGGS": {
+    "adf_p": 3.948724783355967e-9,
+    "shift": 365
+  },
+  "25-HOME AND KITCHEN II": {
+    "adf_p": 1.6756616134438347e-5,
+    "shift": 16
+  },
+  "25-HOME AND KITCHEN I": {
+    "adf_p": 1.0786907423835077e-18,
+    "shift": 365
+  },
+  "25-HARDWARE": {
+    "adf_p": 4.2015495995642496e-18,
+    "shift": 28
+  },
+  "25-GROCERY II": {
+    "adf_p": 4.7400247406150434e-7,
+    "shift": 365
+  },
+  "25-GROCERY I": {
+    "adf_p": 1.9994518826733958e-8,
+    "shift": 365
+  },
+  "25-FROZEN FOODS": {
+    "adf_p": 7.620641191614182e-10,
+    "shift": 365
+  },
+  "26-AUTOMOTIVE": {
+    "adf_p": 0.0006347249044023094,
+    "shift": 21
+  },
+  "26-CELEBRATION": {
+    "adf_p": 0.0007668857461543352,
+    "shift": 21
+  },
+  "26-BREAD/BAKERY": {
+    "adf_p": 1.816717353351637e-5,
+    "shift": 28
+  },
+  "26-BOOKS": {
+    "adf_p": 2.3212808278096933e-6,
+    "shift": 21
+  },
+  "26-BEVERAGES": {
+    "adf_p": 5.0451353117597434e-5,
+    "shift": 365
+  },
+  "26-BEAUTY": {
+    "adf_p": 1.555195819942456e-5,
+    "shift": 28
+  },
+  "26-BABY CARE": {
+    "adf_p": 0.011401321899321675,
+    "shift": 16
+  },
+  "26-SEAFOOD": {
+    "adf_p": 3.1817637383813507e-9,
+    "shift": 28
+  },
+  "26-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.8874400442446703e-6,
+    "shift": 16
+  },
+  "26-PRODUCE": {
+    "adf_p": 0.009784578480801467,
+    "shift": 21
+  },
+  "26-PREPARED FOODS": {
+    "adf_p": 0.0018570742246240286,
+    "shift": 21
+  },
+  "26-POULTRY": {
+    "adf_p": 6.0861692438195605e-9,
+    "shift": 21
+  },
+  "26-PLAYERS AND ELECTRONICS": {
+    "adf_p": 1.1801710464549153e-7,
+    "shift": 16
+  },
+  "26-PET SUPPLIES": {
+    "adf_p": 0.23295321437261263,
+    "shift": 21
+  },
+  "26-PERSONAL CARE": {
+    "adf_p": 7.318341534924126e-11,
+    "shift": 28
+  },
+  "26-MEATS": {
+    "adf_p": 4.897260359423796e-6,
+    "shift": 28
+  },
+  "26-MAGAZINES": {
+    "adf_p": 0.0006752124188006729,
+    "shift": 21
+  },
+  "26-LIQUOR,WINE,BEER": {
+    "adf_p": 3.021925778427201e-30,
+    "shift": 21
+  },
+  "26-LINGERIE": {
+    "adf_p": 0.029193547128864412,
+    "shift": 28
+  },
+  "26-LAWN AND GARDEN": {
+    "adf_p": 0.0019911912824784653,
+    "shift": 21
+  },
+  "26-LADIESWEAR": {
+    "adf_p": 0.0003217971166194341,
+    "shift": 21
+  },
+  "26-HOME CARE": {
+    "adf_p": 0.0005641653167847986,
+    "shift": 21
+  },
+  "26-HOME APPLIANCES": {
+    "adf_p": 6.12008637922147e-11,
+    "shift": 21
+  },
+  "26-CLEANING": {
+    "adf_p": 5.681410093854722e-12,
+    "shift": 28
+  },
+  "26-DAIRY": {
+    "adf_p": 2.5380450237016783e-6,
+    "shift": 28
+  },
+  "26-DELI": {
+    "adf_p": 8.312727393454204e-9,
+    "shift": 28
+  },
+  "26-EGGS": {
+    "adf_p": 0.008415805944450225,
+    "shift": 28
+  },
+  "26-HOME AND KITCHEN II": {
+    "adf_p": 0.004698366261006439,
+    "shift": 28
+  },
+  "26-HOME AND KITCHEN I": {
+    "adf_p": 4.95872263604402e-5,
+    "shift": 365
+  },
+  "26-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 30
+  },
+  "26-GROCERY II": {
+    "adf_p": 3.363036961132606e-9,
+    "shift": 16
+  },
+  "26-GROCERY I": {
+    "adf_p": 7.48608691051549e-10,
+    "shift": 16
+  },
+  "26-FROZEN FOODS": {
+    "adf_p": 9.079409144456478e-10,
+    "shift": 365
+  },
+  "27-AUTOMOTIVE": {
+    "adf_p": 0.057050474927750866,
+    "shift": 21
+  },
+  "27-CELEBRATION": {
+    "adf_p": 0.04533508245194818,
+    "shift": 21
+  },
+  "27-BREAD/BAKERY": {
+    "adf_p": 0.04666410430616753,
+    "shift": 21
+  },
+  "27-BOOKS": {
+    "adf_p": 0.0016227647709023158,
+    "shift": 30
+  },
+  "27-BEVERAGES": {
+    "adf_p": 0.08728506619320991,
+    "shift": 21
+  },
+  "27-BEAUTY": {
+    "adf_p": 0.0169539647860185,
+    "shift": 21
+  },
+  "27-BABY CARE": {
+    "adf_p": 0.0026409020597757426,
+    "shift": 30
+  },
+  "27-SEAFOOD": {
+    "adf_p": 0.005368312614799465,
+    "shift": 21
+  },
+  "27-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.1820784002476814e-7,
+    "shift": 16
+  },
+  "27-PRODUCE": {
+    "adf_p": 0.045227805434818254,
+    "shift": 21
+  },
+  "27-PREPARED FOODS": {
+    "adf_p": 0.013920318999918633,
+    "shift": 21
+  },
+  "27-POULTRY": {
+    "adf_p": 0.1090155735471422,
+    "shift": 21
+  },
+  "27-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.03873530173671271,
+    "shift": 21
+  },
+  "27-PET SUPPLIES": {
+    "adf_p": 0.13297609530384358,
+    "shift": 21
+  },
+  "27-PERSONAL CARE": {
+    "adf_p": 0.03669802564654042,
+    "shift": 28
+  },
+  "27-MEATS": {
+    "adf_p": 0.12446742486846701,
+    "shift": 21
+  },
+  "27-MAGAZINES": {
+    "adf_p": 0.18716018974692644,
+    "shift": 28
+  },
+  "27-LIQUOR,WINE,BEER": {
+    "adf_p": 7.243306751027463e-8,
+    "shift": 21
+  },
+  "27-LINGERIE": {
+    "adf_p": 1.952806341887357e-5,
+    "shift": 21
+  },
+  "27-LAWN AND GARDEN": {
+    "adf_p": 0.26349523458263124,
+    "shift": 28
+  },
+  "27-LADIESWEAR": {
+    "adf_p": 0.07002781282019531,
+    "shift": 21
+  },
+  "27-HOME CARE": {
+    "adf_p": 0.04466887633032518,
+    "shift": 21
+  },
+  "27-HOME APPLIANCES": {
+    "adf_p": 7.326872657361953e-8,
+    "shift": 16
+  },
+  "27-CLEANING": {
+    "adf_p": 0.05728587394951171,
+    "shift": 28
+  },
+  "27-DAIRY": {
+    "adf_p": 0.43270168321150204,
+    "shift": 21
+  },
+  "27-DELI": {
+    "adf_p": 0.1763970352175086,
+    "shift": 21
+  },
+  "27-EGGS": {
+    "adf_p": 0.042877452457948856,
+    "shift": 21
+  },
+  "27-HOME AND KITCHEN II": {
+    "adf_p": 0.0027896500107517045,
+    "shift": 28
+  },
+  "27-HOME AND KITCHEN I": {
+    "adf_p": 0.017922921738846305,
+    "shift": 21
+  },
+  "27-HARDWARE": {
+    "adf_p": 0.0008343495895563045,
+    "shift": 365
+  },
+  "27-GROCERY II": {
+    "adf_p": 7.039968722532782e-5,
+    "shift": 21
+  },
+  "27-GROCERY I": {
+    "adf_p": 0.09963747737359369,
+    "shift": 28
+  },
+  "27-FROZEN FOODS": {
+    "adf_p": 5.887917553123699e-9,
+    "shift": 365
+  },
+  "28-AUTOMOTIVE": {
+    "adf_p": 0.0006672663900009005,
+    "shift": 28
+  },
+  "28-CELEBRATION": {
+    "adf_p": 0.015948372130599256,
+    "shift": 21
+  },
+  "28-BREAD/BAKERY": {
+    "adf_p": 0.01128076684403677,
+    "shift": 28
+  },
+  "28-BEVERAGES": {
+    "adf_p": 0.08947518361409285,
+    "shift": 21
+  },
+  "28-BEAUTY": {
+    "adf_p": 3.0546491029295026e-5,
+    "shift": 28
+  },
+  "28-BABY CARE": {
+    "adf_p": 0.05184653880485338,
+    "shift": 21
+  },
+  "28-SEAFOOD": {
+    "adf_p": 0.0012437093020386605,
+    "shift": 28
+  },
+  "28-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 5.0492686997524715e-5,
+    "shift": 16
+  },
+  "28-PRODUCE": {
+    "adf_p": 0.03618877561739924,
+    "shift": 21
+  },
+  "28-PREPARED FOODS": {
+    "adf_p": 0.11805827926196977,
+    "shift": 28
+  },
+  "28-POULTRY": {
+    "adf_p": 0.0018976263398162313,
+    "shift": 28
+  },
+  "28-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.015179980945940188,
+    "shift": 21
+  },
+  "28-PET SUPPLIES": {
+    "adf_p": 0.18119829699743217,
+    "shift": 21
+  },
+  "28-PERSONAL CARE": {
+    "adf_p": 0.0009831195551815103,
+    "shift": 28
+  },
+  "28-MEATS": {
+    "adf_p": 0.12334927408857715,
+    "shift": 28
+  },
+  "28-MAGAZINES": {
+    "adf_p": 0.006921357265764697,
+    "shift": 28
+  },
+  "28-LIQUOR,WINE,BEER": {
+    "adf_p": 7.894843245087033e-9,
+    "shift": 21
+  },
+  "28-LINGERIE": {
+    "adf_p": 0.0023260883018646735,
+    "shift": 21
+  },
+  "28-LAWN AND GARDEN": {
+    "adf_p": 0.05467321200009517,
+    "shift": 21
+  },
+  "28-HOME CARE": {
+    "adf_p": 0.023039755792482706,
+    "shift": 21
+  },
+  "28-HOME APPLIANCES": {
+    "adf_p": 0.00028388302598657576,
+    "shift": 21
+  },
+  "28-CLEANING": {
+    "adf_p": 0.03258410914715101,
+    "shift": 28
+  },
+  "28-DAIRY": {
+    "adf_p": 0.259268608459553,
+    "shift": 28
+  },
+  "28-DELI": {
+    "adf_p": 0.06364563077466674,
+    "shift": 28
+  },
+  "28-EGGS": {
+    "adf_p": 0.07786738459520356,
+    "shift": 28
+  },
+  "28-HOME AND KITCHEN II": {
+    "adf_p": 0.05480175888376869,
+    "shift": 21
+  },
+  "28-HOME AND KITCHEN I": {
+    "adf_p": 0.01444347688707859,
+    "shift": 21
+  },
+  "28-HARDWARE": {
+    "adf_p": 6.21619409429613e-5,
+    "shift": 21
+  },
+  "28-GROCERY II": {
+    "adf_p": 0.0030199336127311933,
+    "shift": 28
+  },
+  "28-GROCERY I": {
+    "adf_p": 0.0045297998942490335,
+    "shift": 28
+  },
+  "28-FROZEN FOODS": {
+    "adf_p": 2.441446274806399e-10,
+    "shift": 365
+  },
+  "29-AUTOMOTIVE": {
+    "adf_p": 0.24702572977591053,
+    "shift": 21
+  },
+  "29-CELEBRATION": {
+    "adf_p": 0.6048580167508177,
+    "shift": 21
+  },
+  "29-BREAD/BAKERY": {
+    "adf_p": 0.6520280480276321,
+    "shift": 21
+  },
+  "29-BEVERAGES": {
+    "adf_p": 0.8135326081542191,
+    "shift": 28
+  },
+  "29-BEAUTY": {
+    "adf_p": 0.2815365409890809,
+    "shift": 28
+  },
+  "29-BABY CARE": {
+    "adf_p": 0.004041351258558557,
+    "shift": 16
+  },
+  "29-SEAFOOD": {
+    "adf_p": 0.20421290042205187,
+    "shift": 28
+  },
+  "29-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0028420245346782633,
+    "shift": 16
+  },
+  "29-PRODUCE": {
+    "adf_p": 0.7521373003045926,
+    "shift": 21
+  },
+  "29-PREPARED FOODS": {
+    "adf_p": 0.7477774698472834,
+    "shift": 21
+  },
+  "29-POULTRY": {
+    "adf_p": 0.6273867931171749,
+    "shift": 21
+  },
+  "29-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.2947072152294239,
+    "shift": 21
+  },
+  "29-PET SUPPLIES": {
+    "adf_p": 0.6437534746158642,
+    "shift": 21
+  },
+  "29-PERSONAL CARE": {
+    "adf_p": 0.10110307964247645,
+    "shift": 28
+  },
+  "29-MEATS": {
+    "adf_p": 0.6049397709422621,
+    "shift": 21
+  },
+  "29-MAGAZINES": {
+    "adf_p": 0.03942500760252113,
+    "shift": 21
+  },
+  "29-LIQUOR,WINE,BEER": {
+    "adf_p": 0.00026731564033849844,
+    "shift": 28
+  },
+  "29-LINGERIE": {
+    "adf_p": 0.1971638420555129,
+    "shift": 28
+  },
+  "29-LAWN AND GARDEN": {
+    "adf_p": 0.5245890864826481,
+    "shift": 21
+  },
+  "29-HOME CARE": {
+    "adf_p": 0.5850357116671665,
+    "shift": 28
+  },
+  "29-HOME APPLIANCES": {
+    "adf_p": 5.239268034626014e-10,
+    "shift": 28
+  },
+  "29-CLEANING": {
+    "adf_p": 0.5170091606987962,
+    "shift": 28
+  },
+  "29-DAIRY": {
+    "adf_p": 0.7524632108840725,
+    "shift": 28
+  },
+  "29-DELI": {
+    "adf_p": 0.6646618569428887,
+    "shift": 28
+  },
+  "29-EGGS": {
+    "adf_p": 0.7751663202809422,
+    "shift": 21
+  },
+  "29-HOME AND KITCHEN II": {
+    "adf_p": 0.058420561291020356,
+    "shift": 21
+  },
+  "29-HOME AND KITCHEN I": {
+    "adf_p": 0.394235762122563,
+    "shift": 21
+  },
+  "29-HARDWARE": {
+    "adf_p": 0.030883902832377946,
+    "shift": 28
+  },
+  "29-GROCERY II": {
+    "adf_p": 0.37242253231008765,
+    "shift": 28
+  },
+  "29-GROCERY I": {
+    "adf_p": 0.5331144893965805,
+    "shift": 28
+  },
+  "29-FROZEN FOODS": {
+    "adf_p": 4.970471672106595e-6,
+    "shift": 365
+  },
+  "30-AUTOMOTIVE": {
+    "adf_p": 2.397406080369585e-11,
+    "shift": 30
+  },
+  "30-CELEBRATION": {
+    "adf_p": 0.0018224082869727756,
+    "shift": 21
+  },
+  "30-BREAD/BAKERY": {
+    "adf_p": 3.855322854129081e-7,
+    "shift": 21
+  },
+  "30-BEVERAGES": {
+    "adf_p": 0.09109283707218618,
+    "shift": 21
+  },
+  "30-BEAUTY": {
+    "adf_p": 0.00029102835036230653,
+    "shift": 21
+  },
+  "30-BABY CARE": {
+    "adf_p": 0.0049080659210239625,
+    "shift": 16
+  },
+  "30-SEAFOOD": {
+    "adf_p": 0.00021703254591109105,
+    "shift": 21
+  },
+  "30-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 9.960699648598911e-5,
+    "shift": 365
+  },
+  "30-PRODUCE": {
+    "adf_p": 0.10213969247486776,
+    "shift": 21
+  },
+  "30-PREPARED FOODS": {
+    "adf_p": 4.095417010473809e-7,
+    "shift": 21
+  },
+  "30-POULTRY": {
+    "adf_p": 0.00011300717562068867,
+    "shift": 21
+  },
+  "30-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.019208272049172095,
+    "shift": 21
+  },
+  "30-PET SUPPLIES": {
+    "adf_p": 0.13582416699200112,
+    "shift": 28
+  },
+  "30-PERSONAL CARE": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "30-MEATS": {
+    "adf_p": 3.430395734685201e-8,
+    "shift": 21
+  },
+  "30-MAGAZINES": {
+    "adf_p": 0.04103986326424874,
+    "shift": 180
+  },
+  "30-LIQUOR,WINE,BEER": {
+    "adf_p": 1.2008236334247885e-9,
+    "shift": 21
+  },
+  "30-LINGERIE": {
+    "adf_p": 3.858534008246511e-5,
+    "shift": 16
+  },
+  "30-LADIESWEAR": {
+    "adf_p": 1.2207632329618598e-7,
+    "shift": 28
+  },
+  "30-HOME CARE": {
+    "adf_p": 0.01884943005135841,
+    "shift": 16
+  },
+  "30-HOME APPLIANCES": {
+    "adf_p": 8.376549646921653e-6,
+    "shift": 30
+  },
+  "30-CLEANING": {
+    "adf_p": 1.5051116288328818e-6,
+    "shift": 60
+  },
+  "30-DAIRY": {
+    "adf_p": 0.11270582694817133,
+    "shift": 28
+  },
+  "30-DELI": {
+    "adf_p": 0.0010768544382809089,
+    "shift": 28
+  },
+  "30-EGGS": {
+    "adf_p": 0.06068391999173474,
+    "shift": 28
+  },
+  "30-HOME AND KITCHEN II": {
+    "adf_p": 0.007944345357357907,
+    "shift": 16
+  },
+  "30-HOME AND KITCHEN I": {
+    "adf_p": 0.01815991620977036,
+    "shift": 16
+  },
+  "30-HARDWARE": {
+    "adf_p": 1.5733747325516497e-7,
+    "shift": 28
+  },
+  "30-GROCERY II": {
+    "adf_p": 3.211915856273092e-7,
+    "shift": 21
+  },
+  "30-GROCERY I": {
+    "adf_p": 5.137965411480442e-6,
+    "shift": 365
+  },
+  "30-FROZEN FOODS": {
+    "adf_p": 6.963110770987891e-18,
+    "shift": 365
+  },
+  "31-AUTOMOTIVE": {
+    "adf_p": 0.0010450977794199874,
+    "shift": 28
+  },
+  "31-CELEBRATION": {
+    "adf_p": 0.018161729221734684,
+    "shift": 21
+  },
+  "31-BREAD/BAKERY": {
+    "adf_p": 0.013827270653502187,
+    "shift": 28
+  },
+  "31-BEVERAGES": {
+    "adf_p": 0.07450676033358439,
+    "shift": 21
+  },
+  "31-BEAUTY": {
+    "adf_p": 5.094540469262865e-5,
+    "shift": 28
+  },
+  "31-BABY CARE": {
+    "adf_p": 0.001180550740302387,
+    "shift": 21
+  },
+  "31-SEAFOOD": {
+    "adf_p": 0.00023589948016373275,
+    "shift": 21
+  },
+  "31-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0005800376136102124,
+    "shift": 21
+  },
+  "31-PRODUCE": {
+    "adf_p": 0.02139345481870078,
+    "shift": 21
+  },
+  "31-PREPARED FOODS": {
+    "adf_p": 0.029899023544301854,
+    "shift": 28
+  },
+  "31-POULTRY": {
+    "adf_p": 9.065123617997068e-5,
+    "shift": 365
+  },
+  "31-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.014716998363561013,
+    "shift": 21
+  },
+  "31-PET SUPPLIES": {
+    "adf_p": 0.4693289864438194,
+    "shift": 21
+  },
+  "31-PERSONAL CARE": {
+    "adf_p": 0.00010972589848285807,
+    "shift": 28
+  },
+  "31-MEATS": {
+    "adf_p": 0.03135574043264815,
+    "shift": 28
+  },
+  "31-MAGAZINES": {
+    "adf_p": 0.02528467387933978,
+    "shift": 90
+  },
+  "31-LIQUOR,WINE,BEER": {
+    "adf_p": 4.53726150907126e-11,
+    "shift": 21
+  },
+  "31-LINGERIE": {
+    "adf_p": 0.0026876838761416,
+    "shift": 21
+  },
+  "31-LAWN AND GARDEN": {
+    "adf_p": 5.769367911375849e-9,
+    "shift": 28
+  },
+  "31-LADIESWEAR": {
+    "adf_p": 0.00019744832717298044,
+    "shift": 21
+  },
+  "31-HOME CARE": {
+    "adf_p": 0.02513433278917814,
+    "shift": 21
+  },
+  "31-HOME APPLIANCES": {
+    "adf_p": 8.146485172709138e-23,
+    "shift": 28
+  },
+  "31-CLEANING": {
+    "adf_p": 0.00020528296301345876,
+    "shift": 28
+  },
+  "31-DAIRY": {
+    "adf_p": 0.09689100520089972,
+    "shift": 28
+  },
+  "31-DELI": {
+    "adf_p": 0.020277758941842507,
+    "shift": 28
+  },
+  "31-EGGS": {
+    "adf_p": 0.16772040578453662,
+    "shift": 28
+  },
+  "31-HOME AND KITCHEN II": {
+    "adf_p": 0.010177186526520993,
+    "shift": 28
+  },
+  "31-HOME AND KITCHEN I": {
+    "adf_p": 0.06084316079036844,
+    "shift": 21
+  },
+  "31-HARDWARE": {
+    "adf_p": 1.348654393542622e-13,
+    "shift": 21
+  },
+  "31-GROCERY II": {
+    "adf_p": 4.096846047728003e-11,
+    "shift": 365
+  },
+  "31-GROCERY I": {
+    "adf_p": 4.6408774039718024e-7,
+    "shift": 28
+  },
+  "31-FROZEN FOODS": {
+    "adf_p": 4.4119064922917296e-11,
+    "shift": 365
+  },
+  "32-AUTOMOTIVE": {
+    "adf_p": 2.841839724308391e-24,
+    "shift": 90
+  },
+  "32-CELEBRATION": {
+    "adf_p": 2.1966265540475075e-5,
+    "shift": 28
+  },
+  "32-BREAD/BAKERY": {
+    "adf_p": 1.2732175395995555e-9,
+    "shift": 28
+  },
+  "32-BEVERAGES": {
+    "adf_p": 0.028635415537953443,
+    "shift": 21
+  },
+  "32-BEAUTY": {
+    "adf_p": 2.187769682330897e-5,
+    "shift": 16
+  },
+  "32-BABY CARE": {
+    "adf_p": 5.849542490416429e-9,
+    "shift": 21
+  },
+  "32-SEAFOOD": {
+    "adf_p": 0.0176765623098763,
+    "shift": 21
+  },
+  "32-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.00032204645837301287,
+    "shift": 365
+  },
+  "32-PRODUCE": {
+    "adf_p": 0.04502031169593171,
+    "shift": 21
+  },
+  "32-PREPARED FOODS": {
+    "adf_p": 0.0005296588047387021,
+    "shift": 28
+  },
+  "32-POULTRY": {
+    "adf_p": 4.89069502025917e-9,
+    "shift": 28
+  },
+  "32-PLAYERS AND ELECTRONICS": {
+    "adf_p": 1.0113885753058632e-10,
+    "shift": 365
+  },
+  "32-PET SUPPLIES": {
+    "adf_p": 0.20760327791436217,
+    "shift": 28
+  },
+  "32-PERSONAL CARE": {
+    "adf_p": 2.6714971500074124e-13,
+    "shift": 28
+  },
+  "32-MEATS": {
+    "adf_p": 0.007941563622029722,
+    "shift": 28
+  },
+  "32-MAGAZINES": {
+    "adf_p": 4.768485302335251e-10,
+    "shift": 180
+  },
+  "32-LIQUOR,WINE,BEER": {
+    "adf_p": 5.720287015624582e-7,
+    "shift": 28
+  },
+  "32-LINGERIE": {
+    "adf_p": 0.005917885956245025,
+    "shift": 21
+  },
+  "32-LAWN AND GARDEN": {
+    "adf_p": 2.3489268035552368e-12,
+    "shift": 16
+  },
+  "32-HOME CARE": {
+    "adf_p": 0.0039018573423500644,
+    "shift": 16
+  },
+  "32-HOME APPLIANCES": {
+    "adf_p": 7.771724511338453e-13,
+    "shift": 30
+  },
+  "32-CLEANING": {
+    "adf_p": 0.0004968880923316622,
+    "shift": 90
+  },
+  "32-DAIRY": {
+    "adf_p": 0.11427994551997939,
+    "shift": 28
+  },
+  "32-DELI": {
+    "adf_p": 0.01830476155895363,
+    "shift": 21
+  },
+  "32-EGGS": {
+    "adf_p": 0.46909731744641003,
+    "shift": 21
+  },
+  "32-HOME AND KITCHEN II": {
+    "adf_p": 0.019470835922583807,
+    "shift": 21
+  },
+  "32-HOME AND KITCHEN I": {
+    "adf_p": 0.0025404657877650403,
+    "shift": 21
+  },
+  "32-HARDWARE": {
+    "adf_p": 3.077500259363036e-19,
+    "shift": 21
+  },
+  "32-GROCERY II": {
+    "adf_p": 5.511124710406735e-10,
+    "shift": 21
+  },
+  "32-GROCERY I": {
+    "adf_p": 0.0001883555577571501,
+    "shift": 21
+  },
+  "32-FROZEN FOODS": {
+    "adf_p": 1.8341429572525838e-16,
+    "shift": 365
+  },
+  "33-AUTOMOTIVE": {
+    "adf_p": 0.0011744751832066798,
+    "shift": 28
+  },
+  "33-CELEBRATION": {
+    "adf_p": 0.0007307131309952419,
+    "shift": 60
+  },
+  "33-BREAD/BAKERY": {
+    "adf_p": 0.00071799332874285,
+    "shift": 28
+  },
+  "33-BEVERAGES": {
+    "adf_p": 0.012411167032201761,
+    "shift": 21
+  },
+  "33-BEAUTY": {
+    "adf_p": 0.00011926894250320144,
+    "shift": 28
+  },
+  "33-BABY CARE": {
+    "adf_p": 0.059982102483874415,
+    "shift": 21
+  },
+  "33-SEAFOOD": {
+    "adf_p": 0.0012476637726169112,
+    "shift": 28
+  },
+  "33-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.1569490526692446e-7,
+    "shift": 16
+  },
+  "33-PRODUCE": {
+    "adf_p": 0.012733816451908828,
+    "shift": 21
+  },
+  "33-PREPARED FOODS": {
+    "adf_p": 4.796940329911466e-6,
+    "shift": 21
+  },
+  "33-POULTRY": {
+    "adf_p": 0.016268966488214433,
+    "shift": 28
+  },
+  "33-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.010735209649034136,
+    "shift": 21
+  },
+  "33-PET SUPPLIES": {
+    "adf_p": 0.3448987901485927,
+    "shift": 21
+  },
+  "33-PERSONAL CARE": {
+    "adf_p": 3.8669171013402455e-8,
+    "shift": 28
+  },
+  "33-MEATS": {
+    "adf_p": 0.005971592896480306,
+    "shift": 28
+  },
+  "33-MAGAZINES": {
+    "adf_p": 0.011412830577609827,
+    "shift": 28
+  },
+  "33-LIQUOR,WINE,BEER": {
+    "adf_p": 1.793094676967137e-7,
+    "shift": 21
+  },
+  "33-LINGERIE": {
+    "adf_p": 0.008408795914052941,
+    "shift": 28
+  },
+  "33-LAWN AND GARDEN": {
+    "adf_p": 2.0269234987842487e-30,
+    "shift": 16
+  },
+  "33-HOME CARE": {
+    "adf_p": 0.0024374799136503726,
+    "shift": 21
+  },
+  "33-HOME APPLIANCES": {
+    "adf_p": 2.3153663488990104e-11,
+    "shift": 21
+  },
+  "33-CLEANING": {
+    "adf_p": 9.966906133546488e-6,
+    "shift": 28
+  },
+  "33-DAIRY": {
+    "adf_p": 0.13577368956239844,
+    "shift": 21
+  },
+  "33-DELI": {
+    "adf_p": 0.0002179672803502243,
+    "shift": 28
+  },
+  "33-EGGS": {
+    "adf_p": 0.005744461115594839,
+    "shift": 21
+  },
+  "33-HOME AND KITCHEN II": {
+    "adf_p": 0.07051652542455138,
+    "shift": 21
+  },
+  "33-HOME AND KITCHEN I": {
+    "adf_p": 0.002522540991907137,
+    "shift": 21
+  },
+  "33-HARDWARE": {
+    "adf_p": 3.5755548774091255e-9,
+    "shift": 28
+  },
+  "33-GROCERY II": {
+    "adf_p": 7.915919880074479e-11,
+    "shift": 16
+  },
+  "33-GROCERY I": {
+    "adf_p": 3.789753749204416e-10,
+    "shift": 28
+  },
+  "33-FROZEN FOODS": {
+    "adf_p": 2.7304257030146007e-13,
+    "shift": 365
+  },
+  "34-AUTOMOTIVE": {
+    "adf_p": 1.8291517353768068e-9,
+    "shift": 365
+  },
+  "34-CELEBRATION": {
+    "adf_p": 0.00019659698229209166,
+    "shift": 21
+  },
+  "34-BREAD/BAKERY": {
+    "adf_p": 0.00028050364524242306,
+    "shift": 28
+  },
+  "34-BEVERAGES": {
+    "adf_p": 0.006115358287876303,
+    "shift": 21
+  },
+  "34-BEAUTY": {
+    "adf_p": 5.98554541185311e-5,
+    "shift": 21
+  },
+  "34-BABY CARE": {
+    "adf_p": 0.0039009720701416594,
+    "shift": 16
+  },
+  "34-SEAFOOD": {
+    "adf_p": 0.0001415997428421606,
+    "shift": 16
+  },
+  "34-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.0116724609078931e-8,
+    "shift": 16
+  },
+  "34-PRODUCE": {
+    "adf_p": 0.006269970842677613,
+    "shift": 21
+  },
+  "34-PREPARED FOODS": {
+    "adf_p": 6.031864115031826e-9,
+    "shift": 28
+  },
+  "34-POULTRY": {
+    "adf_p": 4.1660673312687835e-5,
+    "shift": 28
+  },
+  "34-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.00024064319570676304,
+    "shift": 16
+  },
+  "34-PET SUPPLIES": {
+    "adf_p": 0.016458231666446905,
+    "shift": 16
+  },
+  "34-PERSONAL CARE": {
+    "adf_p": 6.000824887346603e-9,
+    "shift": 28
+  },
+  "34-MEATS": {
+    "adf_p": 6.381866865324815e-6,
+    "shift": 28
+  },
+  "34-MAGAZINES": {
+    "adf_p": 0.0767919171334206,
+    "shift": 28
+  },
+  "34-LIQUOR,WINE,BEER": {
+    "adf_p": 4.1513632926376735e-6,
+    "shift": 28
+  },
+  "34-LINGERIE": {
+    "adf_p": 0.0005163272720401004,
+    "shift": 16
+  },
+  "34-LAWN AND GARDEN": {
+    "adf_p": 0.06724105867185516,
+    "shift": 21
+  },
+  "34-LADIESWEAR": {
+    "adf_p": 0.022672818519028103,
+    "shift": 21
+  },
+  "34-HOME CARE": {
+    "adf_p": 0.00037040411024877914,
+    "shift": 16
+  },
+  "34-HOME APPLIANCES": {
+    "adf_p": 4.332038212459397e-8,
+    "shift": 16
+  },
+  "34-CLEANING": {
+    "adf_p": 9.085569276089376e-8,
+    "shift": 28
+  },
+  "34-DAIRY": {
+    "adf_p": 0.13225412937474873,
+    "shift": 28
+  },
+  "34-DELI": {
+    "adf_p": 0.0001517325794408538,
+    "shift": 28
+  },
+  "34-EGGS": {
+    "adf_p": 0.03195064976271862,
+    "shift": 21
+  },
+  "34-HOME AND KITCHEN II": {
+    "adf_p": 0.05521647840082943,
+    "shift": 16
+  },
+  "34-HOME AND KITCHEN I": {
+    "adf_p": 0.00010527067122821402,
+    "shift": 365
+  },
+  "34-HARDWARE": {
+    "adf_p": 7.101559016007089e-6,
+    "shift": 21
+  },
+  "34-GROCERY II": {
+    "adf_p": 2.084910479279551e-18,
+    "shift": 365
+  },
+  "34-GROCERY I": {
+    "adf_p": 9.539089900342483e-12,
+    "shift": 28
+  },
+  "34-FROZEN FOODS": {
+    "adf_p": 1.6638769465983454e-10,
+    "shift": 365
+  },
+  "35-AUTOMOTIVE": {
+    "adf_p": 0.00046487769780258865,
+    "shift": 28
+  },
+  "35-CELEBRATION": {
+    "adf_p": 0.008896531736450424,
+    "shift": 28
+  },
+  "35-BREAD/BAKERY": {
+    "adf_p": 0.00019285330384946124,
+    "shift": 21
+  },
+  "35-BEVERAGES": {
+    "adf_p": 0.1269559088728463,
+    "shift": 21
+  },
+  "35-BEAUTY": {
+    "adf_p": 3.070484093073702e-23,
+    "shift": 180
+  },
+  "35-BABY CARE": {
+    "adf_p": 7.21955562008719e-5,
+    "shift": 21
+  },
+  "35-SEAFOOD": {
+    "adf_p": 9.22012293850582e-7,
+    "shift": 21
+  },
+  "35-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.254504312823151e-5,
+    "shift": 365
+  },
+  "35-PRODUCE": {
+    "adf_p": 0.04118107903294237,
+    "shift": 21
+  },
+  "35-PREPARED FOODS": {
+    "adf_p": 0.003008842256784004,
+    "shift": 21
+  },
+  "35-POULTRY": {
+    "adf_p": 0.02008186406550629,
+    "shift": 21
+  },
+  "35-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0003084966031387974,
+    "shift": 21
+  },
+  "35-PET SUPPLIES": {
+    "adf_p": 0.1828633239272397,
+    "shift": 30
+  },
+  "35-PERSONAL CARE": {
+    "adf_p": 1.4613078817378472e-9,
+    "shift": 28
+  },
+  "35-MEATS": {
+    "adf_p": 0.03776870597181862,
+    "shift": 28
+  },
+  "35-MAGAZINES": {
+    "adf_p": 0.07733138118353494,
+    "shift": 90
+  },
+  "35-LIQUOR,WINE,BEER": {
+    "adf_p": 3.8441318057031445e-8,
+    "shift": 21
+  },
+  "35-LINGERIE": {
+    "adf_p": 7.684146494673986e-7,
+    "shift": 30
+  },
+  "35-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "35-HOME CARE": {
+    "adf_p": 0.020041487415141578,
+    "shift": 21
+  },
+  "35-HOME APPLIANCES": {
+    "adf_p": 5.046689787717945e-16,
+    "shift": 21
+  },
+  "35-CLEANING": {
+    "adf_p": 0.0019072165663218017,
+    "shift": 28
+  },
+  "35-DAIRY": {
+    "adf_p": 0.16844755939822742,
+    "shift": 28
+  },
+  "35-DELI": {
+    "adf_p": 0.08097212662849823,
+    "shift": 28
+  },
+  "35-EGGS": {
+    "adf_p": 0.20467790365035626,
+    "shift": 21
+  },
+  "35-HOME AND KITCHEN II": {
+    "adf_p": 0.0004518495840060757,
+    "shift": 28
+  },
+  "35-HOME AND KITCHEN I": {
+    "adf_p": 0.00025816898207484123,
+    "shift": 21
+  },
+  "35-HARDWARE": {
+    "adf_p": 4.1303393210540296e-13,
+    "shift": 28
+  },
+  "35-GROCERY II": {
+    "adf_p": 1.7549553723056963e-7,
+    "shift": 21
+  },
+  "35-GROCERY I": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "35-FROZEN FOODS": {
+    "adf_p": 8.033012052344948e-8,
+    "shift": 28
+  },
+  "36-AUTOMOTIVE": {
+    "adf_p": 0.000310809409397708,
+    "shift": 16
+  },
+  "36-CELEBRATION": {
+    "adf_p": 0.01780116011364665,
+    "shift": 16
+  },
+  "36-BREAD/BAKERY": {
+    "adf_p": 0.0049726381776233715,
+    "shift": 21
+  },
+  "36-BEVERAGES": {
+    "adf_p": 0.09733973938225293,
+    "shift": 21
+  },
+  "36-BEAUTY": {
+    "adf_p": 0.00022367379711153628,
+    "shift": 28
+  },
+  "36-BABY CARE": {
+    "adf_p": 5.773134822634511e-7,
+    "shift": 16
+  },
+  "36-SEAFOOD": {
+    "adf_p": 5.329044818846861e-5,
+    "shift": 21
+  },
+  "36-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 8.87871766941787e-5,
+    "shift": 16
+  },
+  "36-PRODUCE": {
+    "adf_p": 0.06927373815532199,
+    "shift": 21
+  },
+  "36-PREPARED FOODS": {
+    "adf_p": 0.008988277868206489,
+    "shift": 28
+  },
+  "36-POULTRY": {
+    "adf_p": 0.001247961375758144,
+    "shift": 28
+  },
+  "36-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.019974876231368302,
+    "shift": 21
+  },
+  "36-PET SUPPLIES": {
+    "adf_p": 0.3249714964997756,
+    "shift": 16
+  },
+  "36-PERSONAL CARE": {
+    "adf_p": 0.004987190030121123,
+    "shift": 28
+  },
+  "36-MEATS": {
+    "adf_p": 0.04836831923952032,
+    "shift": 21
+  },
+  "36-MAGAZINES": {
+    "adf_p": 0.04099859579777195,
+    "shift": 21
+  },
+  "36-LIQUOR,WINE,BEER": {
+    "adf_p": 2.801551608226041e-6,
+    "shift": 28
+  },
+  "36-LINGERIE": {
+    "adf_p": 2.817041091264178e-15,
+    "shift": 16
+  },
+  "36-LAWN AND GARDEN": {
+    "adf_p": 0.5222208493771223,
+    "shift": 21
+  },
+  "36-LADIESWEAR": {
+    "adf_p": 2.144085990584001e-8,
+    "shift": 21
+  },
+  "36-HOME CARE": {
+    "adf_p": 0.06365059108607062,
+    "shift": 16
+  },
+  "36-HOME APPLIANCES": {
+    "adf_p": 8.137275174292777e-11,
+    "shift": 60
+  },
+  "36-CLEANING": {
+    "adf_p": 0.012745701100798324,
+    "shift": 28
+  },
+  "36-DAIRY": {
+    "adf_p": 0.12566257643246348,
+    "shift": 28
+  },
+  "36-DELI": {
+    "adf_p": 0.046900271617716996,
+    "shift": 28
+  },
+  "36-EGGS": {
+    "adf_p": 0.045635078646082086,
+    "shift": 28
+  },
+  "36-HOME AND KITCHEN II": {
+    "adf_p": 0.12025242354106258,
+    "shift": 21
+  },
+  "36-HOME AND KITCHEN I": {
+    "adf_p": 1.4800441319167108e-7,
+    "shift": 365
+  },
+  "36-HARDWARE": {
+    "adf_p": 3.0840124787487594e-14,
+    "shift": 16
+  },
+  "36-GROCERY II": {
+    "adf_p": 6.826383058973297e-16,
+    "shift": 365
+  },
+  "36-GROCERY I": {
+    "adf_p": 0.0052540763747767885,
+    "shift": 28
+  },
+  "36-FROZEN FOODS": {
+    "adf_p": 2.4021850108995644e-8,
+    "shift": 365
+  },
+  "37-AUTOMOTIVE": {
+    "adf_p": 5.017520728062558e-7,
+    "shift": 16
+  },
+  "37-CELEBRATION": {
+    "adf_p": 0.0010620740158151392,
+    "shift": 21
+  },
+  "37-BREAD/BAKERY": {
+    "adf_p": 0.02276538021617335,
+    "shift": 28
+  },
+  "37-BOOKS": {
+    "adf_p": 6.1972567847025e-5,
+    "shift": 16
+  },
+  "37-BEVERAGES": {
+    "adf_p": 0.0027803886232390263,
+    "shift": 16
+  },
+  "37-BEAUTY": {
+    "adf_p": 4.280120579132252e-7,
+    "shift": 28
+  },
+  "37-BABY CARE": {
+    "adf_p": 2.2978398036327857e-11,
+    "shift": 90
+  },
+  "37-SEAFOOD": {
+    "adf_p": 0.001209887938279918,
+    "shift": 21
+  },
+  "37-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.006670435185554961,
+    "shift": 21
+  },
+  "37-PRODUCE": {
+    "adf_p": 0.0035028581540987275,
+    "shift": 21
+  },
+  "37-PREPARED FOODS": {
+    "adf_p": 0.46231238105955774,
+    "shift": 21
+  },
+  "37-POULTRY": {
+    "adf_p": 0.15413234335995002,
+    "shift": 28
+  },
+  "37-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.029194424217053726,
+    "shift": 16
+  },
+  "37-PET SUPPLIES": {
+    "adf_p": 0.026227471473550437,
+    "shift": 16
+  },
+  "37-PERSONAL CARE": {
+    "adf_p": 2.263639253394098e-6,
+    "shift": 28
+  },
+  "37-MEATS": {
+    "adf_p": 0.022247411200210992,
+    "shift": 21
+  },
+  "37-MAGAZINES": {
+    "adf_p": 0.3489083311130704,
+    "shift": 28
+  },
+  "37-LIQUOR,WINE,BEER": {
+    "adf_p": 3.1174359016129064e-6,
+    "shift": 21
+  },
+  "37-LINGERIE": {
+    "adf_p": 1.417077461433979e-7,
+    "shift": 16
+  },
+  "37-LAWN AND GARDEN": {
+    "adf_p": 0.3316927790548315,
+    "shift": 28
+  },
+  "37-LADIESWEAR": {
+    "adf_p": 0.00016378662644065938,
+    "shift": 21
+  },
+  "37-HOME CARE": {
+    "adf_p": 0.003969596412713013,
+    "shift": 16
+  },
+  "37-HOME APPLIANCES": {
+    "adf_p": 6.852242751121434e-16,
+    "shift": 28
+  },
+  "37-CLEANING": {
+    "adf_p": 0.0001288863104892219,
+    "shift": 28
+  },
+  "37-DAIRY": {
+    "adf_p": 0.09537625176150533,
+    "shift": 28
+  },
+  "37-DELI": {
+    "adf_p": 0.03278386598043473,
+    "shift": 28
+  },
+  "37-EGGS": {
+    "adf_p": 0.08403913248830552,
+    "shift": 28
+  },
+  "37-HOME AND KITCHEN II": {
+    "adf_p": 0.004985565775192804,
+    "shift": 28
+  },
+  "37-HOME AND KITCHEN I": {
+    "adf_p": 0.002127258927823318,
+    "shift": 16
+  },
+  "37-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "37-GROCERY II": {
+    "adf_p": 9.8204753786233e-16,
+    "shift": 30
+  },
+  "37-GROCERY I": {
+    "adf_p": 4.444368587185327e-6,
+    "shift": 28
+  },
+  "37-FROZEN FOODS": {
+    "adf_p": 1.6029171975045808e-17,
+    "shift": 365
+  },
+  "38-AUTOMOTIVE": {
+    "adf_p": 1.5937757394949174e-6,
+    "shift": 28
+  },
+  "38-CELEBRATION": {
+    "adf_p": 0.005108705445947675,
+    "shift": 21
+  },
+  "38-BREAD/BAKERY": {
+    "adf_p": 0.042213390521658956,
+    "shift": 21
+  },
+  "38-BOOKS": {
+    "adf_p": 0.007361130258061948,
+    "shift": 21
+  },
+  "38-BEVERAGES": {
+    "adf_p": 0.0019192480781329375,
+    "shift": 21
+  },
+  "38-BEAUTY": {
+    "adf_p": 0.004661752450308357,
+    "shift": 28
+  },
+  "38-BABY CARE": {
+    "adf_p": 0.0,
+    "shift": 16
+  },
+  "38-SEAFOOD": {
+    "adf_p": 9.974006218450543e-7,
+    "shift": 21
+  },
+  "38-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0010631943857030272,
+    "shift": 30
+  },
+  "38-PRODUCE": {
+    "adf_p": 0.005198217496602931,
+    "shift": 21
+  },
+  "38-PREPARED FOODS": {
+    "adf_p": 0.017592174673984783,
+    "shift": 21
+  },
+  "38-POULTRY": {
+    "adf_p": 0.08441236012461117,
+    "shift": 21
+  },
+  "38-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0016584574805470064,
+    "shift": 21
+  },
+  "38-PET SUPPLIES": {
+    "adf_p": 0.04465904208125476,
+    "shift": 21
+  },
+  "38-PERSONAL CARE": {
+    "adf_p": 0.0009788051551170894,
+    "shift": 28
+  },
+  "38-MEATS": {
+    "adf_p": 0.012089508497468624,
+    "shift": 21
+  },
+  "38-MAGAZINES": {
+    "adf_p": 0.30719540515090393,
+    "shift": 28
+  },
+  "38-LIQUOR,WINE,BEER": {
+    "adf_p": 5.094398816717344e-9,
+    "shift": 28
+  },
+  "38-LINGERIE": {
+    "adf_p": 0.004294159039315606,
+    "shift": 21
+  },
+  "38-LAWN AND GARDEN": {
+    "adf_p": 0.23687402222433435,
+    "shift": 21
+  },
+  "38-LADIESWEAR": {
+    "adf_p": 0.0028931786240823363,
+    "shift": 21
+  },
+  "38-HOME CARE": {
+    "adf_p": 0.00677247263399649,
+    "shift": 21
+  },
+  "38-HOME APPLIANCES": {
+    "adf_p": 0.0005794593855800251,
+    "shift": 28
+  },
+  "38-CLEANING": {
+    "adf_p": 2.6506101220661994e-8,
+    "shift": 28
+  },
+  "38-DAIRY": {
+    "adf_p": 0.06286006106248201,
+    "shift": 21
+  },
+  "38-DELI": {
+    "adf_p": 0.01305248177161095,
+    "shift": 21
+  },
+  "38-EGGS": {
+    "adf_p": 0.1335037001653291,
+    "shift": 21
+  },
+  "38-HOME AND KITCHEN II": {
+    "adf_p": 0.0023866668121565503,
+    "shift": 21
+  },
+  "38-HOME AND KITCHEN I": {
+    "adf_p": 0.001703193633163471,
+    "shift": 21
+  },
+  "38-HARDWARE": {
+    "adf_p": 7.888788071731807e-19,
+    "shift": 90
+  },
+  "38-GROCERY II": {
+    "adf_p": 3.3182760747049335e-10,
+    "shift": 365
+  },
+  "38-GROCERY I": {
+    "adf_p": 2.5608583031730063e-8,
+    "shift": 28
+  },
+  "38-FROZEN FOODS": {
+    "adf_p": 1.554973748693982e-10,
+    "shift": 365
+  },
+  "39-AUTOMOTIVE": {
+    "adf_p": 0.0,
+    "shift": 21
+  },
+  "39-CELEBRATION": {
+    "adf_p": 0.001112833334961297,
+    "shift": 21
+  },
+  "39-BREAD/BAKERY": {
+    "adf_p": 3.066268085206344e-5,
+    "shift": 28
+  },
+  "39-BEVERAGES": {
+    "adf_p": 0.04832762576736872,
+    "shift": 21
+  },
+  "39-BEAUTY": {
+    "adf_p": 0.0003779626050763842,
+    "shift": 21
+  },
+  "39-BABY CARE": {
+    "adf_p": 0.010935109165346646,
+    "shift": 21
+  },
+  "39-SEAFOOD": {
+    "adf_p": 0.019425526818812724,
+    "shift": 21
+  },
+  "39-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 2.4722600296406705e-6,
+    "shift": 365
+  },
+  "39-PRODUCE": {
+    "adf_p": 0.03555874380856744,
+    "shift": 21
+  },
+  "39-PREPARED FOODS": {
+    "adf_p": 0.07014345435735621,
+    "shift": 21
+  },
+  "39-POULTRY": {
+    "adf_p": 0.13046378467276182,
+    "shift": 21
+  },
+  "39-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.04048830459762842,
+    "shift": 21
+  },
+  "39-PET SUPPLIES": {
+    "adf_p": 0.4632049022090898,
+    "shift": 21
+  },
+  "39-PERSONAL CARE": {
+    "adf_p": 0.0003008003256211423,
+    "shift": 28
+  },
+  "39-MEATS": {
+    "adf_p": 0.0,
+    "shift": 21
+  },
+  "39-MAGAZINES": {
+    "adf_p": 0.03650377690641288,
+    "shift": 21
+  },
+  "39-LIQUOR,WINE,BEER": {
+    "adf_p": 2.73863184047963e-8,
+    "shift": 21
+  },
+  "39-LINGERIE": {
+    "adf_p": 5.048815775736057e-6,
+    "shift": 28
+  },
+  "39-LAWN AND GARDEN": {
+    "adf_p": 0.2803873839308525,
+    "shift": 21
+  },
+  "39-LADIESWEAR": {
+    "adf_p": 0.009847757182923621,
+    "shift": 21
+  },
+  "39-HOME CARE": {
+    "adf_p": 0.048556059202181,
+    "shift": 21
+  },
+  "39-HOME APPLIANCES": {
+    "adf_p": 8.706323234883499e-23,
+    "shift": 21
+  },
+  "39-CLEANING": {
+    "adf_p": 0.002100306838345985,
+    "shift": 28
+  },
+  "39-DAIRY": {
+    "adf_p": 0.34981572960124974,
+    "shift": 28
+  },
+  "39-DELI": {
+    "adf_p": 0.1275082877632699,
+    "shift": 28
+  },
+  "39-EGGS": {
+    "adf_p": 0.2754953336287934,
+    "shift": 21
+  },
+  "39-HOME AND KITCHEN II": {
+    "adf_p": 0.08314437261831614,
+    "shift": 21
+  },
+  "39-HOME AND KITCHEN I": {
+    "adf_p": 0.003809695058060655,
+    "shift": 28
+  },
+  "39-HARDWARE": {
+    "adf_p": 2.625954076127137e-12,
+    "shift": 21
+  },
+  "39-GROCERY II": {
+    "adf_p": 4.442451799501483e-7,
+    "shift": 365
+  },
+  "39-GROCERY I": {
+    "adf_p": 0.001032810400823707,
+    "shift": 28
+  },
+  "39-FROZEN FOODS": {
+    "adf_p": 1.9412230090121972e-10,
+    "shift": 365
+  },
+  "40-AUTOMOTIVE": {
+    "adf_p": 0.00021592751998940855,
+    "shift": 365
+  },
+  "40-CELEBRATION": {
+    "adf_p": 0.0003906526193045232,
+    "shift": 21
+  },
+  "40-BREAD/BAKERY": {
+    "adf_p": 0.019464174375197877,
+    "shift": 28
+  },
+  "40-BEVERAGES": {
+    "adf_p": 0.2797761486582352,
+    "shift": 21
+  },
+  "40-BEAUTY": {
+    "adf_p": 1.881513182531046e-7,
+    "shift": 28
+  },
+  "40-BABY CARE": {
+    "adf_p": 1.1161146988306896e-6,
+    "shift": 30
+  },
+  "40-SEAFOOD": {
+    "adf_p": 0.008477665655863614,
+    "shift": 28
+  },
+  "40-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.1097289378094378e-6,
+    "shift": 365
+  },
+  "40-PRODUCE": {
+    "adf_p": 0.031817918768909124,
+    "shift": 21
+  },
+  "40-PREPARED FOODS": {
+    "adf_p": 0.05817472621983833,
+    "shift": 365
+  },
+  "40-POULTRY": {
+    "adf_p": 0.001684623690289966,
+    "shift": 365
+  },
+  "40-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.19458824279854298,
+    "shift": 21
+  },
+  "40-PET SUPPLIES": {
+    "adf_p": 0.5207317244842546,
+    "shift": 28
+  },
+  "40-PERSONAL CARE": {
+    "adf_p": 0.009393276324623593,
+    "shift": 365
+  },
+  "40-MEATS": {
+    "adf_p": 0.16571454400696278,
+    "shift": 28
+  },
+  "40-MAGAZINES": {
+    "adf_p": 0.05572057222333872,
+    "shift": 28
+  },
+  "40-LIQUOR,WINE,BEER": {
+    "adf_p": 2.9111623475099394e-7,
+    "shift": 21
+  },
+  "40-LINGERIE": {
+    "adf_p": 3.11454279066313e-5,
+    "shift": 365
+  },
+  "40-LAWN AND GARDEN": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "40-HOME CARE": {
+    "adf_p": 0.06254883020445447,
+    "shift": 21
+  },
+  "40-HOME APPLIANCES": {
+    "adf_p": 1.521306077294309e-8,
+    "shift": 16
+  },
+  "40-CLEANING": {
+    "adf_p": 0.38144003975393587,
+    "shift": 28
+  },
+  "40-DAIRY": {
+    "adf_p": 0.3864174055016076,
+    "shift": 28
+  },
+  "40-DELI": {
+    "adf_p": 0.10833139043746737,
+    "shift": 28
+  },
+  "40-EGGS": {
+    "adf_p": 0.1297425074616277,
+    "shift": 28
+  },
+  "40-HOME AND KITCHEN II": {
+    "adf_p": 0.043490016678791474,
+    "shift": 16
+  },
+  "40-HOME AND KITCHEN I": {
+    "adf_p": 1.8824493856875145e-5,
+    "shift": 16
+  },
+  "40-HARDWARE": {
+    "adf_p": 7.928841798922417e-5,
+    "shift": 21
+  },
+  "40-GROCERY II": {
+    "adf_p": 6.2994008674735435e-12,
+    "shift": 365
+  },
+  "40-GROCERY I": {
+    "adf_p": 0.05913381066404862,
+    "shift": 28
+  },
+  "40-FROZEN FOODS": {
+    "adf_p": 1.5235515806303157e-12,
+    "shift": 365
+  },
+  "41-AUTOMOTIVE": {
+    "adf_p": 0.0014630016623627617,
+    "shift": 21
+  },
+  "41-CELEBRATION": {
+    "adf_p": 0.1004314535292683,
+    "shift": 21
+  },
+  "41-BREAD/BAKERY": {
+    "adf_p": 0.09445327696917333,
+    "shift": 28
+  },
+  "41-BOOKS": {
+    "adf_p": 0.00011795556373319727,
+    "shift": 21
+  },
+  "41-BEVERAGES": {
+    "adf_p": 0.027448014912401945,
+    "shift": 21
+  },
+  "41-BEAUTY": {
+    "adf_p": 0.11247457833975194,
+    "shift": 21
+  },
+  "41-BABY CARE": {
+    "adf_p": 6.661891802408095e-13,
+    "shift": 16
+  },
+  "41-SEAFOOD": {
+    "adf_p": 7.36528381172689e-8,
+    "shift": 21
+  },
+  "41-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 9.022667984288232e-8,
+    "shift": 365
+  },
+  "41-PRODUCE": {
+    "adf_p": 0.059502959652644474,
+    "shift": 21
+  },
+  "41-PREPARED FOODS": {
+    "adf_p": 0.00019999349604413072,
+    "shift": 28
+  },
+  "41-POULTRY": {
+    "adf_p": 0.0344919247066078,
+    "shift": 21
+  },
+  "41-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0568966725646636,
+    "shift": 21
+  },
+  "41-PET SUPPLIES": {
+    "adf_p": 0.5509827987703739,
+    "shift": 21
+  },
+  "41-PERSONAL CARE": {
+    "adf_p": 0.00026752397148742575,
+    "shift": 28
+  },
+  "41-MEATS": {
+    "adf_p": 0.2521301351630232,
+    "shift": 21
+  },
+  "41-MAGAZINES": {
+    "adf_p": 0.24835601384647205,
+    "shift": 28
+  },
+  "41-LIQUOR,WINE,BEER": {
+    "adf_p": 2.602906667794967e-7,
+    "shift": 28
+  },
+  "41-LINGERIE": {
+    "adf_p": 0.0007449847851390776,
+    "shift": 21
+  },
+  "41-LAWN AND GARDEN": {
+    "adf_p": 0.16852978236808303,
+    "shift": 21
+  },
+  "41-LADIESWEAR": {
+    "adf_p": 0.07708177160756079,
+    "shift": 21
+  },
+  "41-HOME CARE": {
+    "adf_p": 0.023765404157030476,
+    "shift": 21
+  },
+  "41-HOME APPLIANCES": {
+    "adf_p": 0.001825448625239235,
+    "shift": 16
+  },
+  "41-CLEANING": {
+    "adf_p": 0.01949248263740661,
+    "shift": 28
+  },
+  "41-DAIRY": {
+    "adf_p": 0.2642455586776633,
+    "shift": 21
+  },
+  "41-DELI": {
+    "adf_p": 0.006814399838309117,
+    "shift": 28
+  },
+  "41-EGGS": {
+    "adf_p": 0.11839325430139214,
+    "shift": 21
+  },
+  "41-HOME AND KITCHEN II": {
+    "adf_p": 2.729572585109138e-5,
+    "shift": 16
+  },
+  "41-HOME AND KITCHEN I": {
+    "adf_p": 0.03179206246288624,
+    "shift": 28
+  },
+  "41-HARDWARE": {
+    "adf_p": 0.00025885641222599674,
+    "shift": 28
+  },
+  "41-GROCERY II": {
+    "adf_p": 2.7140633328358864e-5,
+    "shift": 28
+  },
+  "41-GROCERY I": {
+    "adf_p": 0.012911980423105214,
+    "shift": 28
+  },
+  "41-FROZEN FOODS": {
+    "adf_p": 1.2958649149383527e-12,
+    "shift": 365
+  },
+  "42-AUTOMOTIVE": {
+    "adf_p": 0.42156286839949986,
+    "shift": 28
+  },
+  "42-CELEBRATION": {
+    "adf_p": 0.33273704940334475,
+    "shift": 21
+  },
+  "42-BREAD/BAKERY": {
+    "adf_p": 0.6150786832080473,
+    "shift": 21
+  },
+  "42-BOOKS": {
+    "adf_p": 8.254346827610254e-5,
+    "shift": 16
+  },
+  "42-BEVERAGES": {
+    "adf_p": 0.5675572381022786,
+    "shift": 21
+  },
+  "42-BEAUTY": {
+    "adf_p": 0.3024454341542707,
+    "shift": 28
+  },
+  "42-BABY CARE": {
+    "adf_p": 8.905404029213865e-10,
+    "shift": 28
+  },
+  "42-SEAFOOD": {
+    "adf_p": 0.5461993656887658,
+    "shift": 28
+  },
+  "42-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0001476067458364598,
+    "shift": 21
+  },
+  "42-PRODUCE": {
+    "adf_p": 0.7301837414367571,
+    "shift": 21
+  },
+  "42-PREPARED FOODS": {
+    "adf_p": 0.5407674150823049,
+    "shift": 21
+  },
+  "42-POULTRY": {
+    "adf_p": 0.7739261705557048,
+    "shift": 21
+  },
+  "42-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.6373944634313014,
+    "shift": 21
+  },
+  "42-PET SUPPLIES": {
+    "adf_p": 0.8714287753272943,
+    "shift": 21
+  },
+  "42-PERSONAL CARE": {
+    "adf_p": 0.5256225564400604,
+    "shift": 28
+  },
+  "42-MEATS": {
+    "adf_p": 0.8108913605775285,
+    "shift": 21
+  },
+  "42-MAGAZINES": {
+    "adf_p": 0.5902011302932942,
+    "shift": 21
+  },
+  "42-LIQUOR,WINE,BEER": {
+    "adf_p": 0.4016681599284998,
+    "shift": 21
+  },
+  "42-LINGERIE": {
+    "adf_p": 0.02470895398606587,
+    "shift": 21
+  },
+  "42-LAWN AND GARDEN": {
+    "adf_p": 0.8825212796681701,
+    "shift": 21
+  },
+  "42-LADIESWEAR": {
+    "adf_p": 0.3978851043571332,
+    "shift": 21
+  },
+  "42-HOME CARE": {
+    "adf_p": 0.5629872855827248,
+    "shift": 28
+  },
+  "42-HOME APPLIANCES": {
+    "adf_p": 0.0001721031185435211,
+    "shift": 16
+  },
+  "42-CLEANING": {
+    "adf_p": 0.5819068678591721,
+    "shift": 28
+  },
+  "42-DAIRY": {
+    "adf_p": 0.7148541736070514,
+    "shift": 21
+  },
+  "42-DELI": {
+    "adf_p": 0.6629842915477643,
+    "shift": 21
+  },
+  "42-EGGS": {
+    "adf_p": 0.6577468370635883,
+    "shift": 21
+  },
+  "42-HOME AND KITCHEN II": {
+    "adf_p": 3.5522242611277824e-6,
+    "shift": 16
+  },
+  "42-HOME AND KITCHEN I": {
+    "adf_p": 0.3629217874591957,
+    "shift": 21
+  },
+  "42-HARDWARE": {
+    "adf_p": 0.1821565096651006,
+    "shift": 28
+  },
+  "42-GROCERY II": {
+    "adf_p": 0.13731717248267655,
+    "shift": 28
+  },
+  "42-GROCERY I": {
+    "adf_p": 0.610773143888792,
+    "shift": 28
+  },
+  "42-FROZEN FOODS": {
+    "adf_p": 0.000617155790000901,
+    "shift": 365
+  },
+  "43-AUTOMOTIVE": {
+    "adf_p": 8.711600114479769e-5,
+    "shift": 28
+  },
+  "43-CELEBRATION": {
+    "adf_p": 0.09626366119268182,
+    "shift": 21
+  },
+  "43-BREAD/BAKERY": {
+    "adf_p": 0.7275482178562545,
+    "shift": 21
+  },
+  "43-BEVERAGES": {
+    "adf_p": 0.1617375746439611,
+    "shift": 28
+  },
+  "43-BEAUTY": {
+    "adf_p": 4.209620179569738e-5,
+    "shift": 28
+  },
+  "43-BABY CARE": {
+    "adf_p": 4.611822999050666e-16,
+    "shift": 180
+  },
+  "43-SEAFOOD": {
+    "adf_p": 6.002724615714739e-19,
+    "shift": 28
+  },
+  "43-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0013338509397852192,
+    "shift": 16
+  },
+  "43-PRODUCE": {
+    "adf_p": 0.38992642642984665,
+    "shift": 21
+  },
+  "43-PREPARED FOODS": {
+    "adf_p": 0.6555250303308248,
+    "shift": 21
+  },
+  "43-POULTRY": {
+    "adf_p": 0.0,
+    "shift": 365
+  },
+  "43-PLAYERS AND ELECTRONICS": {
+    "adf_p": 4.0878199953218354e-5,
+    "shift": 28
+  },
+  "43-PET SUPPLIES": {
+    "adf_p": 0.6601800063154936,
+    "shift": 28
+  },
+  "43-PERSONAL CARE": {
+    "adf_p": 0.009228281765872154,
+    "shift": 28
+  },
+  "43-MEATS": {
+    "adf_p": 0.24059378754728689,
+    "shift": 21
+  },
+  "43-MAGAZINES": {
+    "adf_p": 0.006199917945103868,
+    "shift": 60
+  },
+  "43-LIQUOR,WINE,BEER": {
+    "adf_p": 1.715815599148447e-10,
+    "shift": 21
+  },
+  "43-LINGERIE": {
+    "adf_p": 0.006484245931689592,
+    "shift": 28
+  },
+  "43-LAWN AND GARDEN": {
+    "adf_p": 0.8418019284385463,
+    "shift": 28
+  },
+  "43-HOME CARE": {
+    "adf_p": 0.03652108705038066,
+    "shift": 21
+  },
+  "43-HOME APPLIANCES": {
+    "adf_p": 0.00016590679411815278,
+    "shift": 21
+  },
+  "43-CLEANING": {
+    "adf_p": 0.01615056904849062,
+    "shift": 28
+  },
+  "43-DAIRY": {
+    "adf_p": 0.7922161896101496,
+    "shift": 28
+  },
+  "43-DELI": {
+    "adf_p": 0.2314652172821569,
+    "shift": 28
+  },
+  "43-EGGS": {
+    "adf_p": 0.27196686027951295,
+    "shift": 21
+  },
+  "43-HOME AND KITCHEN II": {
+    "adf_p": 0.08184896065737424,
+    "shift": 16
+  },
+  "43-HOME AND KITCHEN I": {
+    "adf_p": 0.005602685609076717,
+    "shift": 16
+  },
+  "43-HARDWARE": {
+    "adf_p": 1.6839551382819972e-5,
+    "shift": 16
+  },
+  "43-GROCERY II": {
+    "adf_p": 2.842499150239854e-8,
+    "shift": 365
+  },
+  "43-GROCERY I": {
+    "adf_p": 0.08399370406023576,
+    "shift": 28
+  },
+  "43-FROZEN FOODS": {
+    "adf_p": 7.893527073344177e-10,
+    "shift": 365
+  },
+  "44-AUTOMOTIVE": {
+    "adf_p": 5.869737755238073e-6,
+    "shift": 21
+  },
+  "44-CELEBRATION": {
+    "adf_p": 2.5871893051940934e-5,
+    "shift": 21
+  },
+  "44-BREAD/BAKERY": {
+    "adf_p": 0.19322661747238556,
+    "shift": 21
+  },
+  "44-BOOKS": {
+    "adf_p": 0.01418536894422367,
+    "shift": 16
+  },
+  "44-BEVERAGES": {
+    "adf_p": 0.03384302503580066,
+    "shift": 21
+  },
+  "44-BEAUTY": {
+    "adf_p": 0.07591898189726237,
+    "shift": 28
+  },
+  "44-SEAFOOD": {
+    "adf_p": 9.198044783682693e-7,
+    "shift": 28
+  },
+  "44-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0013160222945418605,
+    "shift": 365
+  },
+  "44-PRODUCE": {
+    "adf_p": 0.0056492846309789445,
+    "shift": 21
+  },
+  "44-PREPARED FOODS": {
+    "adf_p": 0.089687490151582,
+    "shift": 21
+  },
+  "44-POULTRY": {
+    "adf_p": 0.11190654575767545,
+    "shift": 28
+  },
+  "44-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.008036953151466285,
+    "shift": 21
+  },
+  "44-PET SUPPLIES": {
+    "adf_p": 0.10062355804475853,
+    "shift": 21
+  },
+  "44-PERSONAL CARE": {
+    "adf_p": 2.68281229769558e-6,
+    "shift": 28
+  },
+  "44-MEATS": {
+    "adf_p": 7.139774273284599e-10,
+    "shift": 28
+  },
+  "44-MAGAZINES": {
+    "adf_p": 0.42057855604536526,
+    "shift": 28
+  },
+  "44-LIQUOR,WINE,BEER": {
+    "adf_p": 3.0206534432840177e-7,
+    "shift": 21
+  },
+  "44-LINGERIE": {
+    "adf_p": 1.0430090180941229e-13,
+    "shift": 16
+  },
+  "44-LAWN AND GARDEN": {
+    "adf_p": 0.21824752821741905,
+    "shift": 21
+  },
+  "44-LADIESWEAR": {
+    "adf_p": 0.0014860274082580875,
+    "shift": 21
+  },
+  "44-HOME CARE": {
+    "adf_p": 0.019085442019563408,
+    "shift": 21
+  },
+  "44-HOME APPLIANCES": {
+    "adf_p": 0.0001537970068923672,
+    "shift": 21
+  },
+  "44-CLEANING": {
+    "adf_p": 1.3560450937398857e-7,
+    "shift": 28
+  },
+  "44-DAIRY": {
+    "adf_p": 0.10806369558224532,
+    "shift": 21
+  },
+  "44-DELI": {
+    "adf_p": 1.3838335664471932e-6,
+    "shift": 28
+  },
+  "44-EGGS": {
+    "adf_p": 5.7103555571358624e-5,
+    "shift": 28
+  },
+  "44-HOME AND KITCHEN II": {
+    "adf_p": 0.00027736064191046205,
+    "shift": 28
+  },
+  "44-HOME AND KITCHEN I": {
+    "adf_p": 0.010141073598245072,
+    "shift": 16
+  },
+  "44-HARDWARE": {
+    "adf_p": 1.9763071116019674e-12,
+    "shift": 21
+  },
+  "44-GROCERY II": {
+    "adf_p": 2.516862714744884e-10,
+    "shift": 21
+  },
+  "44-GROCERY I": {
+    "adf_p": 3.117696137919672e-5,
+    "shift": 28
+  },
+  "44-FROZEN FOODS": {
+    "adf_p": 3.443685429525176e-10,
+    "shift": 365
+  },
+  "45-AUTOMOTIVE": {
+    "adf_p": 1.3368964269571852e-8,
+    "shift": 21
+  },
+  "45-CELEBRATION": {
+    "adf_p": 0.023822212838043436,
+    "shift": 21
+  },
+  "45-BREAD/BAKERY": {
+    "adf_p": 0.12222399719996369,
+    "shift": 21
+  },
+  "45-BOOKS": {
+    "adf_p": 0.001934475288030967,
+    "shift": 21
+  },
+  "45-BEVERAGES": {
+    "adf_p": 0.08416562454750615,
+    "shift": 21
+  },
+  "45-BEAUTY": {
+    "adf_p": 0.005131496418428913,
+    "shift": 21
+  },
+  "45-SEAFOOD": {
+    "adf_p": 2.5282931597393186e-6,
+    "shift": 28
+  },
+  "45-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.2093877595539979,
+    "shift": 16
+  },
+  "45-PRODUCE": {
+    "adf_p": 0.015115086074603832,
+    "shift": 21
+  },
+  "45-PREPARED FOODS": {
+    "adf_p": 0.00031043239988207886,
+    "shift": 21
+  },
+  "45-POULTRY": {
+    "adf_p": 0.13215452440551417,
+    "shift": 28
+  },
+  "45-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.003563829510074652,
+    "shift": 21
+  },
+  "45-PET SUPPLIES": {
+    "adf_p": 0.07133498658887374,
+    "shift": 21
+  },
+  "45-PERSONAL CARE": {
+    "adf_p": 0.007180786984980147,
+    "shift": 28
+  },
+  "45-MEATS": {
+    "adf_p": 2.1093297800793927e-6,
+    "shift": 28
+  },
+  "45-MAGAZINES": {
+    "adf_p": 0.27175992495272805,
+    "shift": 28
+  },
+  "45-LIQUOR,WINE,BEER": {
+    "adf_p": 0.00010937201103840467,
+    "shift": 21
+  },
+  "45-LINGERIE": {
+    "adf_p": 6.9451915407855895e-9,
+    "shift": 28
+  },
+  "45-LAWN AND GARDEN": {
+    "adf_p": 0.33764868952134536,
+    "shift": 21
+  },
+  "45-LADIESWEAR": {
+    "adf_p": 0.0032326918476847126,
+    "shift": 21
+  },
+  "45-HOME CARE": {
+    "adf_p": 0.01994680135482115,
+    "shift": 21
+  },
+  "45-HOME APPLIANCES": {
+    "adf_p": 2.982914390707315e-5,
+    "shift": 21
+  },
+  "45-CLEANING": {
+    "adf_p": 5.496270317272752e-5,
+    "shift": 28
+  },
+  "45-DAIRY": {
+    "adf_p": 0.14193690450163005,
+    "shift": 28
+  },
+  "45-DELI": {
+    "adf_p": 0.02357164129582759,
+    "shift": 28
+  },
+  "45-EGGS": {
+    "adf_p": 4.462217427424323e-5,
+    "shift": 28
+  },
+  "45-HOME AND KITCHEN II": {
+    "adf_p": 0.016017472490729007,
+    "shift": 90
+  },
+  "45-HOME AND KITCHEN I": {
+    "adf_p": 0.01295010386714492,
+    "shift": 21
+  },
+  "45-HARDWARE": {
+    "adf_p": 0.0005490051764856851,
+    "shift": 28
+  },
+  "45-GROCERY II": {
+    "adf_p": 0.000364698069250626,
+    "shift": 21
+  },
+  "45-GROCERY I": {
+    "adf_p": 0.00024682326380659383,
+    "shift": 28
+  },
+  "45-FROZEN FOODS": {
+    "adf_p": 8.122390115099315e-11,
+    "shift": 365
+  },
+  "46-AUTOMOTIVE": {
+    "adf_p": 1.5542676560064933e-10,
+    "shift": 28
+  },
+  "46-CELEBRATION": {
+    "adf_p": 0.02058712336423518,
+    "shift": 21
+  },
+  "46-BREAD/BAKERY": {
+    "adf_p": 0.1436887395146506,
+    "shift": 28
+  },
+  "46-BOOKS": {
+    "adf_p": 8.511025963116061e-5,
+    "shift": 30
+  },
+  "46-BEVERAGES": {
+    "adf_p": 0.06445561523943505,
+    "shift": 21
+  },
+  "46-BEAUTY": {
+    "adf_p": 0.014680271488525971,
+    "shift": 28
+  },
+  "46-SEAFOOD": {
+    "adf_p": 0.0008895935422276373,
+    "shift": 28
+  },
+  "46-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.08003086943341536,
+    "shift": 365
+  },
+  "46-PRODUCE": {
+    "adf_p": 0.012392240325361877,
+    "shift": 21
+  },
+  "46-PREPARED FOODS": {
+    "adf_p": 0.003578193631884288,
+    "shift": 21
+  },
+  "46-POULTRY": {
+    "adf_p": 0.008050951806717312,
+    "shift": 28
+  },
+  "46-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.018545407831318226,
+    "shift": 21
+  },
+  "46-PET SUPPLIES": {
+    "adf_p": 0.07047790648638419,
+    "shift": 21
+  },
+  "46-PERSONAL CARE": {
+    "adf_p": 0.0010948745315957165,
+    "shift": 28
+  },
+  "46-MEATS": {
+    "adf_p": 3.39315691015353e-5,
+    "shift": 28
+  },
+  "46-MAGAZINES": {
+    "adf_p": 0.10919901433961743,
+    "shift": 28
+  },
+  "46-LIQUOR,WINE,BEER": {
+    "adf_p": 2.2559114889956771e-10,
+    "shift": 21
+  },
+  "46-LINGERIE": {
+    "adf_p": 4.2078836774057687e-10,
+    "shift": 21
+  },
+  "46-LAWN AND GARDEN": {
+    "adf_p": 0.1737827124599025,
+    "shift": 21
+  },
+  "46-LADIESWEAR": {
+    "adf_p": 0.0018051692504104774,
+    "shift": 21
+  },
+  "46-HOME CARE": {
+    "adf_p": 0.006183774591373045,
+    "shift": 21
+  },
+  "46-HOME APPLIANCES": {
+    "adf_p": 0.0002855356184039535,
+    "shift": 21
+  },
+  "46-CLEANING": {
+    "adf_p": 2.6401627544389036e-7,
+    "shift": 28
+  },
+  "46-DAIRY": {
+    "adf_p": 0.07731775820644869,
+    "shift": 28
+  },
+  "46-DELI": {
+    "adf_p": 0.000359106015930223,
+    "shift": 28
+  },
+  "46-EGGS": {
+    "adf_p": 0.0003873619453060165,
+    "shift": 28
+  },
+  "46-HOME AND KITCHEN II": {
+    "adf_p": 0.000668669404155742,
+    "shift": 21
+  },
+  "46-HOME AND KITCHEN I": {
+    "adf_p": 0.006974472833614816,
+    "shift": 21
+  },
+  "46-HARDWARE": {
+    "adf_p": 7.760497543023848e-5,
+    "shift": 21
+  },
+  "46-GROCERY II": {
+    "adf_p": 1.9965324383642353e-12,
+    "shift": 365
+  },
+  "46-GROCERY I": {
+    "adf_p": 0.0011323919128761642,
+    "shift": 28
+  },
+  "46-FROZEN FOODS": {
+    "adf_p": 3.233900378300892e-16,
+    "shift": 365
+  },
+  "47-AUTOMOTIVE": {
+    "adf_p": 2.1122679938237054e-11,
+    "shift": 21
+  },
+  "47-CELEBRATION": {
+    "adf_p": 0.05170438082980882,
+    "shift": 21
+  },
+  "47-BREAD/BAKERY": {
+    "adf_p": 0.04614288918979552,
+    "shift": 28
+  },
+  "47-BOOKS": {
+    "adf_p": 0.09122785699670666,
+    "shift": 21
+  },
+  "47-BEVERAGES": {
+    "adf_p": 0.04143111132347506,
+    "shift": 21
+  },
+  "47-BEAUTY": {
+    "adf_p": 0.015595187190670472,
+    "shift": 28
+  },
+  "47-SEAFOOD": {
+    "adf_p": 0.00019209197619634476,
+    "shift": 28
+  },
+  "47-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.8581300903360128,
+    "shift": 365
+  },
+  "47-PRODUCE": {
+    "adf_p": 0.015161299488773039,
+    "shift": 21
+  },
+  "47-PREPARED FOODS": {
+    "adf_p": 0.0013870030869054344,
+    "shift": 21
+  },
+  "47-POULTRY": {
+    "adf_p": 0.07409059955313443,
+    "shift": 28
+  },
+  "47-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.011703271929995528,
+    "shift": 21
+  },
+  "47-PET SUPPLIES": {
+    "adf_p": 0.21018157463291465,
+    "shift": 21
+  },
+  "47-PERSONAL CARE": {
+    "adf_p": 0.005834332418263197,
+    "shift": 28
+  },
+  "47-MEATS": {
+    "adf_p": 0.00035939405660544334,
+    "shift": 28
+  },
+  "47-MAGAZINES": {
+    "adf_p": 0.13327974672475817,
+    "shift": 21
+  },
+  "47-LIQUOR,WINE,BEER": {
+    "adf_p": 1.430996282695632e-7,
+    "shift": 21
+  },
+  "47-LINGERIE": {
+    "adf_p": 1.094187926137636e-6,
+    "shift": 21
+  },
+  "47-LAWN AND GARDEN": {
+    "adf_p": 0.06131057484937758,
+    "shift": 21
+  },
+  "47-LADIESWEAR": {
+    "adf_p": 0.01338402844447608,
+    "shift": 21
+  },
+  "47-HOME CARE": {
+    "adf_p": 0.011434440527415372,
+    "shift": 21
+  },
+  "47-HOME APPLIANCES": {
+    "adf_p": 3.286317249570491e-5,
+    "shift": 21
+  },
+  "47-CLEANING": {
+    "adf_p": 1.5918731633064146e-5,
+    "shift": 28
+  },
+  "47-DAIRY": {
+    "adf_p": 0.20912284457660457,
+    "shift": 28
+  },
+  "47-DELI": {
+    "adf_p": 9.44711835002367e-5,
+    "shift": 28
+  },
+  "47-EGGS": {
+    "adf_p": 1.1299934406229215e-7,
+    "shift": 28
+  },
+  "47-HOME AND KITCHEN II": {
+    "adf_p": 0.00042711872265502673,
+    "shift": 28
+  },
+  "47-HOME AND KITCHEN I": {
+    "adf_p": 0.008001566556747646,
+    "shift": 21
+  },
+  "47-HARDWARE": {
+    "adf_p": 0.0003602115733654366,
+    "shift": 28
+  },
+  "47-GROCERY II": {
+    "adf_p": 1.2804976105665995e-6,
+    "shift": 365
+  },
+  "47-GROCERY I": {
+    "adf_p": 0.009719383338557744,
+    "shift": 28
+  },
+  "47-FROZEN FOODS": {
+    "adf_p": 3.5702190694435564e-12,
+    "shift": 365
+  },
+  "48-AUTOMOTIVE": {
+    "adf_p": 1.170642414604169e-5,
+    "shift": 28
+  },
+  "48-CELEBRATION": {
+    "adf_p": 0.010823380033337644,
+    "shift": 21
+  },
+  "48-BREAD/BAKERY": {
+    "adf_p": 0.08915738150974023,
+    "shift": 28
+  },
+  "48-BOOKS": {
+    "adf_p": 5.67256126840107e-7,
+    "shift": 21
+  },
+  "48-BEVERAGES": {
+    "adf_p": 0.07584500670332765,
+    "shift": 21
+  },
+  "48-BEAUTY": {
+    "adf_p": 0.03511158745635018,
+    "shift": 28
+  },
+  "48-SEAFOOD": {
+    "adf_p": 9.619624298940315e-5,
+    "shift": 28
+  },
+  "48-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 9.090418652989284e-7,
+    "shift": 365
+  },
+  "48-PRODUCE": {
+    "adf_p": 0.009117815989367591,
+    "shift": 21
+  },
+  "48-PREPARED FOODS": {
+    "adf_p": 0.0010260785911955167,
+    "shift": 21
+  },
+  "48-POULTRY": {
+    "adf_p": 0.0015903772405527002,
+    "shift": 28
+  },
+  "48-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0009852213480952192,
+    "shift": 21
+  },
+  "48-PET SUPPLIES": {
+    "adf_p": 0.10853226796921867,
+    "shift": 21
+  },
+  "48-PERSONAL CARE": {
+    "adf_p": 0.0011015278435004446,
+    "shift": 28
+  },
+  "48-MEATS": {
+    "adf_p": 2.8466370713152907e-11,
+    "shift": 28
+  },
+  "48-MAGAZINES": {
+    "adf_p": 0.011281324806878833,
+    "shift": 21
+  },
+  "48-LIQUOR,WINE,BEER": {
+    "adf_p": 2.1675896106651594e-10,
+    "shift": 365
+  },
+  "48-LINGERIE": {
+    "adf_p": 4.463486507079054e-5,
+    "shift": 21
+  },
+  "48-LAWN AND GARDEN": {
+    "adf_p": 0.00290129786973604,
+    "shift": 90
+  },
+  "48-LADIESWEAR": {
+    "adf_p": 0.005392830753495614,
+    "shift": 21
+  },
+  "48-HOME CARE": {
+    "adf_p": 0.0245883798202093,
+    "shift": 21
+  },
+  "48-HOME APPLIANCES": {
+    "adf_p": 4.062952827973963e-5,
+    "shift": 21
+  },
+  "48-CLEANING": {
+    "adf_p": 1.5504394611949087e-7,
+    "shift": 28
+  },
+  "48-DAIRY": {
+    "adf_p": 0.06813615636974256,
+    "shift": 28
+  },
+  "48-DELI": {
+    "adf_p": 3.8763706562855155e-6,
+    "shift": 28
+  },
+  "48-EGGS": {
+    "adf_p": 4.4263482093698925e-5,
+    "shift": 28
+  },
+  "48-HOME AND KITCHEN II": {
+    "adf_p": 2.1453171713330288e-5,
+    "shift": 16
+  },
+  "48-HOME AND KITCHEN I": {
+    "adf_p": 0.00036339316204196984,
+    "shift": 21
+  },
+  "48-HARDWARE": {
+    "adf_p": 1.7314675226979017e-7,
+    "shift": 21
+  },
+  "48-GROCERY II": {
+    "adf_p": 4.521901240495935e-7,
+    "shift": 28
+  },
+  "48-GROCERY I": {
+    "adf_p": 0.00014154502415210244,
+    "shift": 28
+  },
+  "48-FROZEN FOODS": {
+    "adf_p": 3.3065380768738427e-10,
+    "shift": 365
+  },
+  "49-AUTOMOTIVE": {
+    "adf_p": 8.63425271155843e-5,
+    "shift": 28
+  },
+  "49-CELEBRATION": {
+    "adf_p": 0.10187184633179475,
+    "shift": 21
+  },
+  "49-BREAD/BAKERY": {
+    "adf_p": 0.4097045735794455,
+    "shift": 28
+  },
+  "49-BOOKS": {
+    "adf_p": 0.0017832582717905614,
+    "shift": 16
+  },
+  "49-BEVERAGES": {
+    "adf_p": 0.11385882089541738,
+    "shift": 21
+  },
+  "49-BEAUTY": {
+    "adf_p": 0.05129596108053223,
+    "shift": 28
+  },
+  "49-SEAFOOD": {
+    "adf_p": 0.008811202652699647,
+    "shift": 28
+  },
+  "49-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.001632546610434737,
+    "shift": 365
+  },
+  "49-PRODUCE": {
+    "adf_p": 0.08504738493880265,
+    "shift": 21
+  },
+  "49-PREPARED FOODS": {
+    "adf_p": 0.039181158641985125,
+    "shift": 21
+  },
+  "49-POULTRY": {
+    "adf_p": 0.25399967824794545,
+    "shift": 28
+  },
+  "49-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0087735218407892,
+    "shift": 21
+  },
+  "49-PET SUPPLIES": {
+    "adf_p": 0.23967354348385334,
+    "shift": 21
+  },
+  "49-PERSONAL CARE": {
+    "adf_p": 0.18690558467318868,
+    "shift": 28
+  },
+  "49-MEATS": {
+    "adf_p": 0.22563235360533956,
+    "shift": 28
+  },
+  "49-MAGAZINES": {
+    "adf_p": 0.26299650799153296,
+    "shift": 28
+  },
+  "49-LIQUOR,WINE,BEER": {
+    "adf_p": 5.0858333490093905e-6,
+    "shift": 21
+  },
+  "49-LINGERIE": {
+    "adf_p": 3.7978175376868695e-5,
+    "shift": 21
+  },
+  "49-LAWN AND GARDEN": {
+    "adf_p": 0.04594223602883884,
+    "shift": 21
+  },
+  "49-LADIESWEAR": {
+    "adf_p": 0.039292470107186006,
+    "shift": 21
+  },
+  "49-HOME CARE": {
+    "adf_p": 0.09027913297632872,
+    "shift": 21
+  },
+  "49-HOME APPLIANCES": {
+    "adf_p": 7.776073955651371e-6,
+    "shift": 16
+  },
+  "49-CLEANING": {
+    "adf_p": 0.10591362035786778,
+    "shift": 28
+  },
+  "49-DAIRY": {
+    "adf_p": 0.32468073374001694,
+    "shift": 28
+  },
+  "49-DELI": {
+    "adf_p": 0.19697382592462653,
+    "shift": 28
+  },
+  "49-EGGS": {
+    "adf_p": 0.16253494680197927,
+    "shift": 28
+  },
+  "49-HOME AND KITCHEN II": {
+    "adf_p": 0.037994845051194374,
+    "shift": 21
+  },
+  "49-HOME AND KITCHEN I": {
+    "adf_p": 9.687964472637659e-15,
+    "shift": 180
+  },
+  "49-HARDWARE": {
+    "adf_p": 3.7795671562188313e-19,
+    "shift": 28
+  },
+  "49-GROCERY II": {
+    "adf_p": 3.3333648145446826e-5,
+    "shift": 21
+  },
+  "49-GROCERY I": {
+    "adf_p": 0.02936544751578075,
+    "shift": 28
+  },
+  "49-FROZEN FOODS": {
+    "adf_p": 4.477393057156323e-14,
+    "shift": 365
+  },
+  "50-AUTOMOTIVE": {
+    "adf_p": 5.688895616203596e-12,
+    "shift": 21
+  },
+  "50-CELEBRATION": {
+    "adf_p": 0.0022985085966225655,
+    "shift": 21
+  },
+  "50-BREAD/BAKERY": {
+    "adf_p": 0.031153826925701598,
+    "shift": 28
+  },
+  "50-BOOKS": {
+    "adf_p": 0.0406747592273719,
+    "shift": 21
+  },
+  "50-BEVERAGES": {
+    "adf_p": 0.037127325720604835,
+    "shift": 21
+  },
+  "50-BEAUTY": {
+    "adf_p": 0.018048443529884318,
+    "shift": 21
+  },
+  "50-SEAFOOD": {
+    "adf_p": 1.1971410837401348e-5,
+    "shift": 28
+  },
+  "50-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 0.0028272688233596573,
+    "shift": 365
+  },
+  "50-PRODUCE": {
+    "adf_p": 0.02214559884209882,
+    "shift": 21
+  },
+  "50-PREPARED FOODS": {
+    "adf_p": 0.03536964907166867,
+    "shift": 21
+  },
+  "50-POULTRY": {
+    "adf_p": 0.07115222813477097,
+    "shift": 21
+  },
+  "50-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.01784628228210432,
+    "shift": 21
+  },
+  "50-PET SUPPLIES": {
+    "adf_p": 0.06544596661473841,
+    "shift": 21
+  },
+  "50-PERSONAL CARE": {
+    "adf_p": 0.009800897373040428,
+    "shift": 28
+  },
+  "50-MEATS": {
+    "adf_p": 0.07786960243218669,
+    "shift": 21
+  },
+  "50-MAGAZINES": {
+    "adf_p": 0.16822944511948584,
+    "shift": 21
+  },
+  "50-LIQUOR,WINE,BEER": {
+    "adf_p": 5.4348691757954605e-8,
+    "shift": 21
+  },
+  "50-LINGERIE": {
+    "adf_p": 2.3947673739568775e-6,
+    "shift": 21
+  },
+  "50-LAWN AND GARDEN": {
+    "adf_p": 0.00011936052263955933,
+    "shift": 21
+  },
+  "50-LADIESWEAR": {
+    "adf_p": 0.023307849662281107,
+    "shift": 21
+  },
+  "50-HOME CARE": {
+    "adf_p": 0.017224667700137294,
+    "shift": 21
+  },
+  "50-HOME APPLIANCES": {
+    "adf_p": 0.00014531154182016276,
+    "shift": 21
+  },
+  "50-CLEANING": {
+    "adf_p": 9.87589183912368e-7,
+    "shift": 28
+  },
+  "50-DAIRY": {
+    "adf_p": 0.09336070233917015,
+    "shift": 28
+  },
+  "50-DELI": {
+    "adf_p": 0.00011794786554118251,
+    "shift": 28
+  },
+  "50-EGGS": {
+    "adf_p": 5.70504463873303e-6,
+    "shift": 28
+  },
+  "50-HOME AND KITCHEN II": {
+    "adf_p": 2.8913500465783018e-5,
+    "shift": 21
+  },
+  "50-HOME AND KITCHEN I": {
+    "adf_p": 1.0784932709291282e-5,
+    "shift": 21
+  },
+  "50-HARDWARE": {
+    "adf_p": 5.4783823780879866e-6,
+    "shift": 28
+  },
+  "50-GROCERY II": {
+    "adf_p": 4.080282619666679e-5,
+    "shift": 21
+  },
+  "50-GROCERY I": {
+    "adf_p": 3.6736077169917065e-5,
+    "shift": 28
+  },
+  "50-FROZEN FOODS": {
+    "adf_p": 9.69495322011225e-13,
+    "shift": 365
+  },
+  "51-AUTOMOTIVE": {
+    "adf_p": 2.0307714973590763e-6,
+    "shift": 21
+  },
+  "51-CELEBRATION": {
+    "adf_p": 0.02313628140869903,
+    "shift": 21
+  },
+  "51-BREAD/BAKERY": {
+    "adf_p": 0.02661452924209443,
+    "shift": 28
+  },
+  "51-BOOKS": {
+    "adf_p": 0.0029127166653819076,
+    "shift": 16
+  },
+  "51-BEVERAGES": {
+    "adf_p": 0.0015843698506243472,
+    "shift": 21
+  },
+  "51-BEAUTY": {
+    "adf_p": 0.001443394657291839,
+    "shift": 21
+  },
+  "51-SEAFOOD": {
+    "adf_p": 0.0002845102919342531,
+    "shift": 21
+  },
+  "51-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.0679642914127743e-6,
+    "shift": 16
+  },
+  "51-PRODUCE": {
+    "adf_p": 0.011953025257856862,
+    "shift": 21
+  },
+  "51-PREPARED FOODS": {
+    "adf_p": 0.20081103908146142,
+    "shift": 21
+  },
+  "51-POULTRY": {
+    "adf_p": 0.04280883108608821,
+    "shift": 21
+  },
+  "51-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.0004692143133232476,
+    "shift": 21
+  },
+  "51-PET SUPPLIES": {
+    "adf_p": 0.042601410182401656,
+    "shift": 21
+  },
+  "51-PERSONAL CARE": {
+    "adf_p": 3.027850046468255e-7,
+    "shift": 28
+  },
+  "51-MEATS": {
+    "adf_p": 1.7968251136947565e-7,
+    "shift": 21
+  },
+  "51-MAGAZINES": {
+    "adf_p": 0.11052647189399756,
+    "shift": 28
+  },
+  "51-LIQUOR,WINE,BEER": {
+    "adf_p": 4.4240959133419064e-10,
+    "shift": 21
+  },
+  "51-LINGERIE": {
+    "adf_p": 9.836529062168243e-8,
+    "shift": 21
+  },
+  "51-LAWN AND GARDEN": {
+    "adf_p": 0.6517913809030352,
+    "shift": 21
+  },
+  "51-LADIESWEAR": {
+    "adf_p": 0.00012095561963042521,
+    "shift": 21
+  },
+  "51-HOME CARE": {
+    "adf_p": 0.011417062864156302,
+    "shift": 21
+  },
+  "51-HOME APPLIANCES": {
+    "adf_p": 2.4745883068283524e-11,
+    "shift": 16
+  },
+  "51-CLEANING": {
+    "adf_p": 2.4997119120929244e-5,
+    "shift": 28
+  },
+  "51-DAIRY": {
+    "adf_p": 0.060091228065920474,
+    "shift": 21
+  },
+  "51-DELI": {
+    "adf_p": 0.00020652257816526268,
+    "shift": 21
+  },
+  "51-EGGS": {
+    "adf_p": 0.0009890083211682725,
+    "shift": 21
+  },
+  "51-HOME AND KITCHEN II": {
+    "adf_p": 0.00016855403517798375,
+    "shift": 90
+  },
+  "51-HOME AND KITCHEN I": {
+    "adf_p": 0.007031370098561122,
+    "shift": 30
+  },
+  "51-HARDWARE": {
+    "adf_p": 2.565729851965518e-15,
+    "shift": 180
+  },
+  "51-GROCERY II": {
+    "adf_p": 1.8491363925507933e-5,
+    "shift": 28
+  },
+  "51-GROCERY I": {
+    "adf_p": 8.355829874086802e-7,
+    "shift": 21
+  },
+  "51-FROZEN FOODS": {
+    "adf_p": 4.777405565022618e-10,
+    "shift": 365
+  },
+  "52-AUTOMOTIVE": {
+    "adf_p": 0.8944116982915087,
+    "shift": 28
+  },
+  "52-CELEBRATION": {
+    "adf_p": 0.9649105496908387,
+    "shift": 21
+  },
+  "52-BREAD/BAKERY": {
+    "adf_p": 0.9914463091048882,
+    "shift": 21
+  },
+  "52-BEVERAGES": {
+    "adf_p": 0.9478788738118835,
+    "shift": 21
+  },
+  "52-BEAUTY": {
+    "adf_p": 0.8858770511462601,
+    "shift": 21
+  },
+  "52-SEAFOOD": {
+    "adf_p": 0.23155420601192384,
+    "shift": 16
+  },
+  "52-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 3.131168247754561e-8,
+    "shift": 16
+  },
+  "52-PRODUCE": {
+    "adf_p": 0.9460283780478488,
+    "shift": 21
+  },
+  "52-PREPARED FOODS": {
+    "adf_p": 0.9548104265903636,
+    "shift": 16
+  },
+  "52-POULTRY": {
+    "adf_p": 0.9737597737801535,
+    "shift": 21
+  },
+  "52-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.9049177570590662,
+    "shift": 21
+  },
+  "52-PET SUPPLIES": {
+    "adf_p": 0.9736407272003421,
+    "shift": 21
+  },
+  "52-PERSONAL CARE": {
+    "adf_p": 0.8771723618337632,
+    "shift": 21
+  },
+  "52-MEATS": {
+    "adf_p": 0.985561705653457,
+    "shift": 21
+  },
+  "52-MAGAZINES": {
+    "adf_p": 0.9824983322515287,
+    "shift": 21
+  },
+  "52-LIQUOR,WINE,BEER": {
+    "adf_p": 0.9986914774191957,
+    "shift": 21
+  },
+  "52-LINGERIE": {
+    "adf_p": 0.3390372888985616,
+    "shift": 16
+  },
+  "52-LAWN AND GARDEN": {
+    "adf_p": 0.24220243962398774,
+    "shift": 21
+  },
+  "52-LADIESWEAR": {
+    "adf_p": 0.3657525007508826,
+    "shift": 28
+  },
+  "52-HOME CARE": {
+    "adf_p": 0.9809843204554863,
+    "shift": 21
+  },
+  "52-HOME APPLIANCES": {
+    "adf_p": 0.0028703124496418726,
+    "shift": 16
+  },
+  "52-CLEANING": {
+    "adf_p": 0.9492118666125805,
+    "shift": 21
+  },
+  "52-DAIRY": {
+    "adf_p": 0.9437168746521173,
+    "shift": 21
+  },
+  "52-DELI": {
+    "adf_p": 0.9443880834255054,
+    "shift": 21
+  },
+  "52-EGGS": {
+    "adf_p": 0.9944167029984055,
+    "shift": 21
+  },
+  "52-HOME AND KITCHEN II": {
+    "adf_p": 0.6642351297870885,
+    "shift": 21
+  },
+  "52-HOME AND KITCHEN I": {
+    "adf_p": 0.6615443927221688,
+    "shift": 21
+  },
+  "52-HARDWARE": {
+    "adf_p": 0.9535810084808299,
+    "shift": 16
+  },
+  "52-GROCERY II": {
+    "adf_p": 0.4150722842249692,
+    "shift": 21
+  },
+  "52-GROCERY I": {
+    "adf_p": 0.9606094350700993,
+    "shift": 21
+  },
+  "52-FROZEN FOODS": {
+    "adf_p": 0.9560856554549917,
+    "shift": 21
+  },
+  "53-AUTOMOTIVE": {
+    "adf_p": 0.3773946206884765,
+    "shift": 28
+  },
+  "53-CELEBRATION": {
+    "adf_p": 0.2239132334280312,
+    "shift": 21
+  },
+  "53-BREAD/BAKERY": {
+    "adf_p": 0.4120000200223328,
+    "shift": 21
+  },
+  "53-BOOKS": {
+    "adf_p": 0.00078272346592244,
+    "shift": 16
+  },
+  "53-BEVERAGES": {
+    "adf_p": 0.4122839378268133,
+    "shift": 21
+  },
+  "53-BEAUTY": {
+    "adf_p": 0.18740636695278584,
+    "shift": 21
+  },
+  "53-BABY CARE": {
+    "adf_p": 8.602499691042852e-18,
+    "shift": 180
+  },
+  "53-SEAFOOD": {
+    "adf_p": 0.10065220389742047,
+    "shift": 28
+  },
+  "53-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 1.1837890283718394e-8,
+    "shift": 180
+  },
+  "53-PRODUCE": {
+    "adf_p": 0.3121528902401495,
+    "shift": 21
+  },
+  "53-PREPARED FOODS": {
+    "adf_p": 0.4038000660764471,
+    "shift": 21
+  },
+  "53-POULTRY": {
+    "adf_p": 0.09395526716440294,
+    "shift": 21
+  },
+  "53-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.2323725246319025,
+    "shift": 28
+  },
+  "53-PET SUPPLIES": {
+    "adf_p": 0.6206283235072939,
+    "shift": 16
+  },
+  "53-PERSONAL CARE": {
+    "adf_p": 0.04596374592553565,
+    "shift": 21
+  },
+  "53-MEATS": {
+    "adf_p": 0.46968160791233793,
+    "shift": 21
+  },
+  "53-MAGAZINES": {
+    "adf_p": 0.08725543580446488,
+    "shift": 21
+  },
+  "53-LIQUOR,WINE,BEER": {
+    "adf_p": 4.424127572660712e-7,
+    "shift": 28
+  },
+  "53-LINGERIE": {
+    "adf_p": 1.6027857121390088e-11,
+    "shift": 365
+  },
+  "53-LAWN AND GARDEN": {
+    "adf_p": 0.0011334437674492483,
+    "shift": 90
+  },
+  "53-LADIESWEAR": {
+    "adf_p": 0.004160532336700163,
+    "shift": 21
+  },
+  "53-HOME CARE": {
+    "adf_p": 0.30517568597535305,
+    "shift": 28
+  },
+  "53-HOME APPLIANCES": {
+    "adf_p": 3.530338653421792e-7,
+    "shift": 16
+  },
+  "53-CLEANING": {
+    "adf_p": 0.28548620421092596,
+    "shift": 21
+  },
+  "53-DAIRY": {
+    "adf_p": 0.3901980737726829,
+    "shift": 21
+  },
+  "53-DELI": {
+    "adf_p": 0.37525723414214596,
+    "shift": 21
+  },
+  "53-EGGS": {
+    "adf_p": 0.40910824381913335,
+    "shift": 21
+  },
+  "53-HOME AND KITCHEN II": {
+    "adf_p": 0.17932516781402874,
+    "shift": 21
+  },
+  "53-HOME AND KITCHEN I": {
+    "adf_p": 0.1531042690996453,
+    "shift": 21
+  },
+  "53-HARDWARE": {
+    "adf_p": 0.04426251527376385,
+    "shift": 28
+  },
+  "53-GROCERY II": {
+    "adf_p": 0.00023814374963615422,
+    "shift": 365
+  },
+  "53-GROCERY I": {
+    "adf_p": 0.3608731052929665,
+    "shift": 21
+  },
+  "53-FROZEN FOODS": {
+    "adf_p": 1.1050728549480975e-6,
+    "shift": 365
+  },
+  "54-AUTOMOTIVE": {
+    "adf_p": 0.0006360926093706609,
+    "shift": 21
+  },
+  "54-CELEBRATION": {
+    "adf_p": 0.0398653698998449,
+    "shift": 21
+  },
+  "54-BREAD/BAKERY": {
+    "adf_p": 0.0008441083694191192,
+    "shift": 21
+  },
+  "54-BEVERAGES": {
+    "adf_p": 0.8310753127466879,
+    "shift": 21
+  },
+  "54-BEAUTY": {
+    "adf_p": 0.0007099986833212201,
+    "shift": 28
+  },
+  "54-BABY CARE": {
+    "adf_p": 0.0010061492984943573,
+    "shift": 16
+  },
+  "54-SEAFOOD": {
+    "adf_p": 3.0284980089786673e-7,
+    "shift": 21
+  },
+  "54-SCHOOL AND OFFICE SUPPLIES": {
+    "adf_p": 5.981751711026681e-6,
+    "shift": 16
+  },
+  "54-PRODUCE": {
+    "adf_p": 0.08270751391235581,
+    "shift": 21
+  },
+  "54-PREPARED FOODS": {
+    "adf_p": 0.0043883638151577635,
+    "shift": 21
+  },
+  "54-POULTRY": {
+    "adf_p": 2.2019115729065244e-5,
+    "shift": 21
+  },
+  "54-PLAYERS AND ELECTRONICS": {
+    "adf_p": 0.01781391389576111,
+    "shift": 21
+  },
+  "54-PET SUPPLIES": {
+    "adf_p": 0.0004392292699959033,
+    "shift": 30
+  },
+  "54-PERSONAL CARE": {
+    "adf_p": 0.00046187806893772905,
+    "shift": 28
+  },
+  "54-MEATS": {
+    "adf_p": 0.0007139410125365841,
+    "shift": 21
+  },
+  "54-MAGAZINES": {
+    "adf_p": 0.009262115906818604,
+    "shift": 28
+  },
+  "54-LIQUOR,WINE,BEER": {
+    "adf_p": 3.174722856601078e-10,
+    "shift": 21
+  },
+  "54-LINGERIE": {
+    "adf_p": 4.170802615954278e-5,
+    "shift": 28
+  },
+  "54-HOME CARE": {
+    "adf_p": 0.023198640624607744,
+    "shift": 21
+  },
+  "54-HOME APPLIANCES": {
+    "adf_p": 3.2602261688419723e-10,
+    "shift": 16
+  },
+  "54-CLEANING": {
+    "adf_p": 0.0011057348993894762,
+    "shift": 21
+  },
+  "54-DAIRY": {
+    "adf_p": 0.46214358600377975,
+    "shift": 21
+  },
+  "54-DELI": {
+    "adf_p": 0.18238273992412596,
+    "shift": 28
+  },
+  "54-EGGS": {
+    "adf_p": 0.10331427074616517,
+    "shift": 28
+  },
+  "54-HOME AND KITCHEN II": {
+    "adf_p": 0.001694753311718709,
+    "shift": 21
+  },
+  "54-HOME AND KITCHEN I": {
+    "adf_p": 0.06999643669452785,
+    "shift": 21
+  },
+  "54-HARDWARE": {
+    "adf_p": 0.0,
+    "shift": 21
+  },
+  "54-GROCERY II": {
+    "adf_p": 1.9328964642848682e-11,
+    "shift": 365
+  },
+  "54-GROCERY I": {
+    "adf_p": 0.0036800791814200697,
+    "shift": 21
+  },
+  "54-FROZEN FOODS": {
+    "adf_p": 3.7066878403940944e-8,
+    "shift": 365
+  }
+}

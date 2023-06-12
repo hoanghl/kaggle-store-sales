@@ -142,10 +142,8 @@ class EcuardoSales:
             p = self.meta.get_adf_test(store, family)
             if p is None:
                 continue
-            if p <= ADF_STATIONARY_P:
-                pipe_sales = transformers.make_pipeline_sale(has_shift=False, low_q=self._low_q, up_q=self._up_q)
-            else:
-                pipe_sales = transformers.make_pipeline_sale(has_shift=True, low_q=self._low_q, up_q=self._up_q)
+            has_shift = p > ADF_STATIONARY_P
+            pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
 
             s = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
 
