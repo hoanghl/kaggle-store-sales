@@ -1,19 +1,11 @@
+import json
 import re
 from datetime import datetime, timedelta
 from typing import Tuple, Union
 
-import numpy as np
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
 
 RE_DESCRIPTION = re.compile(r"((\w|\s|\:)+)(\+|\-)\d+")
-NATION = "ecuador"
-NUM_STORES = 54
-
-
-def scale_minmax(df: pd.DataFrame, col: str):
-    scaler = MinMaxScaler()
-    df.loc[:, col] = scaler.fit_transform(np.expand_dims(df[col].to_numpy(), 1)).squeeze()
 
 
 def proc_des(des: str):
@@ -102,3 +94,27 @@ def get_delta(date_str1: Union[str, None], date_str2: Union[str, None]) -> int:
 
 def check_nan(a):
     return a != a
+
+
+class Meta:
+    def __init__(self, paths: dict) -> None:
+        with open(paths["meta"]["meta"]) as fp:
+            self._meta = json.load(fp)
+
+    def _get_key(self, store: Union[str, int], family: str) -> str:
+        return f"{store}-{family}"
+
+    def check_zero_pair(self, store: Union[str, int], family: str) -> bool:
+        k = self._get_key(store, family)
+
+        return k not in self._meta
+
+    def get_adf_test(self, store: Union[str, int], family: str) -> float:
+        k = f"{store}-{family}"
+
+        return self._meta.get(k, {}).get("adf_p", None)
+
+    def get_shift(self, store: Union[str, int], family: str):
+        k = f"{store}-{family}"
+
+        return self._meta.get(k, {}).get("shift", None)

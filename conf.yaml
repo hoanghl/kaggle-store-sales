@@ -10,6 +10,8 @@ PATH:
   inter:
     holiday: data/interim/holidays.csv
     oil: data/interim/oil.csv
+  meta:
+    meta: data/meta/meta.json
 
   processed:
     train: data/processed/train.csv
