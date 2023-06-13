@@ -1,6 +1,7 @@
+import math
 from itertools import product
 from random import shuffle
-from typing import Any, Iterator
+from typing import Any, Iterator, Union
 
 import numpy as np
 import pandas as pd
@@ -8,11 +9,8 @@ from loguru import logger
 
 from . import transformers, utils
 
-ZERO_DAY_PERIOD = 5
 LEN_TGT = 16
-ZERO_DAY_PERIOD = 5
 MAX_TRAINING_DATE = pd.Timestamp("2017-08-15")
-
 ADF_STATIONARY_P = 0.05
 
 cat_features = [
@@ -35,7 +33,7 @@ COLS_EXOGENOUS = [
 COLS_ENDOGENOUS = "sales_train"
 
 
-def gen_segments(s: pd.Series) -> Iterator[tuple[Any, Any]]:
+def gen_segments(s: pd.Series, shift: int) -> Iterator[tuple[Any, Any]]:
     """Generate data segment (no zero within data segment)
 
     Args:
@@ -63,7 +61,7 @@ def gen_segments(s: pd.Series) -> Iterator[tuple[Any, Any]]:
 
                 continue
 
-            if (i - idx_last_nonzero).days >= ZERO_DAY_PERIOD:  # type: ignore
+            if (i - idx_last_nonzero).days >= math.floor(shift * 0.25):  # type: ignore
                 yield idx_start_nonzero_part, idx_last_nonzero
 
                 is_zero_partition = True
@@ -99,10 +97,14 @@ class EcuardoSales:
 
     def _transform_exogeneous(self, df: pd.DataFrame, col_name: str = "date"):
         # Transform date
-        df["month_sin"] = transformers.f_transform_sin_month.fit_transform(pd.DatetimeIndex(df[col_name]).month)
-        df["month_cos"] = transformers.f_transform_cos_month.fit_transform(pd.DatetimeIndex(df[col_name]).month)
-        df["dayinyear_sin"] = transformers.f_transform_sin_dateinyear.fit_transform(pd.DatetimeIndex(df[col_name]).day)
-        df["dayinyear_cos"] = transformers.f_transform_cos_dateinyear.fit_transform(pd.DatetimeIndex(df[col_name]).day)
+        df.loc[:, "month_sin"] = transformers.f_transform_sin_month.fit_transform(pd.DatetimeIndex(df[col_name]).month)
+        df.loc[:, "month_cos"] = transformers.f_transform_cos_month.fit_transform(pd.DatetimeIndex(df[col_name]).month)
+        df.loc[:, "dayinyear_sin"] = transformers.f_transform_sin_dateinyear.fit_transform(
+            pd.DatetimeIndex(df[col_name]).day
+        )
+        df.loc[:, "dayinyear_cos"] = transformers.f_transform_cos_dateinyear.fit_transform(
+            pd.DatetimeIndex(df[col_name]).day
+        )
 
         # Transform oil
         assert "dcoilwtico" in df
@@ -119,7 +121,7 @@ class EcuardoSales:
 
         return df
 
-    def gen_Xy_trainval(self, df: pd.DataFrame = None, deterministic: bool = False) -> Iterator[tuple]:
+    def gen_Xy_trainval(self, df: Union[pd.DataFrame, None] = None, deterministic: bool = False) -> Iterator[tuple]:
         if df is None:
             df = pd.concat((self.df_train_raw, self.df_val_raw)).sort_values(by="date")
         else:
@@ -147,14 +149,14 @@ class EcuardoSales:
 
             s = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
 
-            for start, end in gen_segments(s["sales"]):
+            for start, end in gen_segments(s["sales"], shift):
                 if (end - start).days <= shift + LEN_TGT:
                     continue
 
                 d = s[(s.index >= start) & (s.index <= end)]
 
                 # Add lagged value
-                d["sales_lag"] = d["sales"].shift(shift)
+                d.loc[:, "sales_lag"] = d["sales"].shift(shift)
                 d = d[~d["sales_lag"].isna()]
 
                 # Start iterating over segment
@@ -183,3 +185,91 @@ class EcuardoSales:
                     start_train = start_train + pd.Timedelta(days=LEN_TGT)
                     end_train = end_val
                     end_val = min(end_val + pd.Timedelta(days=LEN_TGT), end)
+
+    def gen_Xy_train_entire(self, df: Union[pd.DataFrame, None] = None) -> Iterator[tuple]:
+        if df is None:
+            df = pd.concat((self.df_train_raw, self.df_val_raw)).sort_values(by="date")
+        else:
+            df = self._transform_exogeneous(df)
+
+        families = df["family"].unique().tolist()
+        stores = df["store_nbr"].unique().tolist()
+
+        for store, family in product(stores, families):
+            if self.meta.check_zero_pair(store, family):
+                continue
+
+            # Declare transformers
+            shift = self.meta.get_shift(store, family)
+            if shift is None:
+                shift = LEN_TGT
+            p = self.meta.get_adf_test(store, family)
+            if p is None:
+                continue
+            has_shift = p > ADF_STATIONARY_P
+            pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
+
+            s = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
+
+            for start, end in gen_segments(s["sales"], shift):
+                if (end - start).days < 1:
+                    continue
+
+                d = s[(s.index >= start) & (s.index <= end)]
+
+                # Add lagged value
+                d.loc[:, "sales_lag"] = d["sales"].shift(shift).copy()
+                d = d[~d["sales_lag"].isna()]
+
+                # Transform sales_lagged
+                d["sales_lag"].iloc[1:] = pipe_sales.fit_transform(d["sales_lag"]).squeeze()[1:]
+
+                # Transform sales
+                d["sales_train"] = np.nan
+                d["sales_train"].iloc[1:] = pipe_sales.fit_transform(d["sales"]).squeeze()[1:]
+                d = d[~d["sales_train"].isna()]
+
+                Xtrain, ytrain = d[COLS_EXOGENOUS], d[COLS_ENDOGENOUS]
+
+                yield store, family, Xtrain, ytrain
+
+    def gen_Xy_test(self) -> Iterator[tuple]:
+        df = pd.concat((self.df_train_raw, self.df_val_raw, self.df_test_raw)).sort_values(by="date")
+
+        families = df["family"].unique().tolist()
+        stores = df["store_nbr"].unique().tolist()
+
+        for store, family in product(stores, families):
+            if self.meta.check_zero_pair(store, family):
+                continue
+
+            # Declare transformers
+            shift = self.meta.get_shift(store, family)
+            if shift is None:
+                shift = LEN_TGT
+            p = self.meta.get_adf_test(store, family)
+            if p is None:
+                continue
+            has_shift = p > ADF_STATIONARY_P
+            pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
+
+            d = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
+
+            # Add lagged value and transform
+            d.loc[:, "sales_lag"] = d["sales"].shift(shift).copy()
+            d = d[~d["sales_lag"].isna()]
+            d["sales_lag"].iloc[1:] = pipe_sales.fit_transform(d["sales_lag"]).squeeze()[1:]
+
+            tmp = d[~d["sales"].isna()]
+            for start, end in gen_segments(tmp["sales"], shift):
+                continue
+            pipe_sales.fit(d[(d.index >= start) & (d.index <= end)]["sales"])
+
+            if has_shift is True:
+                d = d[d.index >= MAX_TRAINING_DATE]
+                pipe_sales.steps[2].first_item = d[d.index == MAX_TRAINING_DATE]["sales"]
+            else:
+                d = d[d.index > MAX_TRAINING_DATE]
+            Xtest = d[COLS_EXOGENOUS]
+
+            yield store, family, Xtest, pipe_sales

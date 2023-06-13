@@ -89,4 +89,5 @@ target/
 
 tests/
 training_logs
+models/
 .vscode/launch.json
