@@ -84,7 +84,8 @@ if __name__ == "__main__":
             pipe_sales.fit(yval)
 
             pred = np.clip(pipe_sales.inverse_transform(a[:, None]), 0, None)
-            pred = np.insert(pred, 0, 0, axis=0)
+            if has_shift is False:
+                pred = np.insert(pred, 0, 0, axis=0)
 
             msle = mean_squared_log_error(yval[1:], pred[1:])
 
@@ -98,5 +99,5 @@ if __name__ == "__main__":
     path_models = Path("models/xgboost")
     path_models.mkdir(exist_ok=True, parents=True)
     for name, model in models.items():
-        path_save_model = path_models / f"{name}.json"
+        path_save_model = path_models / f"{name.replace('/', '_')}.json"
         model.save_model(path_save_model)
