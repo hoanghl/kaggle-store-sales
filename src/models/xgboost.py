@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 import numpy as np
@@ -95,7 +96,7 @@ if __name__ == "__main__":
 
         # logger.info(f"store: {store} - family: {family} - msle: {msle:.5f}")
 
-    path_models = Path("models/xgboost")
+    path_models = Path("models/xgboost") / datetime.now().strftime(r"%Y%m%d_%H%M%S")
     path_models.mkdir(exist_ok=True, parents=True)
     for name, model in models.items():
         path_save_model = path_models / f"{name}.json"

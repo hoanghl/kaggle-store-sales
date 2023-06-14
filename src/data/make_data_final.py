@@ -212,14 +212,14 @@ class EcuardoSales:
             s = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
 
             for start, end in gen_segments(s["sales"], shift):
-                if (end - start).days < 1:
-                    continue
-
                 d = s[(s.index >= start) & (s.index <= end)]
 
                 # Add lagged value
                 d.loc[:, "sales_lag"] = d["sales"].shift(shift).copy()
                 d = d[~d["sales_lag"].isna()]
+
+                if len(d) <= 1:
+                    continue
 
                 # Transform sales_lagged
                 d["sales_lag"].iloc[1:] = pipe_sales.fit_transform(d["sales_lag"]).squeeze()[1:]
@@ -240,6 +240,9 @@ class EcuardoSales:
         stores = df["store_nbr"].unique().tolist()
 
         for store, family in product(stores, families):
+            # if store != 1 or family != "BOOKS":
+            #     continue
+
             if self.meta.check_zero_pair(store, family):
                 continue
 
@@ -253,23 +256,25 @@ class EcuardoSales:
             has_shift = p > ADF_STATIONARY_P
             pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
 
-            d = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
+            d = df[(df["family"] == family) & (df["store_nbr"] == store)]
 
             # Add lagged value and transform
             d.loc[:, "sales_lag"] = d["sales"].shift(shift).copy()
             d = d[~d["sales_lag"].isna()]
             d["sales_lag"].iloc[1:] = pipe_sales.fit_transform(d["sales_lag"]).squeeze()[1:]
 
-            tmp = d[~d["sales"].isna()]
+            tmp = d[~d["sales"].isna()].set_index("date")
             for start, end in gen_segments(tmp["sales"], shift):
                 continue
-            pipe_sales.fit(d[(d.index >= start) & (d.index <= end)]["sales"])
+            ybefore = tmp[(tmp.index >= start) & (tmp.index <= end)]["sales"][-16:]
+            # print(ybefore)
+            pipe_sales.fit(ybefore)
+            ybefore = pipe_sales.transform(ybefore)
 
             if has_shift is True:
-                d = d[d.index >= MAX_TRAINING_DATE]
-                pipe_sales.steps[2].first_item = d[d.index == MAX_TRAINING_DATE]["sales"]
+                d = d[d["date"] >= MAX_TRAINING_DATE]
             else:
-                d = d[d.index > MAX_TRAINING_DATE]
+                d = d[d["date"] > MAX_TRAINING_DATE]
             Xtest = d[COLS_EXOGENOUS]
 
-            yield store, family, Xtest, pipe_sales
+            yield store, family, Xtest, ybefore, pipe_sales
