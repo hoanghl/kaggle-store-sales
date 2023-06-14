@@ -240,6 +240,9 @@ class EcuardoSales:
         stores = df["store_nbr"].unique().tolist()
 
         for store, family in product(stores, families):
+            # if store != 1 or family != "BOOKS":
+            #     continue
+
             if self.meta.check_zero_pair(store, family):
                 continue
 
@@ -263,13 +266,15 @@ class EcuardoSales:
             tmp = d[~d["sales"].isna()].set_index("date")
             for start, end in gen_segments(tmp["sales"], shift):
                 continue
-            pipe_sales.fit(d[(d["date"] >= start) & (d["date"] <= end)]["sales"])
+            ybefore = tmp[(tmp.index >= start) & (tmp.index <= end)]["sales"][-16:]
+            # print(ybefore)
+            pipe_sales.fit(ybefore)
+            ybefore = pipe_sales.transform(ybefore)
 
             if has_shift is True:
                 d = d[d["date"] >= MAX_TRAINING_DATE]
-                pipe_sales.steps[2][1].first_item = d[d["date"] == MAX_TRAINING_DATE]["sales"]
             else:
                 d = d[d["date"] > MAX_TRAINING_DATE]
             Xtest = d[COLS_EXOGENOUS]
 
-            yield store, family, Xtest, pipe_sales
+            yield store, family, Xtest, ybefore, pipe_sales

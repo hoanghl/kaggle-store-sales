@@ -1,9 +1,14 @@
 import json
 import re
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Tuple, Union
 
+import numpy as np
 import pandas as pd
+from loguru import logger
+from statsmodels.tsa.stattools import adfuller
+from tqdm.contrib.itertools import product
 
 RE_DESCRIPTION = re.compile(r"((\w|\s|\:)+)(\+|\-)\d+")
 
@@ -98,23 +103,77 @@ def check_nan(a):
 
 class Meta:
     def __init__(self, paths: dict) -> None:
-        with open(paths["meta"]["meta"]) as fp:
-            self._meta = json.load(fp)
+        self.path_meta = Path(paths["meta"]["meta"])
+        self._meta: Union[None, dict] = None
+
+        if self.path_meta.exists():
+            self._meta = json.loads(self.path_meta.read_text())
+
+    def gen_json_file(self, df: pd.DataFrame):
+        assert all(x in df for x in ["sales", "store_nbr", "family"])
+
+        logger.info(f"Create file: {self.path_meta}")
+
+        meta = {}
+        stores, families = df["store_nbr"].unique(), df["family"].unique()
+
+        for store, family in product(stores, families):
+            df1 = df[(df["store_nbr"] == store) & (df["family"] == family)].set_index("date")
+            df_nonzero = df1[df1["sales"] != 0]
+
+            if len(df_nonzero) == 0:
+                continue
+            date_fist_nonzero = df_nonzero.iloc[0].name
+            sales = df1.loc[date_fist_nonzero:]["sales"]
+
+            # Use ADF test for stationary
+            adf_p = adfuller(sales)[1]
+
+            # Calculate max shift
+            max_shift = -1
+            max_pearson = -1
+            for shift in [16, 21, 28, 30, 60, 90, 180, 365]:
+                d_shift = sales.shift(shift)
+                d_shift = d_shift[~d_shift.isna()]
+                if len(d_shift) == 0:
+                    continue
+                d = sales.loc[d_shift.index]
+
+                pearson = np.corrcoef(d, d_shift)[0, 1]
+                if pearson > max_pearson:
+                    max_pearson = pearson
+                    max_shift = shift
+
+            key = f"{store}-{family}"
+            meta[key] = {
+                "adf_p": adf_p,
+                "pearson": max_pearson,
+                "shift": max_shift,
+            }
+
+        with open(self.path_meta, "w+") as fp:
+            json.dump(meta, fp, indent=2)
 
     def _get_key(self, store: Union[str, int], family: str) -> str:
         return f"{store}-{family}"
 
     def check_zero_pair(self, store: Union[str, int], family: str) -> bool:
+        assert self._meta is not None
+
         k = self._get_key(store, family)
 
         return k not in self._meta
 
     def get_adf_test(self, store: Union[str, int], family: str) -> float:
+        assert self._meta is not None
+
         k = f"{store}-{family}"
 
         return self._meta.get(k, {}).get("adf_p", None)
 
     def get_shift(self, store: Union[str, int], family: str):
+        assert self._meta is not None
+
         k = f"{store}-{family}"
 
         return self._meta.get(k, {}).get("shift", None)
