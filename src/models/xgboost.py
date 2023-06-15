@@ -68,7 +68,7 @@ if __name__ == "__main__":
         # for family in df_["family"].unique()
     }
 
-    with tqdm(total=115926) as pbar:
+    with tqdm() as pbar:
         for store, family, Xtrain, ytrain, Xval, yval in data.gen_Xy_trainval(deterministic=False):
             # pool_train = Pool(Xtrain, ytrain, cat_features=utils.cat_features)
             # pool_val = Pool(Xval.iloc[1:], yval.iloc[1:], cat_features=utils.cat_features)
@@ -85,7 +85,8 @@ if __name__ == "__main__":
             pipe_sales.fit(yval)
 
             pred = np.clip(pipe_sales.inverse_transform(a[:, None]), 0, None)
-            pred = np.insert(pred, 0, 0, axis=0)
+            if has_shift is False:
+                pred = np.insert(pred, 0, 0, axis=0)
 
             msle = mean_squared_log_error(yval[1:], pred[1:])
 

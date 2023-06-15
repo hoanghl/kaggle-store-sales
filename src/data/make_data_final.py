@@ -1,4 +1,3 @@
-import math
 from itertools import product
 from random import shuffle
 from typing import Any, Iterator, Union
@@ -61,7 +60,8 @@ def gen_segments(s: pd.Series, shift: int) -> Iterator[tuple[Any, Any]]:
 
                 continue
 
-            if (i - idx_last_nonzero).days >= math.floor(shift * 0.25):  # type: ignore
+            # if (i - idx_last_nonzero).days >= math.floor(shift * 0.25):  # type: ignore
+            if (i - idx_last_nonzero).days >= 5:  # type: ignore
                 yield idx_start_nonzero_part, idx_last_nonzero
 
                 is_zero_partition = True
@@ -121,7 +121,12 @@ class EcuardoSales:
 
         return df
 
-    def gen_Xy_trainval(self, df: Union[pd.DataFrame, None] = None, deterministic: bool = False) -> Iterator[tuple]:
+    def gen_Xy_trainval(
+        self,
+        df: Union[pd.DataFrame, None] = None,
+        deterministic: bool = False,
+        out_pipeline: bool = False,
+    ) -> Iterator[tuple]:
         if df is None:
             df = pd.concat((self.df_train_raw, self.df_val_raw)).sort_values(by="date")
         else:
@@ -180,7 +185,10 @@ class EcuardoSales:
                     Xtrain, ytrain = df_train[COLS_EXOGENOUS], df_train[COLS_ENDOGENOUS]
                     Xval, yval = df_val[COLS_EXOGENOUS], df_val["sales"]
 
-                    yield store, family, Xtrain, ytrain, Xval, yval
+                    if out_pipeline is False:
+                        yield store, family, Xtrain, ytrain, Xval, yval
+                    else:
+                        yield store, family, Xtrain, ytrain, Xval, yval, pipe_sales
 
                     start_train = start_train + pd.Timedelta(days=LEN_TGT)
                     end_train = end_val
@@ -240,8 +248,8 @@ class EcuardoSales:
         stores = df["store_nbr"].unique().tolist()
 
         for store, family in product(stores, families):
-            # if store != 1 or family != "BOOKS":
-            #     continue
+            if store != 39 or family != "EGGS":
+                continue
 
             if self.meta.check_zero_pair(store, family):
                 continue
