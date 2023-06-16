@@ -96,9 +96,12 @@ if __name__ == "__main__":
             # break
 
         # logger.info(f"store: {store} - family: {family} - msle: {msle:.5f}")
+        for store, family, Xtrain, ytrain in data.gen_Xy_train_entire():
+            regressor = models[family]
+            regressor.fit(Xtrain, ytrain)
 
     path_models = Path("models/xgboost") / datetime.now().strftime(r"%Y%m%d_%H%M%S")
     path_models.mkdir(exist_ok=True, parents=True)
     for name, model in models.items():
-        path_save_model = path_models / f"{name}.json"
+        path_save_model = path_models / f"{name.replace('/', '_')}.json"
         model.save_model(path_save_model)

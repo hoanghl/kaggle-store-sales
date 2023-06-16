@@ -146,10 +146,11 @@ class EcuardoSales:
             shift = self.meta.get_shift(store, family)
             if shift is None:
                 shift = LEN_TGT
-            p = self.meta.get_adf_test(store, family)
-            if p is None:
-                continue
-            has_shift = p > ADF_STATIONARY_P
+            # p = self.meta.get_adf_test(store, family)
+            # if p is None:
+            #     continue
+            # has_shift = p > ADF_STATIONARY_P
+            has_shift = False
             pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
 
             s = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
@@ -173,14 +174,15 @@ class EcuardoSales:
                     df_train = d[(d.index >= start_train) & (d.index <= end_train)].copy()
                     df_val = d[(d.index >= end_train) & (d.index <= end_val)].copy()
 
-                    # Transform sales_lagged
-                    df_train["sales_lag"].iloc[1:] = pipe_sales.fit_transform(df_train["sales_lag"]).squeeze()[1:]
-                    df_val["sales_lag"].iloc[1:] = pipe_sales.fit_transform(df_val["sales_lag"]).squeeze()[1:]
-
                     # Transform sales
                     df_train["sales_train"] = np.nan
                     df_train["sales_train"].iloc[1:] = pipe_sales.fit_transform(df_train["sales"]).squeeze()[1:]
                     df_train = df_train[~df_train["sales_train"].isna()]
+
+                    # Transform sales_lagged
+                    df_train["sales_lag"].iloc[1:] = pipe_sales.fit_transform(df_train["sales_lag"]).squeeze()[1:]
+                    pipe_sales.fit(df_val["sales_lag"])
+                    df_val["sales_lag"].iloc[1:] = pipe_sales.transform(df_val["sales_lag"]).squeeze()[1:]
 
                     Xtrain, ytrain = df_train[COLS_EXOGENOUS], df_train[COLS_ENDOGENOUS]
                     Xval, yval = df_val[COLS_EXOGENOUS], df_val["sales"]
@@ -211,10 +213,11 @@ class EcuardoSales:
             shift = self.meta.get_shift(store, family)
             if shift is None:
                 shift = LEN_TGT
-            p = self.meta.get_adf_test(store, family)
-            if p is None:
-                continue
-            has_shift = p > ADF_STATIONARY_P
+            # p = self.meta.get_adf_test(store, family)
+            # if p is None:
+            #     continue
+            # has_shift = p > ADF_STATIONARY_P
+            has_shift = False
             pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
 
             s = df[(df["family"] == family) & (df["store_nbr"] == store)].set_index("date")
@@ -261,15 +264,11 @@ class EcuardoSales:
             p = self.meta.get_adf_test(store, family)
             if p is None:
                 continue
-            has_shift = p > ADF_STATIONARY_P
+            # has_shift = p > ADF_STATIONARY_P
+            has_shift = False
             pipe_sales = transformers.make_pipeline_sale(has_shift, low_q=self._low_q, up_q=self._up_q)
 
             d = df[(df["family"] == family) & (df["store_nbr"] == store)]
-
-            # Add lagged value and transform
-            d.loc[:, "sales_lag"] = d["sales"].shift(shift).copy()
-            d = d[~d["sales_lag"].isna()]
-            d["sales_lag"].iloc[1:] = pipe_sales.fit_transform(d["sales_lag"]).squeeze()[1:]
 
             tmp = d[~d["sales"].isna()].set_index("date")
             for start, end in gen_segments(tmp["sales"], shift):
@@ -278,6 +277,12 @@ class EcuardoSales:
             # print(ybefore)
             pipe_sales.fit(ybefore)
             ybefore = pipe_sales.transform(ybefore)
+
+            # Add lagged value and transform
+            d.loc[:, "sales_lag"] = d["sales"].shift(shift).copy()
+            d = d[~d["sales_lag"].isna()]
+            pipe_sales.fit(d["sales_lag"])
+            d["sales_lag"].iloc[1:] = pipe_sales.transform(d["sales_lag"]).squeeze()[1:]
 
             if has_shift is True:
                 d = d[d["date"] >= MAX_TRAINING_DATE]
