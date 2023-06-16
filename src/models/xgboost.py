@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_log_error
 from tqdm import tqdm
 
 from src import utils
-from src.data import EcuardoSales, transformers
+from src.data import EcuardoSales
 
 ADF_STATIONARY_P = 0.05
 
@@ -64,12 +64,14 @@ if __name__ == "__main__":
             eta=0.1,
             subsample=0.7,
         )
-        for family in data.df_val_raw["family"].unique()
+        for family in data.df_train_raw["family"].unique()
         # for family in df_["family"].unique()
     }
 
     with tqdm() as pbar:
-        for store, family, Xtrain, ytrain, Xval, yval in data.gen_Xy_trainval(deterministic=False):
+        for store, family, Xtrain, ytrain, Xval, yval, pipe_sales in data.gen_Xy_trainval(
+            deterministic=False, out_pipeline=True
+        ):
             # pool_train = Pool(Xtrain, ytrain, cat_features=utils.cat_features)
             # pool_val = Pool(Xval.iloc[1:], yval.iloc[1:], cat_features=utils.cat_features)
             # reg_catboost.fit(pool_train)
@@ -77,18 +79,11 @@ if __name__ == "__main__":
 
             regressor = models[family]
             regressor.fit(Xtrain, ytrain)
-            a = regressor.predict(Xval.iloc[1:])
+            a = regressor.predict(Xval)
 
-            p = data.meta.get_adf_test(store, family)
-            has_shift = p > ADF_STATIONARY_P
-            pipe_sales = transformers.make_pipeline_sale(has_shift)
-            pipe_sales.fit(yval)
+            pred = np.clip(pipe_sales.inverse_transform(a[:, None]), a_min=0, a_max=None)
 
-            pred = np.clip(pipe_sales.inverse_transform(a[:, None]), 0, None)
-            if has_shift is False:
-                pred = np.insert(pred, 0, 0, axis=0)
-
-            msle = mean_squared_log_error(yval[1:], pred[1:])
+            msle = mean_squared_log_error(yval, pred)
 
             pbar.set_postfix({"store": store, "family": family, "msle": msle})
             pbar.update(1)
@@ -96,9 +91,13 @@ if __name__ == "__main__":
             # break
 
         # logger.info(f"store: {store} - family: {family} - msle: {msle:.5f}")
+    with tqdm() as pbar:
         for store, family, Xtrain, ytrain in data.gen_Xy_train_entire():
             regressor = models[family]
             regressor.fit(Xtrain, ytrain)
+
+            pbar.set_postfix({"store": store, "family": family})
+            pbar.update(1)
 
     path_models = Path("models/xgboost") / datetime.now().strftime(r"%Y%m%d_%H%M%S")
     path_models.mkdir(exist_ok=True, parents=True)

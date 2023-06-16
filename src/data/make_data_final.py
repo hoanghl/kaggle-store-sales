@@ -87,12 +87,10 @@ class EcuardoSales:
         self.meta = utils.Meta(paths)
 
         ## dataset
-        self.df_train_raw = pd.read_csv(paths["processed"]["train"], parse_dates=["date"], index_col="id")
-        self.df_val_raw = pd.read_csv(paths["processed"]["val"], parse_dates=["date"], index_col="id")
-        self.df_test_raw = pd.read_csv(paths["processed"]["test"], parse_dates=["date"], index_col="id")
+        self.df_train_raw = pd.read_csv(paths["processed"]["train"], parse_dates=["date"], index_col=0)
+        self.df_test_raw = pd.read_csv(paths["processed"]["test"], parse_dates=["date"], index_col=0)
 
         self.df_train_raw = self._transform_exogeneous(self.df_train_raw)
-        self.df_val_raw = self._transform_exogeneous(self.df_val_raw)
         self.df_test_raw = self._transform_exogeneous(self.df_test_raw)
 
     def _transform_exogeneous(self, df: pd.DataFrame, col_name: str = "date"):
@@ -128,7 +126,7 @@ class EcuardoSales:
         out_pipeline: bool = False,
     ) -> Iterator[tuple]:
         if df is None:
-            df = pd.concat((self.df_train_raw, self.df_val_raw)).sort_values(by="date")
+            df = self.df_train_raw
         else:
             df = self._transform_exogeneous(df)
 
@@ -172,17 +170,16 @@ class EcuardoSales:
 
                 while start_train != end_train and end_train != end_val:
                     df_train = d[(d.index >= start_train) & (d.index <= end_train)].copy()
-                    df_val = d[(d.index >= end_train) & (d.index <= end_val)].copy()
+                    df_val = d[(d.index > end_train) & (d.index <= end_val)].copy()
 
                     # Transform sales
-                    df_train["sales_train"] = np.nan
-                    df_train["sales_train"].iloc[1:] = pipe_sales.fit_transform(df_train["sales"]).squeeze()[1:]
+                    df_train["sales_train"] = pipe_sales.fit_transform(df_train["sales"]).squeeze()
                     df_train = df_train[~df_train["sales_train"].isna()]
 
                     # Transform sales_lagged
-                    df_train["sales_lag"].iloc[1:] = pipe_sales.fit_transform(df_train["sales_lag"]).squeeze()[1:]
+                    df_train["sales_lag"] = pipe_sales.fit_transform(df_train["sales_lag"]).squeeze()
                     pipe_sales.fit(df_val["sales_lag"])
-                    df_val["sales_lag"].iloc[1:] = pipe_sales.transform(df_val["sales_lag"]).squeeze()[1:]
+                    df_val["sales_lag"] = pipe_sales.transform(df_val["sales_lag"]).squeeze()
 
                     Xtrain, ytrain = df_train[COLS_EXOGENOUS], df_train[COLS_ENDOGENOUS]
                     Xval, yval = df_val[COLS_EXOGENOUS], df_val["sales"]
